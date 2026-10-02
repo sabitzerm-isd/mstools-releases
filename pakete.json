@@ -29,6 +29,16 @@
       "werkzeug": "msfassadenkonsole",
       "titel": "Fassadenkonsole",
       "version": "0.2.1"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T10:45:52",
+      "datei": "MSTools_intern_Gehrung_Schweissverzug.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/e4e6c48e541d88fa830f474462bc5f1398f7f2b0\/pakete\/intern\/MSTools_intern_Gehrung_Schweissverzug.mstools",
+      "tools": 1,
+      "werkzeug": "msgehrung",
+      "titel": "Gehrung Schweißverzug",
+      "version": "0.2.8"
     }
   ]
 }

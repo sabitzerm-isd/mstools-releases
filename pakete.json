@@ -32,23 +32,23 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T14:01:44",
-      "datei": "MSTools_intern_PdfImport_Start.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/67a211bd61dcb525449c339ff770e4623837cb55\/pakete\/intern\/MSTools_intern_PdfImport_Start.mstools",
-      "tools": 1,
-      "werkzeug": "pdfimport-start",
-      "titel": "PdfImport Start",
-      "version": "0.3.0"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-02T14:07:09",
+      "erstellt": "2026-10-02T14:39:14",
       "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/bf74e6f1d8963a440fb54e50c57e0801cd050d96\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/dad68d8623acca5708454fc1eac575ee042bc6bd\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
       "tools": 1,
       "werkzeug": "msformrohrende",
       "titel": "Formrohrende schließen",
-      "version": "0.1.3"
+      "version": "2026.10.02.1420"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T14:39:14",
+      "datei": "MSTools_intern_PdfImport_Start.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/dad68d8623acca5708454fc1eac575ee042bc6bd\/pakete\/intern\/MSTools_intern_PdfImport_Start.mstools",
+      "tools": 1,
+      "werkzeug": "pdfimport-start",
+      "titel": "PdfImport Start",
+      "version": "0.3.152"
     }
   ]
 }

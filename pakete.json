@@ -32,16 +32,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T14:39:14",
-      "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/dad68d8623acca5708454fc1eac575ee042bc6bd\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
-      "tools": 1,
-      "werkzeug": "msformrohrende",
-      "titel": "Formrohrende schließen",
-      "version": "2026.10.02.1420"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-02T15:53:43",
       "datei": "MSTools_intern_PdfImport_Start.mstools",
       "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1cf9b80eaed60bc00573b16aed06c6daa2588584\/pakete\/intern\/MSTools_intern_PdfImport_Start.mstools",
@@ -52,13 +42,34 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T20:45:48",
+      "erstellt": "2026-10-02T22:14:40",
+      "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/b9e20edbc734c4ef314beaba3e60745968124733\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
+      "tools": 1,
+      "werkzeug": "msformrohrende",
+      "titel": "Formrohrende schließen",
+      "version": "0.1.6",
+      "kommentar": "Dialog und Meldungen in der HiCAD-Sprache (DE, EN, FR, IT, PL), Dialoggröße fest je Sprache, Schifterschnitt"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T22:14:40",
+      "datei": "MSTools_intern_Stuetzenstoss.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/b9e20edbc734c4ef314beaba3e60745968124733\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
+      "tools": 1,
+      "werkzeug": "msstuetzenstoss",
+      "titel": "Stützenstoß",
+      "version": "0.1.16"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T22:14:40",
       "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/501c455ae36c0a35e5559d5135b6acfdd6e86f94\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/b9e20edbc734c4ef314beaba3e60745968124733\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
       "tools": 1,
       "werkzeug": "msgittermast",
       "titel": "Gittermast",
-      "version": "2026.10.02.2045"
+      "version": "2026.10.02.2113"
     }
   ]
 }

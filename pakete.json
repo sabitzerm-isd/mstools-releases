@@ -9,6 +9,26 @@
       "werkzeug": "pdfimport-start",
       "titel": "PdfImport Start",
       "version": "0.3.0"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T10:41:24",
+      "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/7a8e0872ef70656c8b617648da4f556bb9bacddd\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
+      "tools": 1,
+      "werkzeug": "msformrohrende",
+      "titel": "Formrohrende schließen",
+      "version": "0.1.3"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T10:41:24",
+      "datei": "MSTools_intern_Fassadenkonsole.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/7a8e0872ef70656c8b617648da4f556bb9bacddd\/pakete\/intern\/MSTools_intern_Fassadenkonsole.mstools",
+      "tools": 1,
+      "werkzeug": "msfassadenkonsole",
+      "titel": "Fassadenkonsole",
+      "version": "0.2.1"
     }
   ]
 }

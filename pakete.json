@@ -39,6 +39,16 @@
       "werkzeug": "msgehrung",
       "titel": "Gehrung Schweißverzug",
       "version": "0.2.8"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T10:55:35",
+      "datei": "MSTools_intern_Schweissnaht.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/878d29bb1afbca54fb80e2225c9820cbe4006d20\/pakete\/intern\/MSTools_intern_Schweissnaht.mstools",
+      "tools": 1,
+      "werkzeug": "schweissnaht",
+      "titel": "Schweißnaht",
+      "version": "1.4"
     }
   ]
 }

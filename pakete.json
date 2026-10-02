@@ -1,1 +1,14 @@
-{"pakete":[]}
+{
+  "pakete": [
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-02T10:38:49",
+      "datei": "MSTools_intern_PdfImport_Start.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/a915651d93956f7ebf4c4cf1e4bbd3c682f47021\/pakete\/intern\/MSTools_intern_PdfImport_Start.mstools",
+      "tools": 1,
+      "werkzeug": "pdfimport-start",
+      "titel": "PdfImport Start",
+      "version": "0.3.0"
+    }
+  ]
+}

@@ -53,23 +53,33 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T22:14:40",
+      "erstellt": "2026-10-03T08:32:16",
       "datei": "MSTools_intern_Stuetzenstoss.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/b9e20edbc734c4ef314beaba3e60745968124733\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1254bc73d5d15a20bbbac7e1c17765a19a7acae4\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
       "tools": 1,
       "werkzeug": "msstuetzenstoss",
       "titel": "Stützenstoß",
-      "version": "0.1.16"
+      "version": "0.1.31"
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T22:14:40",
+      "erstellt": "2026-10-03T08:32:16",
       "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/b9e20edbc734c4ef314beaba3e60745968124733\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1254bc73d5d15a20bbbac7e1c17765a19a7acae4\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
       "tools": 1,
       "werkzeug": "msgittermast",
       "titel": "Gittermast",
-      "version": "2026.10.02.2113"
+      "version": "2026.10.03.0023"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-03T08:32:16",
+      "datei": "MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1254bc73d5d15a20bbbac7e1c17765a19a7acae4\/pakete\/intern\/MSTools_intern_Treppe.mstools",
+      "tools": 1,
+      "werkzeug": "mstreppe",
+      "titel": "Treppe",
+      "version": "2026.10.03.0130"
     }
   ]
 }

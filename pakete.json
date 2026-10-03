@@ -53,33 +53,34 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-03T23:14:45",
+      "erstellt": "2026-10-04T00:31:49",
       "datei": "MSTools_intern_Treppe.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/9cee0f507cda8ca22ff034beeba0e0c8b7a9d1e3\/pakete\/intern\/MSTools_intern_Treppe.mstools",
       "tools": 1,
       "werkzeug": "mstreppe",
       "titel": "Treppe",
-      "version": "2026.10.03.2308"
+      "version": "0.1.32",
+      "kommentar": "Neue Bauart Spindeltreppe (Spindelrohr aus dem Katalog, Keilstufen auf Stufenträgern, Austrittspodest, Drehrichtung, mehrere Geschosse). Dazu Kragarmtreppe und Holm mit quer durchgehendem Stufenträger (0.1.30)."
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-03T23:14:45",
-      "datei": "MSTools_intern_Stuetzenstoss.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
-      "tools": 1,
-      "werkzeug": "msstuetzenstoss",
-      "titel": "Stützenstoß",
-      "version": "0.1.32"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-03T23:14:45",
+      "erstellt": "2026-10-04T00:31:49",
       "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/9cee0f507cda8ca22ff034beeba0e0c8b7a9d1e3\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
       "tools": 1,
       "werkzeug": "msgittermast",
       "titel": "Gittermast",
-      "version": "2026.10.03.2244"
+      "version": "2026.10.04.0025"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T00:31:50",
+      "datei": "MSTools_intern_Stuetzenstoss.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/9cee0f507cda8ca22ff034beeba0e0c8b7a9d1e3\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
+      "tools": 1,
+      "werkzeug": "msstuetzenstoss",
+      "titel": "Stützenstoß",
+      "version": "0.1.33"
     }
   ]
 }

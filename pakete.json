@@ -32,16 +32,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T15:53:43",
-      "datei": "MSTools_intern_PdfImport_Start.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1cf9b80eaed60bc00573b16aed06c6daa2588584\/pakete\/intern\/MSTools_intern_PdfImport_Start.mstools",
-      "tools": 1,
-      "werkzeug": "pdfimport-start",
-      "titel": "PdfImport Start",
-      "version": "0.3.158"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-02T22:14:40",
       "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
       "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/b9e20edbc734c4ef314beaba3e60745968124733\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
@@ -53,33 +43,43 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-03T08:32:16",
-      "datei": "MSTools_intern_Stuetzenstoss.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1254bc73d5d15a20bbbac7e1c17765a19a7acae4\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
+      "erstellt": "2026-10-03T23:14:44",
+      "datei": "MSTools_intern_PdfImport_Start.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_PdfImport_Start.mstools",
       "tools": 1,
-      "werkzeug": "msstuetzenstoss",
-      "titel": "Stützenstoß",
-      "version": "0.1.31"
+      "werkzeug": "pdfimport-start",
+      "titel": "PdfImport Start",
+      "version": "0.3.158"
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-03T08:32:16",
-      "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1254bc73d5d15a20bbbac7e1c17765a19a7acae4\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
-      "tools": 1,
-      "werkzeug": "msgittermast",
-      "titel": "Gittermast",
-      "version": "2026.10.03.0023"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-03T08:32:16",
+      "erstellt": "2026-10-03T23:14:45",
       "datei": "MSTools_intern_Treppe.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/1254bc73d5d15a20bbbac7e1c17765a19a7acae4\/pakete\/intern\/MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_Treppe.mstools",
       "tools": 1,
       "werkzeug": "mstreppe",
       "titel": "Treppe",
-      "version": "2026.10.03.0130"
+      "version": "2026.10.03.2308"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-03T23:14:45",
+      "datei": "MSTools_intern_Stuetzenstoss.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
+      "tools": 1,
+      "werkzeug": "msstuetzenstoss",
+      "titel": "Stützenstoß",
+      "version": "0.1.32"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-03T23:14:45",
+      "datei": "MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6e80e8e058f64af5df86ff2d8a2cf83c01fb47bf\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "tools": 1,
+      "werkzeug": "msgittermast",
+      "titel": "Gittermast",
+      "version": "2026.10.03.2244"
     }
   ]
 }

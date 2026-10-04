@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.32.0 — 2026-10-04
+
+- **Werkzeuge in allen Sprachen**: Titel und Beschreibung je Werkzeug auf Englisch, Französisch, Italienisch und
+  Polnisch (tools.json: `texts` je Eintrag, Deutsch bleibt in title/description). MSTools zeigt sie in der aktuellen
+  Sprache – Seitenleiste, Baum, Symbolbereich, Toolbox, Tooltip und Menü – und schaltet live mit HiCAD um; fehlt eine
+  Übersetzung, gilt der deutsche Text.
+- **Gruppennamen übersetzt** (tools.json: `groupTexts` je Pfadteil, z. B. „Stahlbau“ → „Steel construction“).
+- **Eintrag-Dialog**: neuer Abschnitt „Übersetzungen“ mit Fahne, Titel und Beschreibung je Sprache; fehlt ein Titel,
+  fragt MSTools beim Speichern nach.
+- **MSTools-Block**: `// MSTools-Titel-en:`, `// MSTools-Beschreibung-fr:` usw. – füllt leere Übersetzungen.
+- **Tooltip mit Version** – auch für Anwender ohne Entwicklermodus („Version 0.1.6“), ebenso im Menü.
+- Alle 36 vorhandenen Werkzeuge und 11 Gruppen wurden übersetzt.
+- Zusammenführen der tools.json übernimmt auch Gruppenübersetzungen anderer Schreiber.
+
 ## v1.31.1 — 2026-10-04
 
 - **Baumansicht**: Version und GitHub-Stand (Entwicklermodus) stehen ganz rechts in der Zeile, wie in der Liste. Die

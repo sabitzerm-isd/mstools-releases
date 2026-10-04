@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.32.4 — 2026-10-04
+
+- **Fahne nur noch im Entwicklermodus**: MSTools folgt immer der HiCAD-Sprache (live seit 1.30). Die Fahne ▾ in der
+  Werkzeugleiste erscheint nur noch im Entwicklermodus, als Prüfhilfe für Übersetzungen. Ohne Entwicklermodus wird eine
+  früher gewählte Fahnen-Sprache nicht mehr verwendet; beim Ausschalten des Entwicklermodus gilt sofort wieder die
+  HiCAD-Sprache. Die Fahnen im Eintrag-Dialog (Übersetzungen) bleiben.
+
 ## v1.32.3 — 2026-10-04
 
 - **Gruppen einzeln auf- und zuklappen**: Jede Gruppe mit Untergruppen hat in ihrer Überschrift zwei kleine Knöpfe –

@@ -64,17 +64,6 @@
     {
       "kunde": "intern",
       "erstellt": "2026-10-04T10:29:18",
-      "datei": "MSTools_intern_Treppe.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/5cbc5dd73fd6954ed81645ee182c26e3aeeffb88\/pakete\/intern\/MSTools_intern_Treppe.mstools",
-      "tools": 1,
-      "werkzeug": "mstreppe",
-      "titel": "Treppe",
-      "version": "0.1.68",
-      "kommentar": "Neu: Holm mit Pratzen. Industrietreppe mit Podest\/Wendelung. Fuß- und Kopfplatten an Holmen und U\/UPE-Wangen. Stufennummern in der Vorschau."
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-04T10:29:18",
       "datei": "MSTools_intern_Gittermast.mstools",
       "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/5cbc5dd73fd6954ed81645ee182c26e3aeeffb88\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
       "tools": 1,
@@ -82,6 +71,17 @@
       "titel": "Gittermast",
       "version": "0.1.110",
       "kommentar": "Dialog nichtmodal, auch beim Aendern: die Grafik bleibt bei offenem Dialog bedienbar · Version im Fenstertitel, Meldungen und Kontextmenue im Dialogstil, Fortschrittsfenster beim Einbau · Vorschau des Masts beim Punktsetzen; ungueltige Werte beim Neurechnen behalten den letzten gueltigen Mast"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T11:24:08",
+      "datei": "MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/69e40e66f88b15e758c4cd0ae146560fb29c0bf4\/pakete\/intern\/MSTools_intern_Treppe.mstools",
+      "tools": 1,
+      "werkzeug": "mstreppe",
+      "titel": "Treppe",
+      "version": "0.1.72",
+      "kommentar": "Neu: Holm mit Pratzen. Industrietreppe mit Podest\/Wendelung. Fuß- und Kopfplatten an Holmen und U\/UPE-Wangen. Stufennummern in der Vorschau."
     }
   ]
 }

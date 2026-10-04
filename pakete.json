@@ -65,17 +65,6 @@
     {
       "kunde": "intern",
       "erstellt": "2026-10-04T13:23:31",
-      "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/298bb1659b4c1beb7295b405f1153f51d54f5617\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
-      "tools": 1,
-      "werkzeug": "msgittermast",
-      "titel": "Gittermast",
-      "version": "0.1.140",
-      "kommentar": "Laeuft auch, wenn custom schreibgeschuetzt ist und HiCAD auf einem anderen Laufwerk liegt als der Benutzerordner (Ersatz ueber eine HiCAD-Pfadkennung bzw. den HiCAD-temp-Ordner); ist custom beschreibbar, werden beim ersten Start alle eigenen Dateien entsperrt und eine fehlende Bruecke ergaenzt · Zeichnungen merken sich den Weg zur Bruecke jetzt so, dass er im custom- bzw. HiCAD-Ordner bleibt; lange Meldungen erscheinen vollstaendig in einem Fenster · Positionsnummer und Bemerkung bleiben beim Aendern erhalten, auch beim ersten Aendern nach einem Update"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-04T13:23:31",
       "datei": "MSTools_intern_Stuetzenstoss.mstools",
       "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/298bb1659b4c1beb7295b405f1153f51d54f5617\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
       "tools": 1,
@@ -92,6 +81,17 @@
       "werkzeug": "msmontagestoss",
       "titel": "Montagestoß",
       "version": "0.1.37"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T14:10:32",
+      "datei": "MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6af47b5099ecbbc5c0897aa68eb02d4b24360d83\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "tools": 1,
+      "werkzeug": "msgittermast",
+      "titel": "Gittermast",
+      "version": "0.1.144",
+      "kommentar": "Laeuft auch, wenn custom auf einem Server (Netzlaufwerk oder UNC-Pfad) liegt: die Bruecke kommt dann aus einer lokalen Kopie; Ersatzordner unabhaengig von der Version, beim Start bekommen sie alle bekannten Bruecken zurueck · Hinweise zur Installation erscheinen nur einmal je HiCAD-Sitzung (im Protokoll bei jedem Start); Ersatz nie unter Szenen- oder Dokumentordnern · Positionsnummer und Bemerkung bleiben auch erhalten, wenn eine Aenderung scheitert und das Werkzeug auf die bisherigen Werte zurueckgeht"
     }
   ]
 }

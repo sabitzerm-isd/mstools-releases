@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.32.5 — 2026-10-04
+
+- **Export-Dialog gegliedert wie die Seitenleiste**: Werkzeuge als Gruppenbaum (Hauptgruppen als blaues Band,
+  Untergruppen eingerückt, auf-/zuklappbar, Namen übersetzt). Das Häkchen einer Gruppenüberschrift wählt alle Werkzeuge
+  der Gruppe samt Untergruppen; teilweise gewählte Gruppen zeigen es halb.
+
 ## v1.32.4 — 2026-10-04
 
 - **Fahne nur noch im Entwicklermodus**: MSTools folgt immer der HiCAD-Sprache (live seit 1.30). Die Fahne ▾ in der

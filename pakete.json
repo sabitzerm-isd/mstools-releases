@@ -84,14 +84,14 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-04T14:10:32",
+      "erstellt": "2026-10-04T17:18:43",
       "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/6af47b5099ecbbc5c0897aa68eb02d4b24360d83\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/e076cdc161dec54bfe90616e3024b08b954eb32b\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
       "tools": 1,
       "werkzeug": "msgittermast",
       "titel": "Gittermast",
-      "version": "0.1.144",
-      "kommentar": "Laeuft auch, wenn custom auf einem Server (Netzlaufwerk oder UNC-Pfad) liegt: die Bruecke kommt dann aus einer lokalen Kopie; Ersatzordner unabhaengig von der Version, beim Start bekommen sie alle bekannten Bruecken zurueck · Hinweise zur Installation erscheinen nur einmal je HiCAD-Sitzung (im Protokoll bei jedem Start); Ersatz nie unter Szenen- oder Dokumentordnern · Positionsnummer und Bemerkung bleiben auch erhalten, wenn eine Aenderung scheitert und das Werkzeug auf die bisherigen Werte zurueckgeht"
+      "version": "0.1.155",
+      "kommentar": "Futter bei ungerader Stielschenkeldicke (L 70x7, L 90x9): Stahlblech mit genau der noetigen Dicke ohne Katalogzeile (Bezeichnung Bl 7, Werkstoff wie der Stiel, stuecklistenrelevant) - kein Abbruch mehr; gibt es die Dicke im Katalog, wird die Katalogzeile genommen · Kreuzungsblech: Beruehrung mit Eckstielen oder anderen Staeben wird vor dem Einbau als Fehler mit Vorschlag gemeldet; Hinweis, wenn das Kreuzungsblech ohne Verbindungsmittel ist · Pruefung vor OK mit dem HiCAD-Katalog (Normteillaengen, Profile): Katalogprobleme stehen uebersetzt im Dialog; Zahlen in Hinweisen mit Dezimalkomma"
     }
   ]
 }

@@ -84,14 +84,14 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-04T17:18:43",
+      "erstellt": "2026-10-04T18:57:25",
       "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/e076cdc161dec54bfe90616e3024b08b954eb32b\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/2141f4d8924b68915468e11aadaed379b2ada964\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
       "tools": 1,
       "werkzeug": "msgittermast",
       "titel": "Gittermast",
-      "version": "0.1.155",
-      "kommentar": "Futter bei ungerader Stielschenkeldicke (L 70x7, L 90x9): Stahlblech mit genau der noetigen Dicke ohne Katalogzeile (Bezeichnung Bl 7, Werkstoff wie der Stiel, stuecklistenrelevant) - kein Abbruch mehr; gibt es die Dicke im Katalog, wird die Katalogzeile genommen · Kreuzungsblech: Beruehrung mit Eckstielen oder anderen Staeben wird vor dem Einbau als Fehler mit Vorschlag gemeldet; Hinweis, wenn das Kreuzungsblech ohne Verbindungsmittel ist · Pruefung vor OK mit dem HiCAD-Katalog (Normteillaengen, Profile): Katalogprobleme stehen uebersetzt im Dialog; Zahlen in Hinweisen mit Dezimalkomma"
+      "version": "0.1.165",
+      "kommentar": "Tippen im Dialog: das Feld behaelt beim Tippen den Fokus (frueher nach jeder Ziffer weg, weil die HiCAD-Auswahl neu startete); die Vorschau folgt einmal kurz nach der letzten Taste · Zwischenwerte beim Tippen (leer, 0) zeigen keine Fragezeichen-Skizze mehr: das Feld wird rot, Skizze und Vorschau behalten den letzten gueltigen Stand, die Meldung erscheint nach der Eingabe"
     }
   ]
 }

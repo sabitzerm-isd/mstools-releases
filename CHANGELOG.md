@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.32.2 — 2026-10-04
+
+- **Baumansicht farbig**: Hauptgruppen mit blauem Farbband (Verlauf, dunkelblauer Streifen links, blaue fette Schrift),
+  Untergruppen zart blau hinterlegt. Die Auswahl – deren Symbole unten stehen – im HiCAD-Orange, ebenso beim Überfahren.
+
 ## v1.32.1 — 2026-10-04
 
 - **Baumansicht**: Hauptgruppen (Stahlbau, Fassade, Holzbau, Daten, Kunden) sind immer als Band hinterlegt wie die

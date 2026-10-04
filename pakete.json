@@ -92,6 +92,61 @@
       "titel": "Gittermast",
       "version": "0.1.165",
       "kommentar": "Tippen im Dialog: das Feld behaelt beim Tippen den Fokus (frueher nach jeder Ziffer weg, weil die HiCAD-Auswahl neu startete); die Vorschau folgt einmal kurz nach der letzten Taste · Zwischenwerte beim Tippen (leer, 0) zeigen keine Fragezeichen-Skizze mehr: das Feld wird rot, Skizze und Vorschau behalten den letzten gueltigen Stand, die Meldung erscheint nach der Eingabe"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T21:28:33",
+      "datei": "MSTools_intern_Pfette_ueber_Binder.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/0e23d4cc8ab44dcf17c0e80a5b5694dd5bb02824\/pakete\/intern\/MSTools_intern_Pfette_ueber_Binder.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-ib08",
+      "titel": "Pfette über Binder",
+      "version": "0.1.11",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T21:28:33",
+      "datei": "MSTools_intern_Ausklinkung_am_Traegerende.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/0e23d4cc8ab44dcf17c0e80a5b5694dd5bb02824\/pakete\/intern\/MSTools_intern_Ausklinkung_am_Traegerende.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-ib40",
+      "titel": "Ausklinkung am Trägerende",
+      "version": "0.1.11",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T21:28:33",
+      "datei": "MSTools_intern_Binder.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/0e23d4cc8ab44dcf17c0e80a5b5694dd5bb02824\/pakete\/intern\/MSTools_intern_Binder.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-ib50",
+      "titel": "Binder",
+      "version": "0.1.11",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T21:28:33",
+      "datei": "MSTools_intern_Wandriegel_aussen_eingelassen.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/0e23d4cc8ab44dcf17c0e80a5b5694dd5bb02824\/pakete\/intern\/MSTools_intern_Wandriegel_aussen_eingelassen.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-ib33b",
+      "titel": "Wandriegel außen eingelassen",
+      "version": "0.1.11",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T21:28:33",
+      "datei": "MSTools_intern_Wandriegel_auf_Knagge.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/0e23d4cc8ab44dcf17c0e80a5b5694dd5bb02824\/pakete\/intern\/MSTools_intern_Wandriegel_auf_Knagge.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-ib33c",
+      "titel": "Wandriegel auf Knagge",
+      "version": "0.1.11",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
     }
   ]
 }

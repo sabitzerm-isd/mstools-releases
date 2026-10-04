@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.32.1 — 2026-10-04
+
+- **Baumansicht**: Hauptgruppen (Stahlbau, Fassade, Holzbau, Daten, Kunden) sind immer als Band hinterlegt wie die
+  Kopfzeilen der Liste. Die Auswahl – deren Symbole unten stehen – ist davon abgesetzt: kräftigeres Blau mit blauer Linie.
+
 ## v1.32.0 — 2026-10-04
 
 - **Werkzeuge in allen Sprachen**: Titel und Beschreibung je Werkzeug auf Englisch, Französisch, Italienisch und

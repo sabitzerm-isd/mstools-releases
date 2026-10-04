@@ -22,16 +22,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-04T00:31:50",
-      "datei": "MSTools_intern_Stuetzenstoss.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/9cee0f507cda8ca22ff034beeba0e0c8b7a9d1e3\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
-      "tools": 1,
-      "werkzeug": "msstuetzenstoss",
-      "titel": "Stützenstoß",
-      "version": "0.1.33"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-02T10:41:24",
       "datei": "MSTools_intern_Fassadenkonsole.mstools",
       "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/5cbc5dd73fd6954ed81645ee182c26e3aeeffb88\/pakete\/intern\/MSTools_intern_Fassadenkonsole.mstools",
@@ -63,25 +53,35 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-04T10:29:18",
-      "datei": "MSTools_intern_Gittermast.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/5cbc5dd73fd6954ed81645ee182c26e3aeeffb88\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
-      "tools": 1,
-      "werkzeug": "msgittermast",
-      "titel": "Gittermast",
-      "version": "0.1.110",
-      "kommentar": "Dialog nichtmodal, auch beim Aendern: die Grafik bleibt bei offenem Dialog bedienbar · Version im Fenstertitel, Meldungen und Kontextmenue im Dialogstil, Fortschrittsfenster beim Einbau · Vorschau des Masts beim Punktsetzen; ungueltige Werte beim Neurechnen behalten den letzten gueltigen Mast"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-04T11:24:08",
+      "erstellt": "2026-10-04T13:23:31",
       "datei": "MSTools_intern_Treppe.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/69e40e66f88b15e758c4cd0ae146560fb29c0bf4\/pakete\/intern\/MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/298bb1659b4c1beb7295b405f1153f51d54f5617\/pakete\/intern\/MSTools_intern_Treppe.mstools",
       "tools": 1,
       "werkzeug": "mstreppe",
       "titel": "Treppe",
-      "version": "0.1.72",
+      "version": "0.1.77",
       "kommentar": "Neu: Holm mit Pratzen. Industrietreppe mit Podest\/Wendelung. Fuß- und Kopfplatten an Holmen und U\/UPE-Wangen. Stufennummern in der Vorschau."
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T13:23:31",
+      "datei": "MSTools_intern_Gittermast.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/298bb1659b4c1beb7295b405f1153f51d54f5617\/pakete\/intern\/MSTools_intern_Gittermast.mstools",
+      "tools": 1,
+      "werkzeug": "msgittermast",
+      "titel": "Gittermast",
+      "version": "0.1.140",
+      "kommentar": "Laeuft auch, wenn custom schreibgeschuetzt ist und HiCAD auf einem anderen Laufwerk liegt als der Benutzerordner (Ersatz ueber eine HiCAD-Pfadkennung bzw. den HiCAD-temp-Ordner); ist custom beschreibbar, werden beim ersten Start alle eigenen Dateien entsperrt und eine fehlende Bruecke ergaenzt · Zeichnungen merken sich den Weg zur Bruecke jetzt so, dass er im custom- bzw. HiCAD-Ordner bleibt; lange Meldungen erscheinen vollstaendig in einem Fenster · Positionsnummer und Bemerkung bleiben beim Aendern erhalten, auch beim ersten Aendern nach einem Update"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-04T13:23:31",
+      "datei": "MSTools_intern_Stuetzenstoss.mstools",
+      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/298bb1659b4c1beb7295b405f1153f51d54f5617\/pakete\/intern\/MSTools_intern_Stuetzenstoss.mstools",
+      "tools": 1,
+      "werkzeug": "msstuetzenstoss",
+      "titel": "Stützenstoß",
+      "version": "0.1.36"
     }
   ]
 }

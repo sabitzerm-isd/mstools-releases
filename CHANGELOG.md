@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.32.3 — 2026-10-04
+
+- **Gruppen einzeln auf- und zuklappen**: Jede Gruppe mit Untergruppen hat in ihrer Überschrift zwei kleine Knöpfe –
+  mit allen Untergruppen aufklappen bzw. zuklappen (Baum, Liste, Kompakt, Nur Icons). Der Zustand wird einmal gespeichert.
+- Einstellungen: Beschriftung „Konfigurationsordner (Werkzeugliste)“ – die Protokolle liegen seit 1.26 je Benutzer.
+- **Anleitung aktualisiert**: Untergruppen und Klappknöpfe, Baumansicht mit Farben, Sprache folgt HiCAD und übersetzte
+  Werkzeuge, Version im Tooltip, Hilfe-Menü, Entwicklermodus mit GitHub-Stand statt Start-Dialog, stündliche
+  Update-Prüfung, Zusammenarbeit mehrerer Programme an der Werkzeugliste; neue Bilder.
+
 ## v1.32.2 — 2026-10-04
 
 - **Baumansicht farbig**: Hauptgruppen mit blauem Farbband (Verlauf, dunkelblauer Streifen links, blaue fette Schrift),

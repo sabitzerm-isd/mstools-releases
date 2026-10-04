@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.31.1 — 2026-10-04
+
+- **Baumansicht**: Version und GitHub-Stand (Entwicklermodus) stehen ganz rechts in der Zeile, wie in der Liste. Die
+  Baumzeilen gehen dafür über die ganze Breite; die Auswahl markiert die ganze Zeile, Mausberührung hellblau.
+
 ## v1.31.0 — 2026-10-04
 
 - **Versionshinweise in der Hilfe**: Hilfe ▾ → „Versionshinweise …“ zeigt die Neuerungen aller Versionen lesbar an.

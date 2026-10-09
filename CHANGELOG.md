@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.33.3 — 2026-10-09
+
+- **Testszenen kommen mit dem Werkzeug** (Auftrag 947/58): liefert ein Werkzeug im eigenen Ordner eine `testszenen.json`
+  mit (`aktiv: true`, Pfade relativ zur Datei), zeigt die Seitenleiste den Knopf für **alle** Anwender, nicht nur im
+  Entwicklermodus. `aktiv: false` oder eine Werkzeugversion über `gueltig_bis` blendet ihn wieder aus. Die lokalen
+  Testszenen-Listen aus 1.33.0 gelten weiter, aber nur im Entwicklermodus.
+- **Knopf mit Text „Testszene“** statt nur Symbol, Tooltip erklärt in einem Satz, was er tut (bei mehreren Szenen:
+  Auswahl beim Klick). Liefert das Werkzeug einen Hilfe-Link (`hilfe`), steht im Menü zusätzlich „Mehr …“.
+- **Szenen öffnen schreibgeschützt** (`Context.Load(pfad, true)`): Testdateien werden nicht versehentlich überschrieben.
+- **Einmaliger Hinweis „Neu“**: nach einem Update, das Testszenen bringt, zeigt eine kleine Sprechblase am ersten Knopf,
+  was neu ist – mit „Mehr …“ und „Verstanden“. Gemerkt je Plugin- und Werkzeugversion in
+  `%LOCALAPPDATA%\MSTools\hinweise-gesehen.txt`; allgemein gebaut, für spätere Neuerungen wiederverwendbar.
+- Alle neuen Texte in Deutsch, Englisch, Französisch, Italienisch und Polnisch.
+- **Export: Rückfrage bei sehr großen Paketen** (größtes > 50 MB oder zusammen > 300 MB) vor dem GitHub-Upload, mit
+  Größe und Name des größten Pakets. Hintergrund: mit allen Testszenen wäre jedes Holzbau-Paket ≈ 0,5 GB groß.
+
 ## v1.33.2 — 2026-10-09
 
 - **Upload bricht nicht mehr ab, wenn im Zielordner Dateien fehlen**: Befund – beim Export in den OneDrive-Ordner fehlten

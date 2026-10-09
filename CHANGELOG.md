@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.33.0 — 2026-10-09
+
+- **Knopf „Testszene laden“ im Entwicklermodus** (Auftrag 947/58): je Werkzeug-Zeile ein kleiner Knopf rechts neben der
+  Version (Liste, Kompakt, Baum), wenn es auf diesem Rechner eine Testszene gibt. Ein Klick öffnet sie in HiCAD
+  (`Context.Load`, vorhandene Zeichnungen bleiben offen, nichts wird gespeichert); mehrere Szenen → Auswahl („Alle
+  Varianten“, „Praxisbeispiel“ …). Ist die Szene schon offen, fragt MSTools: wechseln oder noch einmal laden.
+- Quelle: JSON-Listen der Werkzeug-Familien (`kacheln[].id/szenen[].titel/pfad`), eingetragen unter Einstellungen →
+  Entwickler → **Testszenen-Listen**; gespeichert nur lokal in `%LOCALAPPDATA%\MSTools\testszenen-listen.txt`, nie in
+  tools.json und nie im Export. Fehlt eine Liste, eine Szene oder das Laufwerk: kein Knopf, keine Meldung. Gelesen im
+  Hintergrund, damit ein nicht erreichbarer Netzpfad nichts aufhält.
+- Das Ladeskript wird nur aus ASCII erzeugt (Umlaute als \u…) – HiCAD liest Skripte nicht als UTF-8.
+
 ## v1.32.6 — 2026-10-09
 
 - **Fortschrittsbalken beim Hochladen auf GitHub**: In der Fußzeile des Export-Dialogs Balken mit Prozent, Phase,

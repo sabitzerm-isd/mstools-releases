@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.32.6 — 2026-10-09
+
+- **Fortschrittsbalken beim Hochladen auf GitHub**: In der Fußzeile des Export-Dialogs Balken mit Prozent, Phase,
+  Datenmenge und Geschwindigkeit (aus dem Fortschritt von git: Holen 0–25 %, Eintragen 25–40 %, Hochladen 40–100 %).
+- **Dialog hing nach dem Upload und ließ sich nicht schließen**: git startet beim Push den Credential Manager, der im
+  Hintergrund weiterlief und die Ausgabekanäle offen hielt – MSTools wartete darauf ewig. Jetzt höchstens 5 s.
+- **Nach dem Upload**: Meldung „Upload erfolgreich“, danach schließt der Dialog von selbst. Schließen während des Uploads
+  geht nach Rückfrage; der Upload läuft dann im Hintergrund zu Ende und meldet sein Ergebnis.
+
 ## v1.32.5 — 2026-10-04
 
 - **Export-Dialog gegliedert wie die Seitenleiste**: Werkzeuge als Gruppenbaum (Hauptgruppen als blaues Band,

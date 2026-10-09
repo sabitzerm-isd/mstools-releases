@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.33.1 — 2026-10-09
+
+- **Export: Häkchen „In diesem Ordner ablegen“** unter „3. Ziel“. Abgewählt werden die Pakete nur für den GitHub-Upload
+  in einen temporären Ordner geschrieben; der Zielordner bleibt unberührt, Ordnerfeld ausgegraut. Weder Ordner noch
+  GitHub gewählt → Hinweis statt Export. Die Wahl wird gemerkt (settings.exportFolderOff).
+
 ## v1.33.0 — 2026-10-09
 
 - **Knopf „Testszene laden“ im Entwicklermodus** (Auftrag 947/58): je Werkzeug-Zeile ein kleiner Knopf rechts neben der

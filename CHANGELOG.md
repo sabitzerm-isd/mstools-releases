@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.33.2 — 2026-10-09
+
+- **Upload bricht nicht mehr ab, wenn im Zielordner Dateien fehlen**: Befund – beim Export in den OneDrive-Ordner fehlten
+  nach dem Ersetzen gleichnamiger Pakete 21 von 83 Dateien, der Upload brach mit „Datei nicht gefunden“ ab und kein
+  einziges Paket kam auf GitHub. Jetzt schreibt MSTools die Pakete immer zuerst in einen eigenen Zwischenordner
+  (%TEMP%\MSTools-Export) und lädt von dort hoch; in den Zielordner wird nur kopiert. Fehlt dort danach eine Kopie,
+  meldet die Statuszeile das, der Upload ist nicht betroffen. Alte Zwischenordner (> 6 h) werden weggeräumt.
+- **Dateimuster in den zugehörigen Dateien**: `{HiCAD}\custom\MSHolzverbindung\fmv\HV_DA01_*` nimmt nur die passenden
+  Dateien dieses Ordners mit – im MSTools-Block, beim Packen, bei der Versionsermittlung und im Eintrag-Dialog. Damit
+  kann ein Werkzeug aus einem gemeinsamen Ordner nur seine eigenen Dateien ausliefern (Holzbau bisher ≈ 21 MB je Paket,
+  weil jedes alle 837 Variantendateien enthielt). Auftrag an 947/58: `99 Übergabe\prompts\947-58-mstools-dateien-schlank.md`.
+
 ## v1.33.1 — 2026-10-09
 
 - **Export: Häkchen „In diesem Ordner ablegen“** unter „3. Ziel“. Abgewählt werden die Pakete nur für den GitHub-Upload

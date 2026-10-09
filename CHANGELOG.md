@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.34.0 — 2026-10-09
+
+- **Werkzeug-Pakete als Release-Anhänge statt Dateien im Repository**: Befund – jede hochgeladene Fassung blieb für
+  immer in der Git-Geschichte (Arbeitsstand schon 1,8 GB), jeder Export holte vorher das ganze Repository, und GitHub
+  lehnt Dateien über 100 MB ab; mit den Testszenen des Holzbaus (≈ 520 MB) wären Uploads gescheitert. Jetzt liegt je
+  Kunde ein Vorab-Release `pakete-<kunde>` (nie „Latest“, das bleibt das Plugin-Release); jedes Paket wird dort mit
+  eindeutigem Namen angehängt (bis 2 GB je Paket), `pakete.json` zeigt darauf. Ersetzte Fassungen löscht der nächste
+  Upload nach einer Stunde Schonfrist. Kein Klon mehr: ein Probe-Upload dauerte 5–7 s.
+- `pakete.json` und die Lizenzliste werden über die GitHub-Schnittstelle als **ein** Commit geschrieben; lädt
+  gleichzeitig jemand anderes hoch, führt MSTools die Liste neu zusammen statt sie zu überschreiben.
+- Anmeldung unverändert: die Git-Anmeldung dieses Rechners (Git Credential Manager); im Plugin steht kein Zugang.
+- Fortschrittsbalken nach gesendeten Bytes („Hochladen 2/5 · 12,0 MB von 40,0 MB“).
+- Export-Rückfrage bei großen Paketen jetzt ab 100 MB je Paket bzw. 500 MB zusammen (Downloadgröße für Anwender).
+- Vorhandene Einträge (Links auf einen Commit, bis 1.33) bleiben gültig; Anwender brauchen kein Update dafür.
+
 ## v1.33.3 — 2026-10-09
 
 - **Testszenen kommen mit dem Werkzeug** (Auftrag 947/58): liefert ein Werkzeug im eigenen Ordner eine `testszenen.json`

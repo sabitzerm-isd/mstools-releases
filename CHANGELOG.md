@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.34.1 — 2026-10-10
+
+- **Knopf „Testszene laden“ wieder nur als Symbol** (Anwenderwunsch: die Beschriftung neben jedem Werkzeug war zu
+  viel). Tooltip, Auswahlmenü mit „Mehr …“ und der einmalige Hinweis nach dem Update bleiben unverändert.
+
 ## v1.34.0 — 2026-10-09
 
 - **Werkzeug-Pakete als Release-Anhänge statt Dateien im Repository**: Befund – jede hochgeladene Fassung blieb für

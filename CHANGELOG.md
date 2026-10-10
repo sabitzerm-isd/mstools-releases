@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.34.3 — 2026-10-10
+
+- **Export-Abschluss ohne Wegklicken** (Anwenderwunsch): bei Erfolg erscheint unten im Dialog eine kurze grüne Meldung
+  („✓ Export erfolgreich: 90 Pakete abgelegt und auf GitHub veröffentlicht“) mit „Schließt in 5 s …“; danach schließt
+  der Dialog samt Meldung von selbst („Schließen“ geht sofort).
+- **Bei einem Fehler bleibt der Dialog offen** und eine Meldung nennt den Grund – Paket nicht schreibbar (z. B.
+  fehlende Datei), Kopie im Zielordner unvollständig oder Upload fehlgeschlagen. Danach kann erneut „Exportieren“
+  gedrückt werden. Bisher schloss der Dialog auch nach einem fehlgeschlagenen Upload.
+
 ## v1.34.2 — 2026-10-10
 
 - **Export mit Fortschrittsbalken, Fenster bleibt bedienbar**: Befund – beim Export von 90 Holzbau-Werkzeugen stand der

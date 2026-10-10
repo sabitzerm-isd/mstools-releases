@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.34.4 — 2026-10-10
+
+- **Upload: Werkzeuge mit gleichem Titel verdrängen sich nicht mehr** – Befund beim ersten Holzbau-Upload als
+  Release-Anhänge: 91 Anhänge, aber 90 Einträge in `pakete.json`, weil zweimal „Schwalbenschwanz“ (ZM20, HF08) unter
+  demselben Dateinamen eingetragen wurde. Jetzt bekommt der zweite die Werkzeug-Id angehängt, wie schon beim Anhang.
+
 ## v1.34.3 — 2026-10-10
 
 - **Export-Abschluss ohne Wegklicken** (Anwenderwunsch): bei Erfolg erscheint unten im Dialog eine kurze grüne Meldung

@@ -988,17 +988,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-10T12:28:16",
-      "datei": "MSTools_intern_Schwalbenschwanz.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Schwalbenschwanz_msholz-hf08_20261010-122823.mstools",
-      "tools": 1,
-      "werkzeug": "msholz-hf08",
-      "titel": "Schwalbenschwanz",
-      "version": "0.1.51",
-      "kommentar": "M3 IB08a Kerve in der Pfette"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-10T12:28:17",
       "datei": "MSTools_intern_Eckpfosten.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Eckpfosten_20261010-122823.mstools",
@@ -1170,6 +1159,28 @@
       "tools": 1,
       "werkzeug": "msholz-verbund",
       "titel": "Verschraubter Verbundbalken",
+      "version": "0.1.51",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-10T12:33:56",
+      "datei": "MSTools_intern_Schwalbenschwanz.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Schwalbenschwanz_20261010-123358.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-zm20",
+      "titel": "Schwalbenschwanz",
+      "version": "0.1.51",
+      "kommentar": "M3 IB08a Kerve in der Pfette"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-10T12:33:57",
+      "datei": "MSTools_intern_Schwalbenschwanz_msholz-hf08.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Schwalbenschwanz_msholz-hf08_20261010-123358.mstools",
+      "tools": 1,
+      "werkzeug": "msholz-hf08",
+      "titel": "Schwalbenschwanz",
       "version": "0.1.51",
       "kommentar": "M3 IB08a Kerve in der Pfette"
     }

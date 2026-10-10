@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.34.2 — 2026-10-10
+
+- **Export mit Fortschrittsbalken, Fenster bleibt bedienbar**: Befund – beim Export von 90 Holzbau-Werkzeugen stand der
+  Dialog lange ohne Rückmeldung, Scrollen ging nicht. Die Pakete werden jetzt im Hintergrund geschrieben; Balken und
+  Zeile zeigen „Paket 12/90 · Pfette über Binder“, danach „In den Zielordner kopieren“ und nahtlos das Hochladen.
+  Schließen während des Schreibens wird mit einem Hinweis verhindert.
+- **Größenprüfung VOR dem Schreiben**: MSTools schätzt die Paketgrößen nach denselben Regeln wie beim Packen (wenige
+  Sekunden) und fragt bei Paketen über 100 MB oder zusammen über 500 MB nach – Standard ist „Nein“. Anlass: jedes
+  Holzbau-Paket war 610 MB groß (ganzer gemeinsamer Ordner samt Testszenen), zusammen ≈ 70 GB, die nach einer halben
+  Stunde Schreiben auch noch in den OneDrive-Zielordner kopiert worden wären. Die Rückfrage vor dem Upload entfällt.
+
 ## v1.34.1 — 2026-10-10
 
 - **Knopf „Testszene laden“ wieder nur als Symbol** (Anwenderwunsch: die Beschriftung neben jedem Werkzeug war zu

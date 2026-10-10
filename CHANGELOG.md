@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.35.0 — 2026-10-10
+
+- **Testszenen nicht mehr im Paket, sondern beim Klick nachgeladen**: Befund – 70 % der Holzbau-Pakete waren
+  Testszenen (598 von 855 MB), die kaum jemand öffnet. Der Export nimmt jetzt jede Szene, die eine mitgepackte
+  `testszenen.json` nennt, aus dem Paket und lädt sie getrennt ins Release `testszenen-<werkzeug>` (nur neue oder
+  geänderte, Vergleich über Größe und SHA-256). Beim Anwender erscheint der Knopf trotzdem; der erste Klick holt die
+  Szene **mit eigenem Fenster und Fortschrittsbalken** („10,0 MB von 61,8 MB · 16 %“, Abbrechen jederzeit), danach
+  liegt sie im Zwischenspeicher `%LOCALAPPDATA%\MSTools\Testszenen\<werkzeug>\<version>` und öffnet sofort.
+- **Paketfamilien**: Werkzeuge mit `// MSTools-Paket: Holzbau` im Skriptkopf werden beim Export EIN Paket (gemeinsame
+  DLL einmal, Version = höchste der Familie). In der Paketliste steht es als „Holzbau (91 Werkzeuge)“ und ersetzt die
+  bisherigen Einzelpakete; Abgleich, Update-Prüfung und „Von GitHub übernehmen“ erkennen jedes enthaltene Werkzeug.
+  Der Holzbau ist damit gepackt ≈ 32 MB statt 91 Pakete mit zusammen 855 MB.
+- Größenschätzung vor dem Export rechnet Familien ohne doppelte Dateien und ohne Testszenen.
+
 ## v1.34.4 — 2026-10-10
 
 - **Upload: Werkzeuge mit gleichem Titel verdrängen sich nicht mehr** – Befund beim ersten Holzbau-Upload als

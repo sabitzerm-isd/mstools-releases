@@ -1305,18 +1305,5 @@
       "version": "0.1.80",
       "kommentar": "M3 IB08a Kerve in der Pfette"
     }
-  ],
-  "zurueckgezogen": [
-    {
-      "kunde": "test-mstools",
-      "erstellt": "2026-09-08T20:33:08",
-      "datei": "MSTools_test-mstools_MSTools_Zurueckziehen-Test.mstools",
-      "url": null,
-      "tools": 1,
-      "werkzeug": "mstools-zurueck-test",
-      "titel": "MSTools Zurueckziehen-Test",
-      "version": "0.0.1",
-      "entfernt": "2026-10-12T11:18:12"
-    }
   ]
 }

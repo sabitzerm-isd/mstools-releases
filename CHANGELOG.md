@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.36.0 — 2026-10-12
+
+- **Pakete von GitHub zurückziehen** (Entwicklermodus, Anwenderwunsch): in „Von GitHub übernehmen“ die Pakete anhaken
+  und „Von GitHub entfernen …“ – nach Rückfrage werden sie aus `pakete.json` genommen und die Dateien auf GitHub
+  gelöscht. Niemand kann sie danach neu herunterladen; erneut hochladen geht jederzeit über Export.
+- **Anwender behalten das Werkzeug**: im Tooltip steht bei der Version „Nicht mehr auf GitHub (entfernt am …) – bleibt
+  installiert“ (5 Sprachen). Im Entwicklermodus zeigt die GitHub-Spalte „GitHub zurückgezogen“ mit Datum, Kunde und
+  Version. `pakete.json` führt dazu die Liste `zurueckgezogen`; wird das Werkzeug wieder hochgeladen, entfällt der
+  Vermerk von selbst.
+
 ## v1.35.0 — 2026-10-10
 
 - **Testszenen nicht mehr im Paket, sondern beim Klick nachgeladen**: Befund – 70 % der Holzbau-Pakete waren

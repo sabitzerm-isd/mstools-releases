@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.42.1 — 2026-10-13
+
+- **Kunde nur mit Nummer und Name anlegen** (Anwenderwunsch): „+ Neuer Kunde …“ im Export verlangt Kundennummer und
+  Kundenname; die HiCAD-Lizenznummer ist optional und kann später ergänzt werden. Der Kunde wird sofort in
+  `customers.json` gespeichert (und mit der OneDrive-Datensicherung gesichert). Doppelte Kundennummern werden abgewiesen.
+- **Kunde bearbeiten**: „Bearbeiten …“ oder Doppelklick ändert Name und Lizenznummer (die Kundennummer bleibt).
+  Eine erstmals eingetragene Lizenznummer kommt ins Lizenzregister; die Werkzeuge setzt der nächste Export.
+- „Lizenzanfrage einfügen“ für einen vorhandenen Kunden ohne Lizenz trägt ihm die Nummer ein, statt einen zweiten anzulegen.
+- Fehler beim Speichern erscheinen als Meldung.
+
 ## v1.42.0 — 2026-10-13
 
 - **Export neu geordnet** (Anwenderwunsch: Kunden und Lizenzen im Export verwalten): links die Kundenliste mit Suche,

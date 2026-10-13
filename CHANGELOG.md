@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.42.2 — 2026-10-13
+
+- **Alle Fenster in der Taskleiste** (Anwenderwunsch: Dialoge verschwinden hinter HiCAD und sind dann nicht mehr zu
+  finden): jedes MSTools-Fenster (Export, Import, Einstellungen, Neuer Kunde, Download, …) hat einen eigenen
+  Taskleisten-Eintrag mit „MSTools — …“ im Titel.
+- Auch Dialoge der **gestarteten Werkzeuge** (Skripte und ihre DLLs unter `{HiCAD}\custom` oder außerhalb von HiCAD),
+  die sich selbst aus der Taskleiste nehmen, holt MSTools beim Öffnen wieder hinein. Fenster von HiCAD selbst bleiben
+  unberührt.
+
 ## v1.42.1 — 2026-10-13
 
 - **Kunde nur mit Nummer und Name anlegen** (Anwenderwunsch): „+ Neuer Kunde …“ im Export verlangt Kundennummer und

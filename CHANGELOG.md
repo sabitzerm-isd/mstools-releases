@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.40.0 — 2026-10-13
+
+- **„Lizenzen verwalten“ aufgeräumt** (Anwenderwunsch: übersichtlich und einfach zu erweitern):
+  - **+ Neuer Kunde …**: kleines Formular (Lizenznummer Pflicht, Name, Kundennummer, Art), prüft doppelte Nummern,
+    „Nummer dieses Rechners“ per Knopf, danach gleich die Werkzeugauswahl.
+  - **Lizenzanfrage einfügen**: den Anfragetext aus der Kunden-Mail kopieren – Lizenznummer, Kundennummer und Firma werden
+    übernommen (auch aus zitierten Antworten mit „> “). Steht die Nummer schon drin, springt die Liste dorthin.
+  - Eine Spalte **Art** (Kunde / ISD intern / gesperrt) statt der Haken „Freigegeben“ und „ISD intern“.
+  - **Status farbig**: veröffentlicht (grün), noch nicht veröffentlicht (gelb), Fehler (rot: Lizenznummer fehlt oder
+    doppelt, Kunde ohne Werkzeuge); Übersichtszeile mit Zählern; Tooltip der Werkzeuge zeigt ihre Namen.
+  - **Suche und Filter** (Kunden, ISD intern, gesperrt, nicht veröffentlicht, mit Fehlern); Liste nach Namen sortiert.
+  - Werkzeugauswahl: **„Werkzeuge übernehmen von …“** einem anderen Kunden und danach anpassen.
+  - Signierschlüssel eingeklappt; beim Schließen Rückfrage, wenn etwas nicht gespeichert ist.
+- **Kunden nur noch an einer Stelle pflegen**: der Export bietet auch alle Kunden aus dem Lizenzregister an, samt
+  HiCAD-Lizenznummer.
+
 ## v1.39.0 — 2026-10-13
 
 - **Stufen statt Entwicklermodus-Schalter** (Anwenderentscheid): ein MSTools für alle Kunden, die HiCAD-Lizenz bzw. das

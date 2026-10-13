@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.45.0 — 2026-10-13
+
+- **Hinweis für Anwender je Werkzeug** (Anwenderwunsch, z. B. „braucht sehr viel Arbeitsspeicher“): im Export je
+  Werkzeug über „ℹ Hinweis“ eintragen (gelb „⚠ Hinweis“, wenn gesetzt) oder im Skriptkopf
+  `// MSTools-Hinweis: …` (hat Vorrang). Der Hinweis reist im Paket mit und steht beim Anwender
+  - im Update-Angebot und in „Von GitHub übernehmen“,
+  - im Tooltip der Kachel,
+  - vor dem Start in einem kleinen Fenster („Starten“ / „Abbrechen“, „nicht mehr anzeigen“ – erscheint wieder,
+    wenn sich der Text ändert).
+- Anders als „Was hat sich geändert?“ (gilt für einen Upload) bleibt der Hinweis beim Werkzeug, bis er entfernt wird.
+
 ## v1.44.2 — 2026-10-13
 
 - **Export: „wer hat schon was“** (Anwenderwunsch: versehentlich zu viel angehakt?): Vor dem Export für einen Kunden

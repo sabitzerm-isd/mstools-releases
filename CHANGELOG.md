@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.44.2 — 2026-10-13
+
+- **Export: „wer hat schon was“** (Anwenderwunsch: versehentlich zu viel angehakt?): Vor dem Export für einen Kunden
+  mit Lizenz zeigt MSTools, was sich an seiner Freigabe ändert – **Neu dazu**, **Wird entzogen**, **Hat er schon** –
+  und fragt nach. Mit „Nein“ zurück zur Auswahl.
+- **„↺ Änderungen verwerfen“** unter der Kundenliste setzt die Häkchen des Kunden auf den Stand beim Öffnen des
+  Exports zurück und speichert ihn.
+- **Alte tools.json-Sicherungen aufräumen** (Anwenderwunsch): Beim Start bleiben die 10 neuesten
+  `tools.json.bak-<Zeit>` liegen, ältere wandern in `tools.json-sicherungen-archiv-JJJJ-MM.zip` im Konfigordner (erst
+  nach geprüfter Aufnahme entfernt). Benannte Sicherungen bleiben. Sie entstehen durch Ausroll-Skripte anderer Werkzeuge.
+- GitHub-Hinweis im Export: Kunde ohne Kürzel zeigt „bekommt beim ersten Hochladen ein Kürzel“ statt eines Platzhalters.
+
 ## v1.44.1 — 2026-10-13
 
 - **Export: welche Kunden bekommen das Werkzeug?** (Anwenderwunsch) Jede Werkzeugzeile zeigt eine Marke

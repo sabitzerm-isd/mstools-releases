@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.44.0 — 2026-10-13
+
+**Datensparsamkeit** (Anwenderwunsch: so wenig Kundendaten wie möglich veröffentlichen, DSGVO ohne Graubereich):
+
+- **Pakete ohne Kundendaten**: Eine Paketdatei enthält nur noch das Paket-Kürzel des Kunden – keinen Namen, keine
+  HiCAD-Lizenznummer, keine Werkzeugliste (bisher stand der Kunde vollständig im Paket).
+- **Kürzel statt Kundennummer auf GitHub**: Jeder Kunde bekommt im Lizenzregister ein zufälliges Kürzel (z. B.
+  `k3f9a1c07e`). Release-Name, Dateinamen und `pakete.json` nennen nur das Kürzel. Welches Kürzel zu welchem Kunden
+  gehört, steht nur im Register am Rechner (und in der OneDrive-Sicherung). Der Kunde findet sein Kürzel über seine
+  Lizenznummer in der Freigabeliste.
+- **Freigabeliste Format 3**: Lizenznummern stehen nur als langsamer Schlüssel (PBKDF2-SHA256, 100 000 Runden, Salz)
+  drin – die kurzen Nummern lassen sich nicht mehr in Sekunden durchprobieren. Beim Anwender kostet das einmal ca. 0,3 s,
+  das Ergebnis wird am Rechner gemerkt. Ältere MSTools-Versionen erkennen Format 3 nicht und sehen keine Werkzeuge
+  mehr – Update auf 1.44.0 nötig.
+- **Warnung beim Hochladen**: Steht ein Kundenname oder eine Kundennummer im Änderungstext oder in einem Werkzeugtitel,
+  fragt der Export nach, bevor es öffentlich auf GitHub geht.
+- **Lizenzanfrage**: nur die HiCAD-Lizenznummer ist nötig; Kundennummer und Firma sind freiwillig, Rechnername und
+  Ansprechpartner entfallen.
+
 ## v1.43.0 — 2026-10-13
 
 - **Ohne Freigabe keine Werkzeuge – streng** (Anwenderwunsch: „das ist das Wichtigste“): Eine HiCAD-Lizenz, die nicht

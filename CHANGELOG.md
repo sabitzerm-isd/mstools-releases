@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.37.1 — 2026-10-13
+
+- **Sprechblase „Neu: Testszene laden“ entfernt** (Anwenderwunsch: störte mehr, als sie half). Der Knopf „Testszene laden“
+  und sein Tooltip bleiben unverändert.
+
 ## v1.37.0 — 2026-10-13
 
 - **Befehle nur mit offener Konstruktion samt Hauptbaugruppe** (Anwenderwunsch): ist keine Konstruktion geöffnet

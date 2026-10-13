@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.37.0 — 2026-10-13
+
+- **Befehle nur mit offener Konstruktion samt Hauptbaugruppe** (Anwenderwunsch): ist keine Konstruktion geöffnet
+  oder hat sie keine Hauptbaugruppe, sind alle Befehle grau und starten nicht – in der Seitenleiste (alle Ansichten),
+  im Werkzeugkasten und im HiCAD-Menü. Ein Band unter dem Suchfeld und der Tooltip nennen den Grund („Keine
+  Konstruktion geöffnet“ bzw. „Die Konstruktion hat keine Hauptbaugruppe“, 5 Sprachen). Der Knopf „Testszene laden“
+  bleibt bedienbar, er öffnet ja gerade eine Konstruktion.
+- MSTools prüft jede Sekunde (`ActiveScene`, `Scene.MainAssembly`) und vor jedem Start noch einmal. Ist der
+  HiCAD-Zustand nicht lesbar, bleibt alles bedienbar. Jeder Wechsel steht im MSTools-Protokoll („HiCAD-Zustand: …“).
+
 ## v1.36.1 — 2026-10-13
 
 - **Tooltips erscheinen später** (Anwenderwunsch: beim Suchen verdeckten sie die Befehle): erst nach 1 Sekunde

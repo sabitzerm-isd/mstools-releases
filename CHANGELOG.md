@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.42.0 — 2026-10-13
+
+- **Export neu geordnet** (Anwenderwunsch: Kunden und Lizenzen im Export verwalten): links die Kundenliste mit Suche,
+  „Intern (ohne Kunde)“ oben, je Kunde Nummer, Lizenz und Stand der Freigabe; darunter „+ Neuer Kunde …“,
+  „Lizenzanfrage einfügen“ und die Angaben zum gewählten Kunden. Rechts der Werkzeugbaum über die volle Höhe,
+  Ziel und GitHub kompakt darunter.
+- **Auswahl = Freigabe**: Beim Wählen eines Kunden sind seine freigegebenen Werkzeuge angehakt und markiert
+  („freigegeben“). Der Export setzt die Freigabe genau auf die angehakten Werkzeuge; was abgehakt wurde, wird nach
+  Rückfrage (mit Liste) entzogen. ISD-intern-Lizenzen bleiben unberührt, gesperrte werden wieder freigegeben.
+- Neue Kunden aus dem Export landen in Kundenliste und Lizenzregister (Kundennummer Pflicht) und damit auch in der
+  OneDrive-Datensicherung.
+
 ## v1.41.0 — 2026-10-13
 
 - **Datensicherung der Admin-Daten** (Anwenderwunsch: alles muss eine Neuinstallation des Rechners überstehen):

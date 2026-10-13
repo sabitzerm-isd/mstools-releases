@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.43.0 — 2026-10-13
+
+- **Ohne Freigabe keine Werkzeuge – streng** (Anwenderwunsch: „das ist das Wichtigste“): Eine HiCAD-Lizenz, die nicht
+  im Lizenzregister freigegeben ist, sieht und lädt keine Werkzeuge mehr – auch dann, wenn noch keine Freigabeliste
+  veröffentlicht oder geladen ist (bisher: dann alles). Ausnahmen: 5212 (ISD intern) und der Admin.
+- **Lizenznummer am Rechner gemerkt**: Bei Netzlizenzen kann die Abfrage dauern. MSTools baut beim Start mit der zuletzt
+  gelesenen Nummer auf (`hicad-seriennummer.txt` im Konfigordner) und prüft danach die echte; weicht sie ab, wird sofort
+  nachgezogen. Die Dauer der Abfrage steht im Protokoll.
+- **Export: Auswahl wird je Kunde gespeichert** (Anwenderwunsch: Häkchen war nach Kundenwechsel weg): beim Anhaken
+  (nach kurzer Pause), beim Kundenwechsel und beim Schließen – in der Kundenliste und, mit Lizenznummer, im
+  Lizenzregister. Grüne Zeile „✓ Auswahl gespeichert“.
+- Besser zu sehen: angehakte Werkzeuge fett, je Gruppe „(2 von 18)“, Marken **freigegeben** / **+ dazu** /
+  **– wird entzogen** gegenüber dem Stand beim Öffnen, Schalter „Nur angehakte zeigen“.
+- Lizenznummer eines Kunden ändern: „Bearbeiten …“ (seit 1.42.1); eine neu eingetragene Nummer übernimmt die gemerkte Auswahl.
+- Die Lizenzliste geht beim Hochladen mit, sobald sich eine Freigabe seit dem Öffnen des Exports geändert hat.
+
 ## v1.42.2 — 2026-10-13
 
 - **Alle Fenster in der Taskleiste** (Anwenderwunsch: Dialoge verschwinden hinter HiCAD und sind dann nicht mehr zu

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.45.1 — 2026-10-13
+
+- **Export: Gruppen ein-/ausklappen wird gemerkt** (Anwenderwunsch): jede Gruppe und Untergruppe klappt über ihr
+  Dreieck, dazu „▾ Aufklappen“ / „▸ Zuklappen“ für alle. Der letzte Zustand bleibt beim nächsten Export erhalten
+  (`settings.exportZu`). Seitenleiste und Toolbox merken ihn wie bisher.
+
 ## v1.45.0 — 2026-10-13
 
 - **Hinweis für Anwender je Werkzeug** (Anwenderwunsch, z. B. „braucht sehr viel Arbeitsspeicher“): im Export je

@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.41.0 — 2026-10-13
+
+- **Datensicherung der Admin-Daten** (Anwenderwunsch: alles muss eine Neuinstallation des Rechners überstehen):
+  Werkzeugliste, Lizenzregister, Kundenliste und Testszenen-Listen gehen automatisch in den Firmen-OneDrive
+  (`OneDrive\MSTools-Sicherung`: `aktuell\` plus ein Stand je Tag, 60 Tage, die letzten 10 bleiben immer) – beim
+  HiCAD-Start als Admin, nach „Lizenzen verwalten“, nach dem Export und nach den Einstellungen; nur bei Änderung.
+- Einstellungen → Admin → **Datensicherung**: Ordner wählen, „Jetzt sichern“, „Wiederherstellen …“ (Stand wählen, die
+  jetzigen Dateien bleiben als „…vor-wiederherstellung-…“ daneben), „Ordner öffnen“.
+- **Neuinstallation erkannt**: wird auf einem Rechner ohne Lizenzregister das Admin-Passwort eingegeben und liegt in der
+  Sicherung eines, bietet MSTools an, alles zurückzuholen.
+- Der private Signierschlüssel wird bewusst nicht mitgesichert; liegt er auf C:, warnt die Admin-Karte.
+
 ## v1.40.1 — 2026-10-13
 
 - **„Ansicht als → Testnummer eingeben …“** (Admin): beliebige HiCAD-Lizenz- oder Kundennummer vorführen. Steht sie im

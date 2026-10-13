@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.38.0 — 2026-10-13
+
+- **Werkzeuge je Kunde freigeben** (Anwenderwunsch): ein Kunde sieht nur die Werkzeuge bzw. Holzbau-Anschlüsse, die
+  für seine HiCAD-Lizenz freigegeben sind – nicht freigegebene sind ausgeblendet (Seitenleiste, Werkzeugkasten,
+  HiCAD-Menü, „Von GitHub übernehmen“, Update-Meldung). ISD intern (5212 und im Register angehakte Lizenzen) sieht alles,
+  der Entwicklermodus ebenfalls. Die Lizenznummer liest MSTools selbst aus HiCAD.
+- **So entsteht die Freigabe**: der Kunde schickt seine Lizenznummer (Einstellungen → HiCAD-Lizenz → Per E-Mail senden),
+  sie wird im Export beim Kunden als „HiCAD-Lizenznummer“ eingetragen. Der Export gibt die exportierten Werkzeuge für
+  diese Lizenz frei und veröffentlicht die Freigabeliste im selben Commit wie die Pakete. Kunden mit Freigabe bekommen
+  zusätzlich die internen Pakete (z. B. Holzbau) angeboten – gefiltert auf ihre Anschlüsse.
+- **Lizenzen verwalten**: neue Spalten „ISD intern“ und „Werkzeuge“ (Auswahl nach Gruppen mit Suche, „alle, auch
+  künftige“); Status „Werkzeuge noch nicht veröffentlicht“.
+- `lizenzen.json` Format 2 (`intern`, `werkzeuge` je Fingerabdruck) – ältere MSTools lesen sie weiter wie Format 1.
+  Ohne Abschnitt `werkzeuge` sieht jeder alles wie bisher. Keine Namen, keine Klartext-Nummern.
+- Kunde ohne freigegebene Werkzeuge: Hinweis mit seiner Lizenznummer und dem Weg „Per E-Mail senden“ (5 Sprachen).
+- Wichtig: Sichtbarkeit, kein Kopierschutz – die Skripte liegen lesbar im custom-Ordner, die Pakete sind öffentlich.
+
 ## v1.37.1 — 2026-10-13
 
 - **Sprechblase „Neu: Testszene laden“ entfernt** (Anwenderwunsch: störte mehr, als sie half). Der Knopf „Testszene laden“

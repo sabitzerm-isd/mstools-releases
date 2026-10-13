@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.40.1 — 2026-10-13
+
+- **„Ansicht als → Testnummer eingeben …“** (Admin): beliebige HiCAD-Lizenz- oder Kundennummer vorführen. Steht sie im
+  Lizenzregister, zeigt MSTools genau die Freigabe dieses Kunden (auch unveröffentlicht); eine unbekannte Nummer zeigt, was ein
+  noch nicht freigegebener Kunde sieht; 5212 = ISD intern. Die letzte Nummer bleibt bis zum Neustart vorbelegt.
+- In der Vorschau trägt der Hinweis „keine Werkzeuge“ jetzt „[Vorschau]“ – er betrifft nicht die eigene Lizenz.
+
 ## v1.40.0 — 2026-10-13
 
 - **„Lizenzen verwalten“ aufgeräumt** (Anwenderwunsch: übersichtlich und einfach zu erweitern):

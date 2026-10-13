@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.36.1 — 2026-10-13
+
+- **Tooltips erscheinen später** (Anwenderwunsch: beim Suchen verdeckten sie die Befehle): erst nach 1 Sekunde
+  Stillstand statt 0,2–0,35 s, und beim Weiterfahren über die nächsten Befehle nicht mehr sofort (WPF zeigte nach dem
+  ersten Tooltip alle weiteren ohne Wartezeit). Seitenleiste in allen Ansichten und Werkzeugkasten.
+- **Suchfeld**: „Suchen …“ verschwindet, sobald man hineinklickt – vorher stand der Cursor mitten im Platzhalter.
+- **HiCAD 2027 SP1** (`C:\HiCAD\HiCAD_3201`) ist drittes Ausrollziel; nutzt dieselbe Werkzeugliste wie 2026 und 2027.
+
 ## v1.36.0 — 2026-10-12
 
 - **Pakete von GitHub zurückziehen** (Entwicklermodus, Anwenderwunsch): in „Von GitHub übernehmen“ die Pakete anhaken

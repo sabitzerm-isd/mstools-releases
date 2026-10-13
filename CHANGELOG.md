@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.39.0 — 2026-10-13
+
+- **Stufen statt Entwicklermodus-Schalter** (Anwenderentscheid): ein MSTools für alle Kunden, die HiCAD-Lizenz bzw. das
+  Admin-Passwort bestimmt, was sichtbar ist.
+  - **Admin** (Passwort): alles – Export, Lizenzen und Werkzeugfreigaben, Versionen/GitHub-Stand, Sprachfahne.
+  - **ISD intern** (5212 oder im Register angehakt): alle Werkzeuge, dazu eigene Werkzeuge pflegen (Werkzeugkasten
+    Hinzufügen/Bearbeiten/Löschen, Verschieben per Ziehen, Import aus Datei, Konfig-/Protokollordner, Pfade).
+  - **Kunde**: nur seine freigegebenen Werkzeuge; starten, suchen, Testszenen, Updates, „Von GitHub übernehmen“, Lizenz.
+  - **Ohne Lizenz** (nicht lesbar oder nichts freigegeben): keine Werkzeuge, Hinweis in der Seitenleiste, Lizenzmeldung
+    mit „Per E-Mail senden“ bei **jedem** HiCAD-Start, bis die Freigabe da ist.
+- **„Ansicht als …“** (Auge ▾ in der Werkzeugleiste, nur Admin): ISD intern, ohne Lizenz oder ein Kunde aus dem
+  Lizenzregister vorführen – auch noch nicht veröffentlichte Freigaben. Blaues Band „Vorschau: …“ mit „Zurück zu
+  Admin“; gilt bis zum Neustart.
+- **Einstellungen als Registerkarten** (Darstellung, Update, HiCAD-Lizenz, Pfade, Admin) statt einer langen Liste; je Stufe
+  nur die passenden Karten. „Entwicklermodus“ heißt jetzt „Admin-Bereich (Passwort)“.
+- Neu: eine nicht lesbare HiCAD-Lizenz gibt keine Werkzeuge mehr frei (bisher: alle).
+
 ## v1.38.0 — 2026-10-13
 
 - **Werkzeuge je Kunde freigeben** (Anwenderwunsch): ein Kunde sieht nur die Werkzeuge bzw. Holzbau-Anschlüsse, die

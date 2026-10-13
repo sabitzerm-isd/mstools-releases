@@ -86,92 +86,12 @@
     {
       "kunde": "intern",
       "erstellt": "2026-10-11T18:02:26",
-      "datei": "MSTools_intern_Pfosten_auf_Rohdecke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Pfosten_auf_Rohdecke_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassadenkonsole",
-      "titel": "Pfosten auf Rohdecke",
-      "version": "2026.10.01.1506"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:02:26",
-      "datei": "MSTools_intern_Fusspunkt_Tuerpfosten.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Fusspunkt_Tuerpfosten_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-ta03",
-      "titel": "Fußpunkt Türpfosten",
-      "version": "2026.10.09.1159"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:02:26",
-      "datei": "MSTools_intern_Pfosten_auf_Aufkantung.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Pfosten_auf_Aufkantung_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-fp04",
-      "titel": "Pfosten auf Aufkantung",
-      "version": "2026.10.09.1147"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:02:26",
-      "datei": "MSTools_intern_Pfosten_auf_Holzdecke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Pfosten_auf_Holzdecke_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-zv15",
-      "titel": "Pfosten auf Holzdecke",
-      "version": "2026.10.09.1348"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:02:26",
-      "datei": "MSTools_intern_Haengender_Fusspunkt.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Haengender_Fusspunkt_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-zv13",
-      "titel": "Hängender Fußpunkt",
-      "version": "2026.10.09.1432"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:02:26",
       "datei": "MSTools_intern_Rasteraufteilung.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Rasteraufteilung_20261011-180308.mstools",
       "tools": 1,
       "werkzeug": "rasteraufteilung",
       "titel": "Rasteraufteilung",
       "version": "2026.10.02.1007"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:03:00",
-      "datei": "MSTools_intern_Kopfriegel_starr.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Kopfriegel_starr_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-ko01",
-      "titel": "Kopfriegel starr",
-      "version": "2026.10.09.1142"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:03:00",
-      "datei": "MSTools_intern_Kopf_mit_Gleitlager.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Kopf_mit_Gleitlager_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-ko02",
-      "titel": "Kopf mit Gleitlager",
-      "version": "2026.10.09.1233"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-11T18:03:00",
-      "datei": "MSTools_intern_Zwischen_Decken_gestellt.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Zwischen_Decken_gestellt_20261011-180308.mstools",
-      "tools": 1,
-      "werkzeug": "msfassade-de08",
-      "titel": "Zwischen Decken gestellt",
-      "version": "2026.10.09.1348"
     },
     {
       "kunde": "intern",
@@ -296,6 +216,96 @@
         "msholz-ib56",
         "msholz-da35"
       ]
+    }
+  ],
+  "zurueckgezogen": [
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:02:26",
+      "datei": "MSTools_intern_Pfosten_auf_Rohdecke.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassadenkonsole",
+      "titel": "Pfosten auf Rohdecke",
+      "version": "2026.10.01.1506",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:02:26",
+      "datei": "MSTools_intern_Fusspunkt_Tuerpfosten.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-ta03",
+      "titel": "Fußpunkt Türpfosten",
+      "version": "2026.10.09.1159",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:02:26",
+      "datei": "MSTools_intern_Pfosten_auf_Aufkantung.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-fp04",
+      "titel": "Pfosten auf Aufkantung",
+      "version": "2026.10.09.1147",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:02:26",
+      "datei": "MSTools_intern_Pfosten_auf_Holzdecke.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-zv15",
+      "titel": "Pfosten auf Holzdecke",
+      "version": "2026.10.09.1348",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:02:26",
+      "datei": "MSTools_intern_Haengender_Fusspunkt.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-zv13",
+      "titel": "Hängender Fußpunkt",
+      "version": "2026.10.09.1432",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:03:00",
+      "datei": "MSTools_intern_Kopfriegel_starr.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-ko01",
+      "titel": "Kopfriegel starr",
+      "version": "2026.10.09.1142",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:03:00",
+      "datei": "MSTools_intern_Kopf_mit_Gleitlager.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-ko02",
+      "titel": "Kopf mit Gleitlager",
+      "version": "2026.10.09.1233",
+      "entfernt": "2026-10-13T11:50:39"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-11T18:03:00",
+      "datei": "MSTools_intern_Zwischen_Decken_gestellt.mstools",
+      "url": null,
+      "tools": 1,
+      "werkzeug": "msfassade-de08",
+      "titel": "Zwischen Decken gestellt",
+      "version": "2026.10.09.1348",
+      "entfernt": "2026-10-13T11:50:39"
     }
   ]
 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.44.1 — 2026-10-13
+
+- **Export: welche Kunden bekommen das Werkzeug?** (Anwenderwunsch) Jede Werkzeugzeile zeigt eine Marke
+  „👥 Kundenname“ bzw. „👥 3 Kunden“; der Tooltip listet alle Kunden mit Freigabe (Lizenzregister, ohne ISD intern;
+  Kunden mit „alle Werkzeuge“ stehen bei jedem Werkzeug). Ändert sich eine Auswahl, wird die Marke sofort neu berechnet.
+- **„In diesem Ordner ablegen“ ist standardmäßig aus** (Anwenderwunsch): Pakete gehen nur auf GitHub, außer der Haken
+  wird bewusst gesetzt.
+
 ## v1.44.0 — 2026-10-13
 
 **Datensparsamkeit** (Anwenderwunsch: so wenig Kundendaten wie möglich veröffentlichen, DSGVO ohne Graubereich):

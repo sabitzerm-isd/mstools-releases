@@ -22,16 +22,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-02T10:45:52",
-      "datei": "MSTools_intern_Gehrung_Schweissverzug.mstools",
-      "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/5cbc5dd73fd6954ed81645ee182c26e3aeeffb88\/pakete\/intern\/MSTools_intern_Gehrung_Schweissverzug.mstools",
-      "tools": 1,
-      "werkzeug": "msgehrung",
-      "titel": "Gehrung Schweißverzug",
-      "version": "0.2.8"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-02T22:14:40",
       "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
       "url": "https:\/\/raw.githubusercontent.com\/sabitzerm-isd\/mstools-releases\/5cbc5dd73fd6954ed81645ee182c26e3aeeffb88\/pakete\/intern\/MSTools_intern_Formrohrende_schliessen.mstools",
@@ -306,6 +296,16 @@
       "werkzeug": "mspunktwolke-aufmass",
       "titel": "Aufmaß aus Punktwolke",
       "version": "0.2.97"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-14T23:01:54",
+      "datei": "MSTools_intern_Gehrung_Schweissverzug.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gehrung_Schweissverzug_20261014-230154.mstools",
+      "tools": 1,
+      "werkzeug": "msgehrung",
+      "titel": "Gehrung Schweißverzug",
+      "version": "2026.10.14.2226"
     }
   ],
   "zurueckgezogen": [

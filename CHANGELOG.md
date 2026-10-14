@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.47.0 — 2026-10-14
+
+- **Eigenes Icon** (Anwenderwunsch): In „Tool hinzufügen / Bearbeiten“ neben der Icon-Suche „+ Eigenes Icon …“ – ein
+  beliebiges Bild (PNG, JPG, BMP, GIF, ICO) wird quadratisch eingepasst (transparenter Rand), in 16, 32 und 256 px als
+  `eigen-<name>-*.png` im Icon-Ordner abgelegt und gleich ausgewählt. Es geht mit dem Werkzeug ins Paket und bleibt bei
+  MSTools-Updates erhalten. Die Kategorie „Eigene Icons“ steht in der Auswahl ganz oben.
+
 ## v1.46.0 — 2026-10-14
 
 - **Testzeitraum je Werkzeug und Kunde** (Anwenderwunsch, z. B. 1 Monat): im Export je Werkzeugzeile „⏱ Test“ →

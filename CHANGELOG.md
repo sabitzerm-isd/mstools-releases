@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.48.1 — 2026-10-14
+
+- **Export startet im Vollbild** (Anwenderwunsch); „Wiederherstellen“ verkleinert auf die bisherige Fenstergröße.
+
 ## v1.48.0 — 2026-10-14
 
 - **Hilfe direkt in MSTools** (Anwenderwunsch: keine HTML-Seite für Kunden, getrennt nach Kunde / ISD intern / Admin):

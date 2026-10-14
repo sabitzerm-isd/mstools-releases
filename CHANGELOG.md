@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.48.0 — 2026-10-14
+
+- **Hilfe direkt in MSTools** (Anwenderwunsch: keine HTML-Seite für Kunden, getrennt nach Kunde / ISD intern / Admin):
+  Der Hilfe-Knopf öffnet ein eigenes Fenster – Suche oben, Abschnitte links, Inhalt rechts, Knöpfe mit ihrem Symbol.
+  - **Kunde** (auch ohne Lizenz): nur Standardknöpfe – Starten, Suchen, Werkzeugleiste, Updates, Testversionen, Lizenz,
+    Einstellungen, Probleme.
+  - **ISD intern**: zusätzlich Werkzeuge hinzufügen/bearbeiten, eigenes Icon, Importieren, MSTools-Block, Ordner.
+  - **Admin**: alles, dazu Export, Lizenzen verwalten, Ansicht als, Datensicherung; Umschalter „Hilfe ansehen als“ und
+    „Ausführliche Anleitung (Browser)“.
+  - Mit „Ansicht als …“ zeigt auch die Hilfe die gewählte Stufe.
+
 ## v1.47.0 — 2026-10-14
 
 - **Eigenes Icon** (Anwenderwunsch): In „Tool hinzufügen / Bearbeiten“ neben der Icon-Suche „+ Eigenes Icon …“ – ein

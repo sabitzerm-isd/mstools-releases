@@ -209,17 +209,6 @@
     {
       "kunde": "intern",
       "erstellt": "2026-10-14T12:14:48",
-      "datei": "MSTools_intern_Treppe.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Treppe_20261014-121449.mstools",
-      "tools": 1,
-      "werkzeug": "mstreppe",
-      "titel": "Treppe",
-      "version": "0.1.87",
-      "kommentar": "Neu: Holm mit Pratzen. Industrietreppe mit Podest\/Wendelung. Fuß- und Kopfplatten an Holmen und U\/UPE-Wangen. Stufennummern in der Vorschau."
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-14T12:14:48",
       "datei": "MSTools_intern_Ebene_erkennen.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Ebene_erkennen_20261014-121449.mstools",
       "tools": 1,
@@ -296,6 +285,17 @@
       "werkzeug": "mspunktwolke-aufmass",
       "titel": "Aufmaß aus Punktwolke",
       "version": "0.2.93"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-14T21:40:51",
+      "datei": "MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Treppe_20261014-214052.mstools",
+      "tools": 1,
+      "werkzeug": "mstreppe",
+      "titel": "Treppe",
+      "version": "0.1.89",
+      "kommentar": "Neu: Holme über „Einrückung vom Stufenrand“ legen (Stufenaußenkante bis Holmaußenkante). Zackenholm um rechteckige Ecke mit Luft unter der Stufe."
     }
   ],
   "zurueckgezogen": [

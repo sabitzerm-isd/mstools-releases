@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.46.0 — 2026-10-14
+
+- **Testzeitraum je Werkzeug und Kunde** (Anwenderwunsch, z. B. 1 Monat): im Export je Werkzeugzeile „⏱ Test“ →
+  14 Tage / 1 Monat / 3 Monate, verlängern um 1 Monat oder dauerhaft freigeben. Mit „Neu angehakte nur zum Test“
+  bekommt jedes neu angehakte Werkzeug den Zeitraum (Standard 1 Monat). Gespeichert im Lizenzregister, veröffentlicht
+  in der Freigabeliste (Abschnitt `test`, ohne Klartext-Nummern).
+- Beim Kunden: Tooltip „⏱ Testversion bis …“, 7 Tage vor Ende und nach Ablauf eine Meldung beim Start; nach dem letzten
+  Testtag ist das Werkzeug nicht mehr sichtbar. Schutz gegen zurückgestellte Uhr: gilt das späteste aus Systemdatum,
+  Ausstellungsdatum der Liste und zuletzt gesehenem Datum.
+- **Testzeitraum nachträglich ändern** – auch für Werkzeuge, die schon auf GitHub liegen oder schon geladen wurden: er
+  steckt in der Freigabeliste, nicht im Paket. Neu im Export: **„⬆ Freigaben jetzt veröffentlichen“** lädt nur die
+  Freigabeliste hoch; wirksam beim nächsten HiCAD-Start des Kunden.
+- **Neue Werkzeuge und Updates melden**: zusätzlich zum Start prüft MSTools stündlich, solange HiCAD läuft. Die Meldung
+  trennt „Neu“ und „Update“, zeigt Testversionen mit Enddatum und meldet jedes Paket je Sitzung nur einmal.
+- Export: Knöpfe „▾ Auf“ / „▸ Zu“ kürzer, damit der Kundenname im Titel Platz hat.
+
 ## v1.45.1 — 2026-10-13
 
 - **Export: Gruppen ein-/ausklappen wird gemerkt** (Anwenderwunsch): jede Gruppe und Untergruppe klappt über ihr

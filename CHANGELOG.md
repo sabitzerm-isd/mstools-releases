@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.48.3 — 2026-10-16
+
+Rückmeldung eines Kollegen nach Neuinstallation: graue Kreuze statt Symbolen, Toolbox verschwindet hinter HiCAD.
+
+- **Symbole überstehen eine Neuinstallation**: Symbole aus Werkzeug-Paketen und eigene Symbole liegen jetzt im
+  Konfigordner (`icons`), nicht mehr nur im Plugin-Ordner, den eine Neuinstallation ersetzt. Beim Start sichert MSTools
+  vorhandene eigene Symbole einmal dorthin.
+- **Fehlende Symbole repariert MSTools selbst**: Fehlt einem installierten Werkzeug sein Symbol, holt MSTools es beim
+  Start aus dem Werkzeug-Paket auf GitHub (nur die Symbol-Dateien) und baut die Leiste neu auf.
+- **Fenster bleiben vor HiCAD**: MSTools-Fenster ohne eigenen Besitzer (z. B. die Toolbox) gehören jetzt dem
+  HiCAD-Hauptfenster. Bisher hing das am WPF-Hauptfenster, das in manchen HiCAD-Sitzungen fehlt oder schon geschlossen
+  ist – dann rutschte die Toolbox hinter HiCAD.
+
+## v1.48.2 — 2026-10-14
+
+- **Export: beim Öffnen ist kein Werkzeug angehakt** (Anwenderwunsch). Ein gewählter Kunde zeigt weiter seine Freigaben, die Startmeldung „geändert seit dem letzten Hochladen“ hakt weiter genau die geänderten an.
+
 ## v1.48.1 — 2026-10-14
 
 - **Export startet im Vollbild** (Anwenderwunsch); „Wiederherstellen“ verkleinert auf die bisherige Fenstergröße.

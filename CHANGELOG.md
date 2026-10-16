@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.49.0 — 2026-10-16
+
+Rückmeldung eines Kollegen mit HiCAD auf Italienisch: viele Werkzeug- und Gruppennamen blieben deutsch, keine Sprachumschaltung.
+
+- **Übersetzungen werden mitgeliefert**: Titel aller 160 Werkzeuge und alle Gruppennamen in Englisch, Französisch,
+  Italienisch und Polnisch stecken jetzt im Plugin (`uebersetzungen.json`) – sie wirken bei jedem Anwender, ohne dass
+  Pakete neu hochgeladen werden. Übersetzungen aus der eigenen Konfiguration bzw. dem Skriptkopf haben Vorrang.
+  Die ausführlichen Beschreibungen (Tooltip) sind vorerst nur bei 39 Werkzeugen übersetzt.
+- **Fahne für alle**: Die Sprachumschaltung in der Werkzeugleiste ist in jeder Stufe sichtbar, die gewählte Sprache wird
+  gemerkt. Neu: „Automatisch – wie HiCAD“.
+- **Neuere Version direkt am Werkzeug**: Liegt auf GitHub eine neuere Fassung, steht neben dem Werkzeug „⬆ Version“
+  (zusätzlich zur Meldung beim HiCAD-Start und stündlich).
+- Hilfe ergänzt (Fahne, Update-Marke).
+
 ## v1.48.3 — 2026-10-16
 
 Rückmeldung eines Kollegen nach Neuinstallation: graue Kreuze statt Symbolen, Toolbox verschwindet hinter HiCAD.

@@ -198,17 +198,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-14T21:40:51",
-      "datei": "MSTools_intern_Treppe.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Treppe_20261014-214052.mstools",
-      "tools": 1,
-      "werkzeug": "mstreppe",
-      "titel": "Treppe",
-      "version": "0.1.89",
-      "kommentar": "Neu: Holme über „Einrückung vom Stufenrand“ legen (Stufenaußenkante bis Holmaußenkante). Zackenholm um rechteckige Ecke mit Luft unter der Stufe."
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-14T23:01:54",
       "datei": "MSTools_intern_Gehrung_Schweissverzug.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gehrung_Schweissverzug_20261014-230154.mstools",
@@ -306,6 +295,28 @@
       "werkzeug": "mspunktwolke-aufmass",
       "titel": "Aufmaß aus Punktwolke",
       "version": "0.2.119"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-17T10:05:24",
+      "datei": "MSTools_intern_Treppe.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Treppe_20261017-100525.mstools",
+      "tools": 1,
+      "werkzeug": "mstreppe",
+      "titel": "Treppe",
+      "version": "0.1.95",
+      "kommentar": "Neu: Holme über „Einrückung vom Stufenrand“ legen (Stufenaußenkante bis Holmaußenkante). Zackenholm um rechteckige Ecke mit Luft unter der Stufe."
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-17T10:05:25",
+      "datei": "MSTools_intern_Standardtreppe.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Standardtreppe_20261017-100525.mstools",
+      "tools": 1,
+      "werkzeug": "msstandardtreppe",
+      "titel": "Standardtreppe",
+      "version": "0.1.119",
+      "kommentar": "Version 0.1.119"
     }
   ],
   "zurueckgezogen": [

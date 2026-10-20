@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.50.0 — 2026-10-20
+
+- **Export warnt vor älteren Fassungen** (Anwenderwunsch): Liegt auf GitHub schon eine neuere Version als in dieser
+  HiCAD-Installation, zeigt die Werkzeugzeile rot „⚠ GitHub neuer (0.1.95)“ statt „geändert“; der Tooltip nennt beide
+  Versionen. „Nur geänderte“ hakt solche Werkzeuge nicht an. Sind sie beim Hochladen angehakt, fragt MSTools:
+  trotzdem hochladen / diese abwählen und weitermachen / abbrechen.
+- **Werkzeuge suchen im Export**: Suchfeld über dem Baum (Titel oder Gruppe, mehrere Wörter); Gruppen mit Treffern
+  klappen während der Suche auf, ohne den gemerkten Zustand zu ändern.
+- **Symbole statt „Auf“/„Zu“**: dieselben Symbole wie in der Seitenleiste.
+
 ## v1.49.0 — 2026-10-16
 
 Rückmeldung eines Kollegen mit HiCAD auf Italienisch: viele Werkzeug- und Gruppennamen blieben deutsch, keine Sprachumschaltung.

@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.51.0 — 2026-10-20
+
+- **Fehler melden / Verbesserung vorschlagen per Rechtsklick** (Anwenderwunsch): In der Seitenleiste (alle Darstellungen)
+  und im Werkzeugkasten öffnet ein Rechtsklick auf ein Werkzeug ein kleines Menü. Der Dialog hat zwei Schaltflächen für
+  die Art, ein Textfeld, Name und Firma (werden gemerkt), „Bildschirmfoto von HiCAD mitsenden“ (vor dem Dialog
+  aufgenommen) und „Bilder anhängen …“ für eigene Screenshots.
+- „Senden“ baut ein Paket (Bericht mit Werkzeug, Version, Gruppe, Skript, MSTools-/HiCAD-Version, Sprache, Stufe, Lizenz;
+  Werkzeugdaten; Protokoll der letzten zwei Tage ohne Windows-Benutzernamen; Bilder) und öffnet eine fertige Mail an
+  msabitzer@isdgroup.at (Outlook/Thunderbird über Simple MAPI; sonst mailto + Paket im Explorer markiert).
+  Pakete liegen im Konfigordner unter `rueckmeldungen` („Paket ansehen“). Übernommen aus 947/61.
+- Hilfe ergänzt.
+
 ## v1.50.0 — 2026-10-20
 
 - **Export warnt vor älteren Fassungen** (Anwenderwunsch): Liegt auf GitHub schon eine neuere Version als in dieser

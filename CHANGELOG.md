@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.54.0 — 2026-10-21
+
+- **Export: Intern-Pakete sichtbar** (Anwenderwunsch – viele Werkzeuge gehen an intern UND an mehrere Kunden): Die Spalte
+  heißt jetzt „Intern · Kunden“. Liegt ein Werkzeug als Intern-Paket auf GitHub, steht dort „🏢 Intern 0.2.168“ (Tooltip:
+  Version und Zeitpunkt des Hochladens) – unabhängig davon, welcher Kunde links gewählt ist. Daneben wie bisher die
+  Kunden mit Freigabe; ihr Tooltip zeigt je Kunde, welche Version für ihn auf GitHub liegt bzw. „noch nicht auf GitHub“.
+
 ## v1.53.1 — 2026-10-21
 
 - **Kunden kommen jetzt an ihre Werkzeuge** (Befund bei einer Neuinstallation beim Kunden: leere Seitenleiste und leere

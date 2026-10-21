@@ -1,5 +1,29 @@
 # Changelog
 
+## v1.55.0 — 2026-10-21
+
+- **MSTools-Verwaltung als Modul – auch für den Tools Manager** (Anwenderwunsch: dieselbe Verwaltung im Admin-Tool, jede
+  Erweiterung sofort in beiden): Namensraum `MSTools.Verwaltung` mit fester Schnittstelle (Version 1):
+  `VerwaltungsModul.Erzeugen(kontext)` liefert die komplette Verwaltung als WPF-Element, dazu `KonfigOrdner`,
+  `KundeWaehlen` und `StandFuer` (Freigaben/Tests/veröffentlicht je Kunde für den Kundenreiter des Gastgebers).
+  Der Gastgeber gibt HiCAD-Installationen, Kunden (`IKundenQuelle`), Thema hell/dunkel, Sprache und Protokoll mit.
+  Läuft MSTools aus einer Schattenkopie, richten sich Konfigordner, HiCAD-Stamm und Symbole nach der Hauptinstallation
+  (höchste MSTools-Version). Ohne den in MSTools eingeschalteten Admin-Modus zeigt das Modul nur einen Hinweis.
+- **Werkzeuge je HiCAD-Version** (auch in HiCAD: Hilfe ▾ → „Werkzeuge je HiCAD-Version …“, nur Admin): Tabelle mit
+  jeder HiCAD-Installation, GitHub intern und GitHub für den gewählten Kunden; neueste Fassung ★, ältere ↓, fehlende rot,
+  GitHub neuer ↑. Suche, „Nur Abweichungen“.
+  - „Markierte hochladen ▾“: aus der jeweils neuesten Fassung oder aus einer bestimmten HiCAD-Version, immer als
+    Intern-Paket (bei einem Kunden wäre die Auswahl seine Freigabe).
+  - „In alle Versionen übernehmen“: neueste Fassung in ältere/fehlende Installationen kopieren, ersetzte Dateien bleiben
+    als `.bak`; gesperrte Dateien (laufendes HiCAD) werden gemeldet und übersprungen.
+  - „Export und Freigaben …“: der gewohnte Export-Dialog.
+- **Datensicherung umfasst jetzt die Symbole** (Konfigordner `icons`, eigene und Paket-Symbole) – auf einem neu
+  installierten Rechner holt „Wiederherstellen“ sie mit zurück.
+- Werkzeuge ohne Version im Skriptkopf: gleicher Inhalt gilt als gleich; bei anderem Inhalt entscheidet das Datum und
+  der Stand sagt das („älter (nach Datum) in …“).
+- Kunden des Gastgebers werden in die MSTools-Kundenliste gespiegelt (anlegen, Name und erste Lizenznummer
+  nachziehen, nie löschen) – der Export in HiCAD zeigt dieselben Kunden.
+
 ## v1.54.0 — 2026-10-21
 
 - **Export: Intern-Pakete sichtbar** (Anwenderwunsch – viele Werkzeuge gehen an intern UND an mehrere Kunden): Die Spalte

@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.53.0 — 2026-10-21
+
+- **Export in Spalten** (Anwenderwunsch, wie in Excel): Werkzeug · Version · Stand · Test · Kunden · Freigabe · Hinweis mit
+  Spaltenköpfen; die Spalten stehen auf allen Ebenen bündig. **Stand als Symbol**: ✔ aktuell, ▲ geändert (hochladen),
+  ✚ noch nie hochgeladen, ⚠ auf GitHub neuer. **Ganze Zeile eingefärbt**, wenn nicht aktuell (gelb geändert, rot GitHub
+  neuer, blau noch nie hochgeladen). Die Versionsspalte nennt bei Abweichung auch die Version auf GitHub.
+- **Testversionen im Blick**: MSTools merkt sich, wann ein Test angelegt wurde. Die Zeile zeigt „bis 19.11.2026 · noch
+  29 Tage“, abgelaufene Tests rot „abgelaufen 18.10.2026“; der Tooltip nennt Beginn, Ende, Dauer. Die Kundenliste zeigt
+  „2 im Test (1 abgelaufen)“, die Kundendetails alle Tests mit Zeitraum.
+
 ## v1.52.0 — 2026-10-21
 
 - **Werkzeuge reparieren** (Befund: in HiCAD 2027 SP1 fehlten 9 Werkzeugen die Dateien – alle HiCAD-Versionen teilen

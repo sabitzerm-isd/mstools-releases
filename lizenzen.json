@@ -1,6 +1,6 @@
 {
   "format": 3,
-  "ausgestellt": "2026-10-21T15:24:30",
+  "ausgestellt": "2026-10-21T17:19:38",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
@@ -19,7 +19,8 @@
       "mspunktwolke-stuetze",
       "mspunktwolke-treppe",
       "mspunktwolke-wand",
-      "mspunktwolke-zylinder"
+      "mspunktwolke-zylinder",
+      "mstabslot"
     ],
     "84cefe1a7ae1911ae296084bf51227571ae8ac08e490ad6d8bc33821d2dc755f": [
       "msgehrung"

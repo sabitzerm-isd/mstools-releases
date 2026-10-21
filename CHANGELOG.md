@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.56.0 — 2026-10-21
+
+- **Je Werkzeug einstellen und bei Kunden ändern** (Anwenderwunsch) – in der MSTools-Verwaltung (HiCAD: Hilfe ▾ →
+  „Werkzeuge je HiCAD-Version …“, Tools Manager: Reiter „MSTools“), Rechtsklick auf ein Werkzeug:
+  - **Freigaben dieses Werkzeugs …** (auch Doppelklick): alle Kunden mit Haken, Lizenznummer und Testzeitraum
+    (dauerhaft, 14 Tage, 1 Monat, 3 Monate, verlängern). Abhaken entzieht – auch bei „alle Werkzeuge“ (dann alle
+    übrigen). Gesperrte Lizenzen bleiben gesperrt, Kunden ohne Lizenznummer sind grau. Vor dem Entziehen eine Rückfrage.
+    „Speichern und veröffentlichen“ lädt nur die Freigabeliste hoch. Hinweis, wenn das Werkzeug noch nicht als
+    Intern-Paket auf GitHub liegt (dann finden Kunden es nicht).
+  - **Bearbeiten …** (Titel, Beschreibung, Gruppe, Symbol, Dateien – derselbe Dialog wie in der Toolbox) und
+    **Hinweis für Anwender …**.
+  - **Als Datei speichern …** / Knopf „Markierte als Datei speichern …“: Paketdateien (.mstools) in einen Ordner, ohne
+    GitHub, je Werkzeug aus der neuesten Fassung – für Kollegen ohne Git (Importieren ▾ → Aus Datei …).
+- Neue Spalte **Kunden** („3 Kunden“, Namen im Tooltip).
+
 ## v1.55.0 — 2026-10-21
 
 - **MSTools-Verwaltung als Modul – auch für den Tools Manager** (Anwenderwunsch: dieselbe Verwaltung im Admin-Tool, jede

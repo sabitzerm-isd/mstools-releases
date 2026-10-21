@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.53.1 — 2026-10-21
+
+- **Kunden kommen jetzt an ihre Werkzeuge** (Befund bei einer Neuinstallation beim Kunden: leere Seitenleiste und leere
+  Toolbox, kein Weg zu GitHub):
+  - Leerer Zustand in Seitenleiste und Toolbox: Knopf „Werkzeuge von GitHub holen …“ mit passendem Text (statt „Paket
+    importieren“, das Kunden nicht haben).
+  - Der Knopf (und „Importieren ▾ → Von GitHub …“ beim Kunden) prüft vorher die Lizenz neu – eine eben veröffentlichte
+    Freigabe gilt sofort, ohne HiCAD-Neustart.
+  - Beim Start lief der Werkzeug-Abgleich bei einer frischen Installation, bevor die Lizenzliste da war, und fand deshalb
+    nichts. Ändert die Lizenzprüfung die Freigabe, wird der Abgleich jetzt sofort nachgeholt – die Meldung „neue Werkzeuge
+    verfügbar“ kommt gleich beim ersten Start.
+
 ## v1.53.0 — 2026-10-21
 
 - **Export in Spalten** (Anwenderwunsch, wie in Excel): Werkzeug · Version · Stand · Test · Kunden · Freigabe · Hinweis mit

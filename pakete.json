@@ -447,6 +447,16 @@
       "werkzeug": "mspunktwolke-profil",
       "titel": "Stahlprofil aus Punktwolke",
       "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-21T17:20:21",
+      "datei": "MSTools_intern_Tab_and_Slot.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Tab_and_Slot_20261021-172021.mstools",
+      "tools": 1,
+      "werkzeug": "mstabslot",
+      "titel": "Tab and Slot",
+      "version": "0.1.6"
     }
   ],
   "zurueckgezogen": [

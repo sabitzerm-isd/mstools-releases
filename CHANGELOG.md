@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.52.0 — 2026-10-21
+
+- **Werkzeuge reparieren** (Befund: in HiCAD 2027 SP1 fehlten 9 Werkzeugen die Dateien – alle HiCAD-Versionen teilen
+  eine Werkzeugliste, aber jede hat ihren eigenen `custom`-Ordner): Beim Start meldet MSTools Werkzeuge ohne Dateien in
+  dieser HiCAD-Version. „Reparieren“ kopiert sie aus einer anderen HiCAD-Installation auf dem Rechner (neueste Fassung
+  nach Skriptkopf-Version), sonst über das Paket auf GitHub (mit Vorschau). Vorhandene Dateien, Protokoll-Ordner und
+  Sicherungen (*.bak) bleiben unberührt.
+- **Neue Standard-Darstellung: Baum mit Symbolbereich** (Anwenderwunsch) – für neue Installationen; bestehende
+  Installationen werden einmalig von der alten Vorgabe „Liste“ umgestellt (Kompakt und Nur Icons bleiben). Wer danach
+  wieder „Liste“ wählt, behält sie.
+
 ## v1.51.0 — 2026-10-20
 
 - **Fehler melden / Verbesserung vorschlagen per Rechtsklick** (Anwenderwunsch): In der Seitenleiste (alle Darstellungen)

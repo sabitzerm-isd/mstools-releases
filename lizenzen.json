@@ -1,18 +1,32 @@
 {
   "format": 3,
-  "ausgestellt": "2026-10-14T23:02:32",
+  "ausgestellt": "2026-10-21T15:24:30",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
+    "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a",
     "84cefe1a7ae1911ae296084bf51227571ae8ac08e490ad6d8bc33821d2dc755f"
   ],
   "intern": [],
   "werkzeuge": {
+    "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a": [
+      "mspunktwolke-aufmass",
+      "mspunktwolke-ebene",
+      "mspunktwolke-gewoelbe",
+      "mspunktwolke-kante",
+      "mspunktwolke-leitung",
+      "mspunktwolke-profil",
+      "mspunktwolke-stuetze",
+      "mspunktwolke-treppe",
+      "mspunktwolke-wand",
+      "mspunktwolke-zylinder"
+    ],
     "84cefe1a7ae1911ae296084bf51227571ae8ac08e490ad6d8bc33821d2dc755f": [
       "msgehrung"
     ]
   },
   "pakete": {
+    "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a": "k7033edd4f5",
     "84cefe1a7ae1911ae296084bf51227571ae8ac08e490ad6d8bc33821d2dc755f": "k7498f0affb"
   },
   "test": {}

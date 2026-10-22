@@ -197,16 +197,6 @@
       "kommentar": "Auswahlknoepfe und \"Gleich teilen\" mit den HiCAD-Symbolen (Punkt angeben, Alle gleich; Meldungen und Kontextmenues ebenso)"
     },
     {
-      "kunde": "k7498f0affb",
-      "erstellt": "2026-10-14T23:02:36",
-      "datei": "MSTools_k7498f0affb_Gehrung_Schweissverzug.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-k7498f0affb\/MSTools_k7498f0affb_Gehrung_Schweissverzug_20261014-230236.mstools",
-      "tools": 1,
-      "werkzeug": "msgehrung",
-      "titel": "Gehrung Schweißverzug",
-      "version": "2026.10.14.2226"
-    },
-    {
       "kunde": "intern",
       "erstellt": "2026-10-17T10:05:24",
       "datei": "MSTools_intern_Treppe.mstools",

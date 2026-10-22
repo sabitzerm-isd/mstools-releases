@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.57.1 — 2026-10-22
+
+- **Anwenderdateien bestimmen keine Version mehr** (Befund: „Gehrung Schweißverzug“ galt in HiCAD 2027 SP1 als
+  2026.10.14 und damit neuer, nur weil dort einstellungen.json jünger war – die DLLs waren eine Woche älter):
+  einstellungen.json/.xml, zuletzt.json, favoriten.json, dialog-layout.json, *_user.json und extract_dump_* zählen
+  nicht zur Datumsversion, kommen in kein Paket mehr (sie überschrieben sonst die Einstellungen beim Kunden) und werden
+  beim „In alle Versionen übernehmen“ nicht angetastet.
+- **Werkzeuge je HiCAD-Version vergleicht alle Dateien eines Werkzeugs**, nicht nur das Skript (Prüfsumme über Pfade und
+  Inhalte, Dateien über 8 MB nach Größe, zwischengespeichert). Abweichende DLLs bei gleichem Skript fallen jetzt auf.
+  Ohne Version im Skriptkopf steht die Datumsversion statt „vorhanden“.
+  - Je Rechner neu kompilierte Varianten-DLLs (`*.Variante.dll`, `*.Variante_<hash>.dll`) zählen nur nach Größe,
+    FMV-Laufzeitdateien (`fmv\HiCAD_3102\…`) gar nicht.
+  - Inhalt anders, Zeitstempel aber weniger als 2 Minuten auseinander: kein Raten mehr – „anders in … (gleiches Datum –
+    prüfen)“, Zelle mit ≠; „In alle Versionen übernehmen“ überschreibt dort nichts.
+
 ## v1.57.0 — 2026-10-22
 
 - **Ein Werkzeug, ein Paket** (Anwenderentscheid; Befund: „Gehrung Schweißverzug“ lag intern als 2026.10.02, beim Kunden

@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.57.0 — 2026-10-22
+
+- **Ein Werkzeug, ein Paket** (Anwenderentscheid; Befund: „Gehrung Schweißverzug“ lag intern als 2026.10.02, beim Kunden
+  als 2026.10.14 – 12 Werkzeuge lagen doppelt auf GitHub):
+  - Der Export lädt immer das eine (interne) Paket hoch. Ist links ein Kunde gewählt, ändert er dessen Freigabe und lädt
+    nur hoch, was intern fehlt oder älter ist (✚/▲); liegt alles aktuell, wird nur die Freigabeliste veröffentlicht.
+  - Jeder Kunde bekommt weiterhin nur, was für seine Lizenznummer freigegeben ist (seit 1.38.0 über die Lizenzliste, inkl.
+    Testzeitraum) – ohne eigenes Paket.
+  - „Stand“ vergleicht immer mit dem einen Paket; „GitHub neuer“ gilt gegen die neueste Fassung in allen Kanälen.
+  - Verwaltung: **„Kunden-Pakete zusammenführen …“** – entfernt Kunden-Pakete, deren Werkzeug intern gleich oder neuer
+    liegt (ohne Vermerk „zurückgezogen“), und öffnet für neuere erst den Export (intern).
+  - Ein Werkzeug, das intern weiter auf GitHub liegt, gilt beim Kunden nicht als „nicht mehr auf GitHub“.
+- **Von GitHub übernehmen:** ganze Zeile schwach grün (auf GitHub neu/neuer – übernehmen) bzw. schwach rot (auf GitHub
+  älter als installiert). Die Spalte „Kunde“ sieht nur noch der Admin; vorausgewählt wird auch aus dem internen Paket.
+
 ## v1.56.0 — 2026-10-21
 
 - **Je Werkzeug einstellen und bei Kunden ändern** (Anwenderwunsch) – in der MSTools-Verwaltung (HiCAD: Hilfe ▾ →

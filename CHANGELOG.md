@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.57.2 — 2026-10-23
+
+- **Von GitHub übernehmen: ältere Fassungen gesperrt** (Anwenderwunsch): Ist die installierte Fassung neuer als die
+  auf GitHub (Status „älter“, rote Zeile), lässt sich die Zeile nicht anhaken – auch nicht über „Alle“; der Tooltip am
+  Haken sagt warum. Beim Übernehmen wird zusätzlich noch einmal geprüft. Gleiche Fassung neu einspielen bleibt möglich.
+
 ## v1.57.1 — 2026-10-22
 
 - **Anwenderdateien bestimmen keine Version mehr** (Befund: „Gehrung Schweißverzug“ galt in HiCAD 2027 SP1 als

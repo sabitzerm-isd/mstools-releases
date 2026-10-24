@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.58.0 — 2026-10-24
+
+- **Favoriten** (Anwenderwunsch): Rechtsklick auf einen Befehl → „★ Zu Favoriten hinzufügen“ bzw. „☆ Aus Favoriten
+  entfernen“. Die Gruppe „★ Favoriten“ erscheint automatisch ganz oben (Seitenleiste in allen Darstellungen, Symbolbereich
+  und Toolbox) und verschwindet mit dem letzten Favoriten. Favoriten sind Verweise – der Befehl bleibt in seiner Gruppe,
+  Bearbeiten und Updates wirken auf beide. Reihenfolge per Ziehen innerhalb der Favoriten; ein Befehl, der auf die
+  Favoriten gezogen wird, kommt dazu. In der Toolbox nimmt „Löschen“ in den Favoriten nur den Favoriten weg.
+  Gespeichert je Anwender in den Einstellungen (gilt in allen HiCAD-Versionen).
+
 ## v1.57.2 — 2026-10-23
 
 - **Von GitHub übernehmen: ältere Fassungen gesperrt** (Anwenderwunsch): Ist die installierte Fassung neuer als die

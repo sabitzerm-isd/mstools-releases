@@ -220,116 +220,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:24",
-      "datei": "MSTools_intern_Ebene_erkennen.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Ebene_erkennen_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-ebene",
-      "titel": "Ebene erkennen",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:24",
-      "datei": "MSTools_intern_Zylinder_erkennen.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Zylinder_erkennen_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-zylinder",
-      "titel": "Zylinder erkennen",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:24",
-      "datei": "MSTools_intern_Wand_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Wand_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-wand",
-      "titel": "Wand aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:24",
-      "datei": "MSTools_intern_Rohrleitung_erkennen.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Rohrleitung_erkennen_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-leitung",
-      "titel": "Rohrleitung erkennen",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:24",
-      "datei": "MSTools_intern_Kante_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Kante_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-kante",
-      "titel": "Kante aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:25",
-      "datei": "MSTools_intern_Treppe_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Treppe_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-treppe",
-      "titel": "Treppe aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:25",
-      "datei": "MSTools_intern_Stuetze_Unterzug_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Stuetze_Unterzug_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-stuetze",
-      "titel": "Stütze\/Unterzug aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:25",
-      "datei": "MSTools_intern_Aufmass_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Aufmass_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-aufmass",
-      "titel": "Aufmaß aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:25",
-      "datei": "MSTools_intern_Gewoelbe_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gewoelbe_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-gewoelbe",
-      "titel": "Gewölbe aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T16:06:25",
-      "datei": "MSTools_intern_Stahlprofil_aus_Punktwolke.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Stahlprofil_aus_Punktwolke_20261021-160625.mstools",
-      "tools": 1,
-      "werkzeug": "mspunktwolke-profil",
-      "titel": "Stahlprofil aus Punktwolke",
-      "version": "0.2.170"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-10-21T20:11:15",
-      "datei": "MSTools_intern_Tab_and_Slot.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Tab_and_Slot_20261021-201115.mstools",
-      "tools": 1,
-      "werkzeug": "mstabslot",
-      "titel": "Tab and Slot",
-      "version": "0.1.8"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-10-22T13:51:13",
       "datei": "MSTools_intern_Gehrung_Schweissverzug.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gehrung_Schweissverzug_20261022-135113.mstools",
@@ -337,6 +227,116 @@
       "werkzeug": "msgehrung",
       "titel": "Gehrung Schweißverzug",
       "version": "2026.10.20.0839"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Tab_and_Slot.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Tab_and_Slot_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mstabslot",
+      "titel": "Tab and Slot",
+      "version": "0.1.11"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Ebene_erkennen.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Ebene_erkennen_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-ebene",
+      "titel": "Ebene erkennen",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Zylinder_erkennen.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Zylinder_erkennen_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-zylinder",
+      "titel": "Zylinder erkennen",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Wand_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Wand_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-wand",
+      "titel": "Wand aus Punktwolke",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Rohrleitung_erkennen.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Rohrleitung_erkennen_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-leitung",
+      "titel": "Rohrleitung erkennen",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Kante_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Kante_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-kante",
+      "titel": "Kante aus Punktwolke",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Treppe_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Treppe_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-treppe",
+      "titel": "Treppe aus Punktwolke",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Stuetze_Unterzug_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Stuetze_Unterzug_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-stuetze",
+      "titel": "Stütze\/Unterzug aus Punktwolke",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Aufmass_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Aufmass_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-aufmass",
+      "titel": "Aufmaß aus Punktwolke",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Gewoelbe_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gewoelbe_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-gewoelbe",
+      "titel": "Gewölbe aus Punktwolke",
+      "version": "0.2.170"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-10-27T08:07:14",
+      "datei": "MSTools_intern_Stahlprofil_aus_Punktwolke.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Stahlprofil_aus_Punktwolke_20261027-080714.mstools",
+      "tools": 1,
+      "werkzeug": "mspunktwolke-profil",
+      "titel": "Stahlprofil aus Punktwolke",
+      "version": "0.2.170"
     }
   ],
   "zurueckgezogen": [

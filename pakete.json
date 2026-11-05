@@ -230,16 +230,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-10-27T08:07:14",
-      "datei": "MSTools_intern_Tab_and_Slot.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Tab_and_Slot_20261027-080714.mstools",
-      "tools": 1,
-      "werkzeug": "mstabslot",
-      "titel": "Tab and Slot",
-      "version": "0.1.11"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-11-02T10:15:51",
       "datei": "MSTools_intern_Ebene_erkennen.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Ebene_erkennen_20261102-101552.mstools",
@@ -337,6 +327,16 @@
       "werkzeug": "mspunktwolke-profil",
       "titel": "Stahlprofil aus Punktwolke",
       "version": "0.2.180"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-05T10:27:14",
+      "datei": "MSTools_intern_Tab_and_Slot.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Tab_and_Slot_20261105-102715.mstools",
+      "tools": 1,
+      "werkzeug": "mstabslot",
+      "titel": "Tab and Slot",
+      "version": "0.1.13"
     }
   ],
   "zurueckgezogen": [

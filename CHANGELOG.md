@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.58.2 — 2026-11-05
+
+- **Behoben: Der Export setzte die Freigabe eines Kunden auf die hochzuladenden Pakete** (seit 1.57.0): Mit „Auf GitHub
+  veröffentlichen“ und ohne „In diesem Ordner ablegen“ galten nur die Werkzeuge mit ✚/▲ als freigegeben. Lagen alle
+  angehakten Werkzeuge schon aktuell auf GitHub, stand der Kunde danach bei „0 Werkzeuge“ und meldete „keine Werkzeuge
+  freigegeben“; bei einer Mischung verlor er still die aktuellen. Die Freigabe entspricht jetzt immer den Häkchen.
+  Eine zu Unrecht geleerte Freigabe wird beim erneuten Anhaken und Exportieren wieder richtig gesetzt.
+- Neue Prüfung `tests/e2e/export-freigabe.ps1`: fährt den echten Export in einem leeren Testordner.
+
 ## v1.58.1 — 2026-11-05
 
 - **Behoben: Beim Kunden blieb „Von GitHub übernehmen“ leer** (seit 1.57.0): Der Kopf meldete „10 Paket(e)“, die Liste war

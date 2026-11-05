@@ -337,6 +337,16 @@
       "werkzeug": "mstabslot",
       "titel": "Tab and Slot",
       "version": "0.1.15"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-05T22:08:16",
+      "datei": "MSTools_intern_Balkongelaender.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Balkongelaender_20261105-220817.mstools",
+      "tools": 1,
+      "werkzeug": "msgl-balkongelaender",
+      "titel": "Balkongeländer",
+      "version": "2026.11.05.2159"
     }
   ],
   "zurueckgezogen": [

@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.58.1 — 2026-11-05
+
+- **Behoben: Beim Kunden blieb „Von GitHub übernehmen“ leer** (seit 1.57.0): Der Kopf meldete „10 Paket(e)“, die Liste war
+  leer und „Ausgewählte übernehmen“ importierte nichts. Die Liste filterte beim Kunden noch nach seinem Kürzel, seit „ein
+  Werkzeug, ein Paket“ heißen die Pakete aber „intern“. Der Kundenfilter gilt jetzt nur noch für den Admin; beim Kunden ist
+  die Liste ohnehin auf seine Freigabe beschränkt.
+
 ## v1.58.0 — 2026-10-24
 
 - **Favoriten** (Anwenderwunsch): Rechtsklick auf einen Befehl → „★ Zu Favoriten hinzufügen“ bzw. „☆ Aus Favoriten

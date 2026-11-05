@@ -1,6 +1,6 @@
 {
   "format": 3,
-  "ausgestellt": "2026-11-05T10:27:14",
+  "ausgestellt": "2026-11-05T10:52:28",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
@@ -30,7 +30,16 @@
       "msgehrung"
     ],
     "be09023ede2b3b98e77c3d2d144eb3741ca914c39e9236af4090f08f55cee695": [
-      "mstabslot"
+      "mspunktwolke-aufmass",
+      "mspunktwolke-ebene",
+      "mspunktwolke-gewoelbe",
+      "mspunktwolke-kante",
+      "mspunktwolke-leitung",
+      "mspunktwolke-profil",
+      "mspunktwolke-stuetze",
+      "mspunktwolke-treppe",
+      "mspunktwolke-wand",
+      "mspunktwolke-zylinder"
     ]
   },
   "pakete": {

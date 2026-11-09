@@ -347,6 +347,17 @@
       "werkzeug": "mstabslot",
       "titel": "Tab and Slot",
       "version": "0.1.21"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-09T20:11:58",
+      "datei": "MSTools_intern_Materialbedarf_und_Optimierung.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Materialbedarf_und_Optimierung_20261109-201159.mstools",
+      "tools": 1,
+      "werkzeug": "msoptimierung",
+      "titel": "Materialbedarf und Optimierung",
+      "version": "0.1.147",
+      "kommentar": "Grundgeruest: leeres Fenster \"Materialbedarf und Optimierung\", Rechenkern optikern.exe im Paket"
     }
   ],
   "zurueckgezogen": [

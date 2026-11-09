@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.60.0 — 2026-11-10
+
+- **Tooltip neu** (Anwenderwunsch): ganz oben der Status als farbige Marke (α Alpha rot, β Beta blau, ✓ Freigegeben
+  grün), dann Titel und Kurztext, darunter **bis zu vier Vorschaubilder** mit Unterschrift – was kann das Werkzeug.
+  Ablage neben dem Skript in `vorschau\<Werkzeug-Id>\1 - Text.png` … `4 - Text.png`; die Bilder reisen im Paket mit
+  und zählen nicht zur Werkzeugversion. Aufnehmen per Rechtsklick → „Vorschaubilder“ → „Aktuelle HiCAD-Ansicht als
+  Bild aufnehmen“ (nur die Szene, ohne Menüband).
+- **Ein Klick startet auch oben im Baum** (Anwenderwunsch: Kunden klicken einmal und verstehen den Doppelklick nicht).
+  Ein Doppelklick startet den Befehl nur einmal.
+- **Nicht mehr aktuelle Werkzeuge**: die ganze Zeile ist hell rot hinterlegt, sobald auf GitHub eine neuere Fassung liegt.
+- Ausrollen: das Release-Repo wird flach geklont (bei schwachem Netz brach der volle Klon ab).
+
 ## v1.59.0 — 2026-11-09
 
 - **Status je Werkzeug: Alpha, Beta, Ausgeliefert** (Anwenderwunsch): ein kleines, unaufdringliches Zeichen vor der

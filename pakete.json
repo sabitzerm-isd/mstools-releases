@@ -358,6 +358,26 @@
       "titel": "Materialbedarf und Optimierung",
       "version": "0.1.147",
       "kommentar": "Grundgeruest: leeres Fenster \"Materialbedarf und Optimierung\", Rechenkern optikern.exe im Paket"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-09T20:13:19",
+      "datei": "MSTools_intern_Glas_als_DXF.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Glas_als_DXF_20261109-201319.mstools",
+      "tools": 1,
+      "werkzeug": "glas-als-dxf",
+      "titel": "Glas als DXF",
+      "version": "2026.10.01.1925"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-09T20:13:19",
+      "datei": "MSTools_intern_Bohrungsanalyse.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Bohrungsanalyse_20261109-201319.mstools",
+      "tools": 1,
+      "werkzeug": "bohrungsanalyse",
+      "titel": "Bohrungsanalyse",
+      "version": "2026.05.06.1653"
     }
   ],
   "zurueckgezogen": [

@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.59.0 — 2026-11-09
+
+- **Status je Werkzeug: Alpha, Beta, Ausgeliefert** (Anwenderwunsch): ein kleines, unaufdringliches Zeichen vor der
+  Version – rotes α = in Entwicklung, blaues β = im Test, ausgeliefert = kein Zeichen. Die Bedeutung steht im Tooltip
+  (auch in der Toolbox). Festlegen und ändern: im Export per Klick auf das Zeichen (neue Spalte „Status · Version“),
+  per Rechtsklick in der Seitenleiste („Status“), im Bearbeiten-Dialog oder im Skriptkopf mit
+  `// MSTools-Status: beta` (hat Vorrang). Der Status steht in der Paketliste auf GitHub – Kunden sehen eine Änderung
+  ohne Neuinstallation.
+- **Hilfe-Menü**: Das Fragezeichen öffnet jetzt das Menü (Anleitung ist der erste Punkt), jeder Eintrag hat ein Symbol.
+- **Auf-/Zuklappen-Symbole wie in HiCAD**: kleiner Baum mit Minus/Plus und schwarzem Pfeil.
+- Behoben: „Bearbeiten …“ verlor den Anwenderhinweis und die Paketfamilie eines Werkzeugs.
+
 ## v1.58.2 — 2026-11-05
 
 - **Behoben: Der Export setzte die Freigabe eines Kunden auf die hochzuladenden Pakete** (seit 1.57.0): Mit „Auf GitHub

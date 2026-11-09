@@ -8,7 +8,8 @@
       "tools": 1,
       "werkzeug": "schweissnaht",
       "titel": "Schweißnaht",
-      "version": "1.4"
+      "version": "1.4",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -18,7 +19,8 @@
       "tools": 1,
       "werkzeug": "pdfimport-start",
       "titel": "PdfImport Start",
-      "version": "0.3.158"
+      "version": "0.3.158",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -29,7 +31,8 @@
       "werkzeug": "msformrohrende",
       "titel": "Formrohrende schließen",
       "version": "0.1.6",
-      "kommentar": "Dialog und Meldungen in der HiCAD-Sprache (DE, EN, FR, IT, PL), Dialoggröße fest je Sprache, Schifterschnitt"
+      "kommentar": "Dialog und Meldungen in der HiCAD-Sprache (DE, EN, FR, IT, PL), Dialoggröße fest je Sprache, Schifterschnitt",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -39,7 +42,8 @@
       "tools": 1,
       "werkzeug": "msstuetzenstoss",
       "titel": "Stützenstoß",
-      "version": "0.1.36"
+      "version": "0.1.36",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -49,7 +53,8 @@
       "tools": 1,
       "werkzeug": "msmontagestoss",
       "titel": "Montagestoß",
-      "version": "0.1.37"
+      "version": "0.1.37",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -59,7 +64,8 @@
       "tools": 1,
       "werkzeug": "rasteraufteilung",
       "titel": "Rasteraufteilung",
-      "version": "2026.10.02.1007"
+      "version": "2026.10.02.1007",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -69,7 +75,8 @@
       "tools": 1,
       "werkzeug": "msfassade-ee12",
       "titel": "Absturzhöhe prüfen",
-      "version": "2026.10.09.1349"
+      "version": "2026.10.09.1349",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -183,7 +190,8 @@
         "msholz-st09",
         "msholz-ib56",
         "msholz-da35"
-      ]
+      ],
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -194,7 +202,8 @@
       "werkzeug": "msgittermast",
       "titel": "Gittermast",
       "version": "0.1.175",
-      "kommentar": "Auswahlknoepfe und \"Gleich teilen\" mit den HiCAD-Symbolen (Punkt angeben, Alle gleich; Meldungen und Kontextmenues ebenso)"
+      "kommentar": "Auswahlknoepfe und \"Gleich teilen\" mit den HiCAD-Symbolen (Punkt angeben, Alle gleich; Meldungen und Kontextmenues ebenso)",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -205,7 +214,8 @@
       "werkzeug": "mstreppe",
       "titel": "Treppe",
       "version": "0.1.95",
-      "kommentar": "Neu: Holme über „Einrückung vom Stufenrand“ legen (Stufenaußenkante bis Holmaußenkante). Zackenholm um rechteckige Ecke mit Luft unter der Stufe."
+      "kommentar": "Neu: Holme über „Einrückung vom Stufenrand“ legen (Stufenaußenkante bis Holmaußenkante). Zackenholm um rechteckige Ecke mit Luft unter der Stufe.",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -216,7 +226,8 @@
       "werkzeug": "msstandardtreppe",
       "titel": "Standardtreppe",
       "version": "0.1.125",
-      "kommentar": "Version 0.1.125"
+      "kommentar": "Version 0.1.125",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -226,7 +237,8 @@
       "tools": 1,
       "werkzeug": "msgehrung",
       "titel": "Gehrung Schweißverzug",
-      "version": "2026.10.20.0839"
+      "version": "2026.10.20.0839",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -236,7 +248,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-ebene",
       "titel": "Ebene erkennen",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -246,7 +259,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-zylinder",
       "titel": "Zylinder erkennen",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -256,7 +270,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-wand",
       "titel": "Wand aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -266,7 +281,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-leitung",
       "titel": "Rohrleitung erkennen",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -276,7 +292,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-kante",
       "titel": "Kante aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -286,7 +303,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-treppe",
       "titel": "Treppe aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -296,7 +314,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-stuetze",
       "titel": "Stütze\/Unterzug aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -306,7 +325,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-aufmass",
       "titel": "Aufmaß aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -316,7 +336,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-gewoelbe",
       "titel": "Gewölbe aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -326,7 +347,8 @@
       "tools": 1,
       "werkzeug": "mspunktwolke-profil",
       "titel": "Stahlprofil aus Punktwolke",
-      "version": "0.2.186"
+      "version": "0.2.186",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -336,7 +358,8 @@
       "tools": 1,
       "werkzeug": "msgl-balkongelaender",
       "titel": "Balkongeländer",
-      "version": "0.1.16"
+      "version": "0.1.16",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -346,7 +369,8 @@
       "tools": 1,
       "werkzeug": "mstabslot",
       "titel": "Tab and Slot",
-      "version": "0.1.21"
+      "version": "0.1.21",
+      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -357,7 +381,8 @@
       "werkzeug": "msoptimierung",
       "titel": "Materialbedarf und Optimierung",
       "version": "0.1.147",
-      "kommentar": "Grundgeruest: leeres Fenster \"Materialbedarf und Optimierung\", Rechenkern optikern.exe im Paket"
+      "kommentar": "Grundgeruest: leeres Fenster \"Materialbedarf und Optimierung\", Rechenkern optikern.exe im Paket",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -367,7 +392,8 @@
       "tools": 1,
       "werkzeug": "glas-als-dxf",
       "titel": "Glas als DXF",
-      "version": "2026.10.01.1925"
+      "version": "2026.10.01.1925",
+      "reife": "alpha"
     },
     {
       "kunde": "intern",
@@ -377,7 +403,8 @@
       "tools": 1,
       "werkzeug": "bohrungsanalyse",
       "titel": "Bohrungsanalyse",
-      "version": "2026.05.06.1653"
+      "version": "2026.05.06.1653",
+      "reife": "alpha"
     }
   ],
   "zurueckgezogen": [

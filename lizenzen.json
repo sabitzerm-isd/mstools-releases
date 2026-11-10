@@ -1,6 +1,6 @@
 {
   "format": 3,
-  "ausgestellt": "2026-11-10T07:38:28",
+  "ausgestellt": "2026-11-10T07:38:55",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
@@ -35,6 +35,7 @@
       "msgehrung"
     ],
     "be09023ede2b3b98e77c3d2d144eb3741ca914c39e9236af4090f08f55cee695": [
+      "ms-auflager",
       "ms-steckanschluss",
       "msformrohrende",
       "msgl-balkongelaender",

@@ -428,6 +428,17 @@
       "titel": "Steckanschluss",
       "version": "2026.11.10.0734",
       "reife": "fertig"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-10T07:38:55",
+      "datei": "MSTools_intern_Auflager.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Auflager_20261110-073855.mstools",
+      "tools": 1,
+      "werkzeug": "ms-auflager",
+      "titel": "Auflager",
+      "version": "2026.11.10.0734",
+      "reife": "fertig"
     }
   ],
   "zurueckgezogen": [

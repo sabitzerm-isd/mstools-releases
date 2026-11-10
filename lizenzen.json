@@ -1,6 +1,6 @@
 {
   "format": 3,
-  "ausgestellt": "2026-11-06T09:52:42",
+  "ausgestellt": "2026-11-10T07:10:54",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
@@ -30,6 +30,7 @@
       "msgehrung"
     ],
     "be09023ede2b3b98e77c3d2d144eb3741ca914c39e9236af4090f08f55cee695": [
+      "ms-steckanschluss",
       "msformrohrende",
       "msgl-balkongelaender",
       "mspunktwolke-aufmass",
@@ -42,7 +43,8 @@
       "mspunktwolke-treppe",
       "mspunktwolke-wand",
       "mspunktwolke-zylinder",
-      "mstabslot"
+      "mstabslot",
+      "pdfimport-start"
     ]
   },
   "pakete": {

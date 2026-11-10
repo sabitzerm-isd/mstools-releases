@@ -420,13 +420,13 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-11-10T07:10:54",
+      "erstellt": "2026-11-10T07:38:28",
       "datei": "MSTools_intern_Steckanschluss.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Steckanschluss_20261110-071054.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Steckanschluss_20261110-073828.mstools",
       "tools": 1,
       "werkzeug": "ms-steckanschluss",
       "titel": "Steckanschluss",
-      "version": "2026.11.10.0629",
+      "version": "2026.11.10.0734",
       "reife": "fertig"
     }
   ],

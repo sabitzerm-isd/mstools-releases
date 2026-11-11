@@ -1,9 +1,10 @@
 {
   "format": 3,
-  "ausgestellt": "2026-11-10T07:38:55",
+  "ausgestellt": "2026-11-11T11:52:23",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
+    "14649c1d97a4cd0ea5c1a70072b09e3b4a821a517917f272fbf0e769bb964ea3",
     "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a",
     "84cefe1a7ae1911ae296084bf51227571ae8ac08e490ad6d8bc33821d2dc755f",
     "be09023ede2b3b98e77c3d2d144eb3741ca914c39e9236af4090f08f55cee695",
@@ -13,6 +14,18 @@
     "d74af7d1c2dd9acd7153309f3f312749c9ea50138e0fb6c6f784721c3f325dcb"
   ],
   "werkzeuge": {
+    "14649c1d97a4cd0ea5c1a70072b09e3b4a821a517917f272fbf0e769bb964ea3": [
+      "mspunktwolke-aufmass",
+      "mspunktwolke-ebene",
+      "mspunktwolke-gewoelbe",
+      "mspunktwolke-kante",
+      "mspunktwolke-leitung",
+      "mspunktwolke-profil",
+      "mspunktwolke-stuetze",
+      "mspunktwolke-treppe",
+      "mspunktwolke-wand",
+      "mspunktwolke-zylinder"
+    ],
     "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a": [
       "ms-steckanschluss",
       "msformrohrende",
@@ -55,6 +68,7 @@
     ]
   },
   "pakete": {
+    "14649c1d97a4cd0ea5c1a70072b09e3b4a821a517917f272fbf0e769bb964ea3": "k10c329f98a",
     "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a": "k7033edd4f5",
     "84cefe1a7ae1911ae296084bf51227571ae8ac08e490ad6d8bc33821d2dc755f": "k7498f0affb",
     "be09023ede2b3b98e77c3d2d144eb3741ca914c39e9236af4090f08f55cee695": "k23f6d47d30"

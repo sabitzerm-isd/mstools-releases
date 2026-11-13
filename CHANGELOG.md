@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.64.0 — 2026-11-13
+
+- **Symbole im HiCAD-Stil, Teil 3 – Holzbau** (Relaunch): alle 100 Holzbau-Symbole neu gezeichnet. Holz im Holzton,
+  Stahl und Beton grau, die Verbindung bzw. Bearbeitung rot (Schlitzblech, Lasche, Knagge, Schnittlinie, Dübel).
+  Damit sind alle 187 Werkzeugsymbole im neuen Stil.
+
 ## v1.63.0 — 2026-11-13
 
 - **Symbole im HiCAD-Stil, Teil 2** (Relaunch): weitere 51 Werkzeugsymbole neu gezeichnet – Fassade (21), Kunden (10),

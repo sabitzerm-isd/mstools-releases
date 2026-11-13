@@ -439,6 +439,30 @@
       "titel": "Auflager",
       "version": "2026.11.10.0824",
       "reife": "fertig"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-13T09:12:23",
+      "datei": "MSTools_intern_Profil-Konfigurator.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Profil-Konfigurator_20261113-091224.mstools",
+      "tools": 1,
+      "werkzeug": "msprofil-konfigurator",
+      "titel": "Profil-Konfigurator",
+      "version": "0.2.164",
+      "kommentar": "Bearbeiten: Aenderungen ueber den Einbaudialog uebernehmen, keine Ueberschreiben-Frage mehr · Masse in der Grafik der Profilkombination: Ansichtsbreite und Hoehen · Einbau scheitert nicht mehr an langen Kombinationsnamen (Pfad zu lang) · Werkstoff \"Leichtmetall\" wird im Katalog gefunden · Kombinationen in der Uebersicht loeschen (mit Sicherung) · Knopf \"Profilkombination einbauen\" auffaellig · Dichtungen mit Fahne werden erkannt und richtig gedreht · Lange Meldungen im Einbaufenster als Tooltip · Rotes X in der Schrittliste entfernt einzelne Profile · Raico-Aussendichtung 011070 aus dem Katalog im Bestand, Vorschlag bei allen Raico-Systemen · Glaskante bei Raico laut Katalog (Glaseinstand), Beschriftung rechts breiter · Raico-Systeme fuer Stahl (S-I, FS-I), Holz (H-I, H-V), Brandschutz und Glasdach · Ankerregeln mit Wegweiser, Trefferzahl je Formbezug, Vorschlag und Anleitung · Profilattribute (auch Teilart) rechts aendern und im Bestand speichern · Knopf \"Leeren\" fuer die Profilkombination · Skizzen aus HiCAD uebernehmen repariert; Polygondichtungen richtig gedreht · Raico THERM+ A-I und A-V (auch Brandschutz) nach Katalog: Aussendichtung, Ausfuehrungen, Schrauben · Einteilige Innendichtung wird nicht mehr links und rechts doppelt gesetzt · Hersteller-Filter ueber dem System; Raico THERM+ A-I 50\/56 als System · Gewaehltes Teil zeigt alle Profilangaben und die Systemregeln · Zoom bleibt beim Aendern stehen, bis Einpassen geklickt wird · Raico-Innendichtung 50\/26 richtig gedreht · Profile liegen direkt in Innen \/ Mitte \/ Aussen, ohne eigene Baugruppe je Profil · Variante der eingebauten Profilkombination im Aendern-Fenster tauschen · Glas aussen buendig, Glasfalzverkleinerung wird angezeigt · Beim Oeffnen steht der letzte Stand da · Baugruppennamen: Artikelnummer und Teilart · Rueckfrage, bevor Teile aus der Zeichnung geloescht werden",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-13T09:12:23",
+      "datei": "MSTools_intern_Profil_einbauen.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Profil_einbauen_20261113-091224.mstools",
+      "tools": 1,
+      "werkzeug": "msprofil-einbauen",
+      "titel": "Profil einbauen",
+      "version": "0.2.164",
+      "kommentar": "Bearbeiten: Aenderungen ueber den Einbaudialog uebernehmen, keine Ueberschreiben-Frage mehr · Masse in der Grafik der Profilkombination: Ansichtsbreite und Hoehen · Einbau scheitert nicht mehr an langen Kombinationsnamen (Pfad zu lang) · Werkstoff \"Leichtmetall\" wird im Katalog gefunden · Kombinationen in der Uebersicht loeschen (mit Sicherung) · Knopf \"Profilkombination einbauen\" auffaellig · Dichtungen mit Fahne werden erkannt und richtig gedreht · Lange Meldungen im Einbaufenster als Tooltip · Rotes X in der Schrittliste entfernt einzelne Profile · Raico-Aussendichtung 011070 aus dem Katalog im Bestand, Vorschlag bei allen Raico-Systemen · Glaskante bei Raico laut Katalog (Glaseinstand), Beschriftung rechts breiter · Raico-Systeme fuer Stahl (S-I, FS-I), Holz (H-I, H-V), Brandschutz und Glasdach · Ankerregeln mit Wegweiser, Trefferzahl je Formbezug, Vorschlag und Anleitung · Profilattribute (auch Teilart) rechts aendern und im Bestand speichern · Knopf \"Leeren\" fuer die Profilkombination · Skizzen aus HiCAD uebernehmen repariert; Polygondichtungen richtig gedreht · Raico THERM+ A-I und A-V (auch Brandschutz) nach Katalog: Aussendichtung, Ausfuehrungen, Schrauben · Einteilige Innendichtung wird nicht mehr links und rechts doppelt gesetzt · Hersteller-Filter ueber dem System; Raico THERM+ A-I 50\/56 als System · Gewaehltes Teil zeigt alle Profilangaben und die Systemregeln · Zoom bleibt beim Aendern stehen, bis Einpassen geklickt wird · Raico-Innendichtung 50\/26 richtig gedreht · Profile liegen direkt in Innen \/ Mitte \/ Aussen, ohne eigene Baugruppe je Profil · Variante der eingebauten Profilkombination im Aendern-Fenster tauschen · Glas aussen buendig, Glasfalzverkleinerung wird angezeigt · Beim Oeffnen steht der letzte Stand da · Baugruppennamen: Artikelnummer und Teilart · Rueckfrage, bevor Teile aus der Zeichnung geloescht werden",
+      "reife": "alpha"
     }
   ],
   "zurueckgezogen": [

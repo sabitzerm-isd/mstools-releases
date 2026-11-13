@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.62.0 — 2026-11-13
+
+- **Symbole im HiCAD-Stil, Teil 1** (Relaunch): 35 Werkzeugsymbole neu gezeichnet – Stahlbau, Punktwolke und
+  Stückliste. Räumlich wie die Symbole der HiCAD-Seitenleisten: oben hell, links mittel, rechts dunkel, dünne dunkle
+  Kontur, weicher Schatten. Blau = vorhandene Teile, Rot = was das Werkzeug erzeugt oder bearbeitet, Grau = Umgebung.
+  Die neuen Symbole liegen im Plugin und haben Vorrang vor den Symbolen aus den Paketen – ein Werkzeug muss dafür
+  nicht neu installiert werden. Schweißnaht, Gartentor-Konfigurator, Schiebetor, Überdachung und Stückliste haben
+  jetzt ein eigenes Symbol statt eines allgemeinen aus der Bibliothek.
+- Quelle: `icons-source/gen_icons_3d.py` (ein Symbol = eine kurze Funktion aus Quadern, Rohren und Punkten).
+
 ## v1.61.0 — 2026-11-13
 
 - **Relaunch der Seitenleiste – näher an HiCAD** (Anwenderwunsch, Vorschlag B, Baumansicht): Gruppen wie in

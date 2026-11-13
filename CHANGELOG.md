@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.64.1 — 2026-11-13
+
+- **Suchfeld**: Der eingetippte Text war im schmalen Feld der Werkzeugleiste abgeschnitten. Beim Tippen weicht jetzt
+  die Lupe, der Text beginnt ganz links und nutzt das Feld bis zum Löschkreuz.
+- **Toolbox öffnen** steht jetzt auch im Zahnrad-Menü (zusammen mit „Neu laden“) – das Logo links in der Leiste
+  öffnet sie weiterhin, wurde aber nicht als Knopf erkannt. Die Einträge des Zahnrad-Menüs haben Symbole.
+
 ## v1.64.0 — 2026-11-13
 
 - **Symbole im HiCAD-Stil, Teil 3 – Holzbau** (Relaunch): alle 100 Holzbau-Symbole neu gezeichnet. Holz im Holzton,

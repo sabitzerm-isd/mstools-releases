@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.63.0 — 2026-11-13
+
+- **Symbole im HiCAD-Stil, Teil 2** (Relaunch): weitere 51 Werkzeugsymbole neu gezeichnet – Fassade (21), Kunden (10),
+  Demo (11), Daten (4), Pfosten Riegel (4) und Optimierung. Bei den Fassaden-Anschlüssen durchgehend: Pfosten blau,
+  Rohbau grau, Holz im Holzton, Glas hell, das Anschlussteil rot. Damit sind 86 der 187 Werkzeugsymbole umgestellt;
+  es fehlt noch der Holzbau.
+- „Rasteraufteilung“ hat ein eigenes Symbol statt eines allgemeinen aus der Bibliothek.
+
 ## v1.62.0 — 2026-11-13
 
 - **Symbole im HiCAD-Stil, Teil 1** (Relaunch): 35 Werkzeugsymbole neu gezeichnet – Stahlbau, Punktwolke und

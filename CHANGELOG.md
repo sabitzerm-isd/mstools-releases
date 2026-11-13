@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.61.0 — 2026-11-13
+
+- **Relaunch der Seitenleiste – näher an HiCAD** (Anwenderwunsch, Vorschlag B, Baumansicht): Gruppen wie in
+  „Bauwesen-Funktionen“ nur fett auf Weiß statt blauer Balken, Zähler dezent rechts, Auswahl hellblau. Das Suchfeld
+  sitzt in der Werkzeugleiste, das Logo links öffnet die Toolbox (der große Knopf unten entfällt). Der Größenregler
+  steht auf dem pfirsichfarbenen Band und nennt die Größe („Große Symbole“). Die Symbole unten sind HiCAD-Kacheln:
+  abgerundet, heller Blauverlauf mit Glanzkante, dunkler Rand, Überfahren im HiCAD-Orange – ab mittlerer Größe mit
+  dem Namen des Werkzeugs darunter.
+- Die Sprachwahl steht jetzt im Zahnrad-Menü („Sprache“), „Neu laden“ ebenfalls dort.
+
 ## v1.60.0 — 2026-11-10
 
 - **Tooltip neu** (Anwenderwunsch): ganz oben der Status als farbige Marke (α Alpha rot, β Beta blau, ✓ Freigegeben

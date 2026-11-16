@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.68.0 — 2026-11-16
+
+- **HiCAD-Versionen je Werkzeug:** Zu jedem Werkzeug lässt sich eintragen, für welche HiCAD-Version es gebaut wurde und in welchen Versionen es funktioniert (Bearbeiten-Dialog, Skriptkopf `// MSTools-HiCAD: 2026` und `// MSTools-LäuftIn: 2026, 2027`). Die Export-Liste zeigt das in einer eigenen Spalte „HiCAD“. „Funktioniert in“ wird beim Öffnen des Exports mit den Versionen vorbelegt, in denen das Werkzeug installiert ist – eigene Angaben bleiben. Der Katalog-Export verwendet diese Angabe.
+- **Gerätekennung als Ersatz der Lizenznummer:** Kann MSTools die HiCAD-Lizenznummer an einem Arbeitsplatz nicht lesen, gilt ersatzweise eine Kennung des Rechners („PC-“ und zehn Zeichen, aus der Windows-Gerätekennung abgeleitet, ohne Rückschluss auf den Rechner). Sie steht im Lizenzfenster und wird wie eine Lizenznummer gesendet und freigegeben.
+
 ## v1.67.0 — 2026-11-16
 
 - **Katalog-Export für das Consulting-Portal** (Admin, Zahnrad-Menü): schreibt die Werkzeuge als Datei

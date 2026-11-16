@@ -454,13 +454,13 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-11-16T13:17:43",
+      "erstellt": "2026-11-16T14:47:34",
       "datei": "MSTools_intern_Materialbedarf_und_Optimierung.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Materialbedarf_und_Optimierung_20261116-131744.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Materialbedarf_und_Optimierung_20261116-144735.mstools",
       "tools": 1,
       "werkzeug": "msoptimierung",
       "titel": "Materialbedarf und Optimierung",
-      "version": "0.1.204",
+      "version": "0.1.225",
       "kommentar": "Grundgeruest: leeres Fenster \"Materialbedarf und Optimierung\", Rechenkern optikern.exe im Paket",
       "reife": "alpha"
     }

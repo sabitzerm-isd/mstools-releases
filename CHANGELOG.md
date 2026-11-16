@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.74 — 2026-11-16
+
+- **Verwaltungsfenster startet im Vollbild und baut sofort auf:** Die HiCAD-Installationen werden einmal und im Hintergrund gelesen (bisher beim Öffnen viermal und im Fenster selbst), je Werkzeug nebeneinander. Das Fenster steht sofort, die Liste folgt nach wenigen Sekunden.
+- **HiCAD-Versionen ausblenden** (Knopf „HiCAD-Versionen ▾“): Ausgeblendete Versionen zählen nicht als Abweichung und werden beim „In alle Versionen übernehmen“ nicht angefasst. Vorgabe: alles vor HiCAD 2026 SP2 ist ausgeblendet. Die Auswahl wird gemerkt.
+- **Werkzeugliste als Ordnerbaum:** Statt der Spalte „Gruppe“ mit Pfaden zeigt die Liste Ordner und Unterordner zum Auf- und Zuklappen, je mit Zahl der Werkzeuge und Stand („3 mit Abweichung“). Beim Öffnen stehen nur die obersten Ordner da; „Alle Ordner auf“ / „Alle zu“; die Suche klappt alles auf. Eine markierte Ordnerzeile gilt für alle Werkzeuge darin (Hochladen, Speichern, Übernehmen).
+- **Ansprechpartner aus Outlook** (Registerkarte „Kunden“ → „Outlook-Kontakte übernehmen …“): liest die Outlook-Kontakte und trägt sie bei den passenden Kunden ein – Zuordnung über Firmenname (Rechtsform und Schreibweise egal), bei mehreren Treffern über PLZ oder Ort, danach über die E-Mail-Domain. Füllt nur leere Felder, überschreibt nichts, legt keine Kunden an; fehlende Anschrift und Webseite des Kunden kommen aus seinen Kontakten. Das Ergebnis wird erst gezeigt (mit den Firmen ohne passenden Kunden) und dann auf Wunsch gespeichert. Die Daten kommen nur in die verschlüsselte Kundendatenbank.
+- **Neue Felder:** je Ansprechpartner Anrede, Abteilung, Mobil, E-Mail 2, Fax, Kategorien, Notiz, Quelle; je Kunde Webseite und Bundesland. Die Suche findet auch diese Werte.
+- **Vom Export in die Kundenakte:** Knopf „Kundenakte öffnen …“ unter der Kundenliste des Export-Dialogs öffnet die Kundenverwaltung beim gewählten Kunden. In der Werkzeugliste der Verwaltung führt „Kunde im Kundenreiter öffnen“ zur Registerkarte „Kunden“.
+
 ## v1.73.0 — 2026-11-16
 
 - **Toolbox mit Ordnern und Unterordnern:** Statt einer langen Liste voller Pfade („Holzbau/Industriebau/Binder“) zeigt die Toolbox einen eingerückten Ordnerbaum. Beim Öffnen stehen nur die obersten Ordner da (Stahlbau, Fassade, Holzbau …), je mit der Zahl aller Werkzeuge darunter; Unterordner erscheinen beim Aufklappen. Die Suche klappt wie bisher alles Passende auf. Der Zustand der Zwischenordner gilt für die HiCAD-Sitzung, der der eigentlichen Gruppen wird wie bisher gespeichert.

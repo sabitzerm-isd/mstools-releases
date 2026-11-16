@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.71.0 — 2026-11-16
+
+- **Wiederherstellungsschlüssel für die Kundendatenbank:** Beim Anlegen zeigt MSTools einmal einen Schlüssel (8 Gruppen zu 4 Zeichen) zum Kopieren oder Speichern als Textdatei. Über „Kennwort vergessen?“ öffnet er die Datenbank und setzt ein neues Kennwort. Der Schlüssel wird nirgends gespeichert; über „Wiederherstellungsschlüssel …“ lässt sich jederzeit ein neuer erzeugen (der alte wird ungültig). Ein fest eingebautes Masterpasswort gibt es bewusst nicht – es stünde im Programm und würde die Datei für jeden öffnen.
+- Kennwort ändern lässt Daten und Wiederherstellungsschlüssel gültig. Eine Datenbank aus 1.69.0/1.70.0 wird weiter geöffnet und beim nächsten Speichern umgestellt; MSTools weist darauf hin, solange ihr der Wiederherstellungsschlüssel fehlt.
+
 ## v1.70.0 — 2026-11-16
 
 - **HiCAD-Versionen als Pflichtangabe:** Im Bearbeiten-Dialog gibt es je HiCAD-Jahr einen Haken (2026, 2027) und eine Auswahlliste „Mindestversion“ (31.0 / 31.1 / 31.2 für HiCAD 2026, 32.0 / 32.1 / 32.2 für HiCAD 2027). Ohne mindestens einen Haken lässt sich ein Werkzeug nicht speichern. HiCAD 2028 (33.x) ist vorbereitet und erscheint in der Auswahl, sobald MSTools in einem HiCAD 2028 läuft.

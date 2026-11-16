@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.70.0 — 2026-11-16
+
+- **HiCAD-Versionen als Pflichtangabe:** Im Bearbeiten-Dialog gibt es je HiCAD-Jahr einen Haken (2026, 2027) und eine Auswahlliste „Mindestversion“ (31.0 / 31.1 / 31.2 für HiCAD 2026, 32.0 / 32.1 / 32.2 für HiCAD 2027). Ohne mindestens einen Haken lässt sich ein Werkzeug nicht speichern. HiCAD 2028 (33.x) ist vorbereitet und erscheint in der Auswahl, sobald MSTools in einem HiCAD 2028 läuft.
+- **MSTools wertet das laufende HiCAD aus:** Ein Werkzeug, das im laufenden HiCAD keinen Haken hat oder dessen Mindestversion dort nicht erreicht ist, ist in Seitenleiste und Toolbox grau und startet nicht; Tooltip und Statuszeile nennen den Grund. Das gilt auch beim Start über das Menü. Ohne Angabe wird nichts gesperrt.
+- Skriptkopf: `// MSTools-MinHiCAD: 31.1`. Die Export-Liste zeigt die Mindestversion in der Spalte „HiCAD“ („2026 · 2027 · ab 31.1“).
+
 ## v1.69.0 — 2026-11-16
 
 - **Registerkarte „Kunden“** im Verwaltungsfenster: je Kunde Kundennummer, Name, Anschrift, beliebig viele Ansprechpartner, beliebig viele HiCAD-Lizenznummern und Gerätekennungen (je Arbeitsplatz, mit Datum der Anfrage und Bemerkung), HiCAD- und MSTools-Version beim Kunden, Wartung bis, Notiz. Suche über alle Angaben.

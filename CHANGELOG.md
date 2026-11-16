@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.73.0 — 2026-11-16
+
+- **Toolbox mit Ordnern und Unterordnern:** Statt einer langen Liste voller Pfade („Holzbau/Industriebau/Binder“) zeigt die Toolbox einen eingerückten Ordnerbaum. Beim Öffnen stehen nur die obersten Ordner da (Stahlbau, Fassade, Holzbau …), je mit der Zahl aller Werkzeuge darunter; Unterordner erscheinen beim Aufklappen. Die Suche klappt wie bisher alles Passende auf. Der Zustand der Zwischenordner gilt für die HiCAD-Sitzung, der der eigentlichen Gruppen wird wie bisher gespeichert.
+
 ## v1.72.0 — 2026-11-16
 
 - **Kundenliste aus Excel importieren** (Registerkarte „Kunden“ → „Excel-Liste importieren …“): übernimmt Kundennummer, Name, PLZ, Ort, zuständigen Vertrieb, Wartung seit/bis, Anmerkung, Anzahl Lizenzen und Version in die verschlüsselte Kundendatenbank – nur dorthin. Preise und Wartungsbeträge werden nicht übernommen. Zeilen in roter Schrift gelten als „kein Wartungskunde“. Ein erneuter Import gleicht über die Kundennummer ab; eigene Namen, Ansprechpartner, Lizenznummern und Notizen bleiben.

@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.72.0 — 2026-11-16
+
+- **Kundenliste aus Excel importieren** (Registerkarte „Kunden“ → „Excel-Liste importieren …“): übernimmt Kundennummer, Name, PLZ, Ort, zuständigen Vertrieb, Wartung seit/bis, Anmerkung, Anzahl Lizenzen und Version in die verschlüsselte Kundendatenbank – nur dorthin. Preise und Wartungsbeträge werden nicht übernommen. Zeilen in roter Schrift gelten als „kein Wartungskunde“. Ein erneuter Import gleicht über die Kundennummer ab; eigene Namen, Ansprechpartner, Lizenznummern und Notizen bleiben.
+- **Wartungskunde als Haken** je Kunde, dazu die Felder Vertrieb, Wartung seit und Anzahl Lizenzen. Die Suche findet jeden Wert, auch „keine Wartung“ und das Vertriebskürzel.
+- **Wer hat Werkzeuge?** Die Kundenliste zeigt je Kunde die Zahl der im Lizenzregister freigegebenen Werkzeuge und „keine Wartung“. Filter: Kunden mit Werkzeugen (Vorgabe beim Öffnen), alle, ohne Werkzeuge, Wartungskunden, keine Wartung, keine Wartung aber Werkzeuge. Hat ein Kunde ohne Wartung noch Werkzeuge, steht das rot im Formular.
+- Der Menüeintrag des Verwaltungsfensters heißt jetzt „Verwaltung: Werkzeuge und Kunden …“.
+
 ## v1.71.0 — 2026-11-16
 
 - **Wiederherstellungsschlüssel für die Kundendatenbank:** Beim Anlegen zeigt MSTools einmal einen Schlüssel (8 Gruppen zu 4 Zeichen) zum Kopieren oder Speichern als Textdatei. Über „Kennwort vergessen?“ öffnet er die Datenbank und setzt ein neues Kennwort. Der Schlüssel wird nirgends gespeichert; über „Wiederherstellungsschlüssel …“ lässt sich jederzeit ein neuer erzeugen (der alte wird ungültig). Ein fest eingebautes Masterpasswort gibt es bewusst nicht – es stünde im Programm und würde die Datei für jeden öffnen.

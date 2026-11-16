@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.67.0 — 2026-11-16
+
+- **Katalog-Export für das Consulting-Portal** (Admin, Zahnrad-Menü): schreibt die Werkzeuge als Datei
+  `{"loesungen": [...]}` wie der „Katalog-Export“ des HicadConsultingManager – je Werkzeug feste Kennung, Titel,
+  Kurzbeschreibung, Lösungsart, HiCAD-Versionen, Stichwörter, Mindestrolle und Beschreibung. In den Katalog gehen nur
+  Werkzeuge mit Status Beta oder Freigegeben, nichts aus „Kunden“ und „Demo“. Es wird nichts ins Netz gesendet.
+  Das Format ist aus dem Consulting Manager abgeleitet und noch nicht gegen das Portal geprüft.
+- **Export-Liste**: Jede Zeile zeigt das Symbol des Werkzeugs. Rechtsklick auf eine Zeile öffnet „Bearbeiten …“
+  (Titel, Beschreibung, Stichwörter, Symbol), „Status ändern …“ und „Hinweis für Anwender …“.
+
 ## v1.66.0 — 2026-11-16
 
 - **Kurzbeschreibung und Stichwörter je Werkzeug** (Anwenderwunsch): zwei neue Felder im Bearbeiten-Dialog der Toolbox

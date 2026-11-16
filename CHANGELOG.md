@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.69.0 — 2026-11-16
+
+- **Registerkarte „Kunden“** im Verwaltungsfenster: je Kunde Kundennummer, Name, Anschrift, beliebig viele Ansprechpartner, beliebig viele HiCAD-Lizenznummern und Gerätekennungen (je Arbeitsplatz, mit Datum der Anfrage und Bemerkung), HiCAD- und MSTools-Version beim Kunden, Wartung bis, Notiz. Suche über alle Angaben.
+- **Verschlüsselte Kundendatenbank:** Die Angaben liegen in einer Datei `kunden.mstdb` im Konfigordner, verschlüsselt mit AES-256 und gegen Veränderung gesichert. Geöffnet wird sie mit einem eigenen Kennwort (einmal je HiCAD-Sitzung); das Kennwort wird nirgends gespeichert. Die Datei geht mit in die Datensicherung. Ohne Kennwort sind die Daten nicht wiederherstellbar.
+- **Bestehendes bleibt unverändert:** Kundenliste des Exports und Lizenzregister werden nur gelesen. Beim Anlegen und über „Aus Bestand übernehmen“ kommen deren Kunden und Lizenznummern in die Datenbank.
+- **Neuer Kunde / neue Lizenz:** Das Feld nimmt ausdrücklich auch die Gerätekennung „PC-…“ aus der Lizenzanfrage.
+
 ## v1.68.0 — 2026-11-16
 
 - **HiCAD-Versionen je Werkzeug:** Zu jedem Werkzeug lässt sich eintragen, für welche HiCAD-Version es gebaut wurde und in welchen Versionen es funktioniert (Bearbeiten-Dialog, Skriptkopf `// MSTools-HiCAD: 2026` und `// MSTools-LäuftIn: 2026, 2027`). Die Export-Liste zeigt das in einer eigenen Spalte „HiCAD“. „Funktioniert in“ wird beim Öffnen des Exports mit den Versionen vorbelegt, in denen das Werkzeug installiert ist – eigene Angaben bleiben. Der Katalog-Export verwendet diese Angabe.

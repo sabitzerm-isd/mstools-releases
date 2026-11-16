@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.65.0 — 2026-11-16
+
+- **Suche in allen Sprachen** (Anwenderwunsch): Das Suchfeld der Seitenleiste und der Toolbox sucht Titel und
+  Beschreibung jetzt in Deutsch, Englisch, Französisch, Italienisch und Polnisch gleichzeitig – unabhängig von der
+  eingestellten Sprache. „treppe“, „stairs“, „escalier“, „scala“ und „schody“ finden dasselbe Werkzeug.
+- Akzente und Umlaute müssen nicht getippt werden („gelander“ und „gelaender“ finden „Geländer“, „pret“ findet
+  „prêt“). Mehrere Wörter grenzen ein: jedes muss vorkommen, auch aus verschiedenen Sprachen.
+
+- Behoben: Das Fenster „Werkzeuge je HiCAD-Version“ verschwand hinter HiCAD, sobald man in HiCAD klickte. Es bleibt
+  jetzt vor dem HiCAD-Fenster.
+
 ## v1.64.1 — 2026-11-13
 
 - **Suchfeld**: Der eingetippte Text war im schmalen Feld der Werkzeugleiste abgeschnitten. Beim Tippen weicht jetzt

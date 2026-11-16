@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.66.0 — 2026-11-16
+
+- **Kurzbeschreibung und Stichwörter je Werkzeug** (Anwenderwunsch): zwei neue Felder im Bearbeiten-Dialog der Toolbox
+  (oder im Skriptkopf: `// MSTools-Kurz: …`, `// MSTools-Stichwörter: a, b, c`). Die Kurzbeschreibung steht im Tooltip
+  direkt unter dem Titel, die Stichwörter darunter; die Suche findet ein Werkzeug auch über seine Stichwörter.
+- **Bild des Dialogs** vorbereitet: Liegt neben dem Skript `vorschau\<Werkzeug-Id>\dialog.png`, zeigt der Tooltip es
+  unter der Beschreibung. Es reist wie die Vorschaubilder im Paket mit.
+- **Sprache folgt HiCAD**: Eine in MSTools gewählte Sprache gilt nur noch, solange HiCAD dieselbe Sprache hat wie bei
+  der Wahl. Wird HiCAD umgestellt, folgt MSTools – im laufenden Betrieb und bei „Neu laden“. Fehlt ein Text in der
+  Sprache, steht er auf Deutsch.
+
 ## v1.65.0 — 2026-11-16
 
 - **Suche in allen Sprachen** (Anwenderwunsch): Das Suchfeld der Seitenleiste und der Toolbox sucht Titel und

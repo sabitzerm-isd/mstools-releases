@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.75 — 2026-11-16
+
+- **Tasten für HiCAD kommen mit MSTools mit:** Zwölf Tastenmakros (B Neue Baugruppe, E Bearbeitungsebene, J Zukaufteil, K Normteilkatalog, N Strukturbaugruppe, O Leerteil im ICN, Q Aktives Teil umschalten, S Neue Skizze, T Beschriftung, W Weltkoordinatensystem, X/Y Schnittansichten aktualisieren) sind im Plugin enthalten und kommen mit jedem Update mit. Dazu erkennt MSTools die Tasten von Werkzeugen mit `werkzeug.json` unter `custom\KI` (z. B. Struktur umhängen: 4 und 5).
+- **Tastenleiste unten links in der Seitenleiste:** je Taste ein Symbol und der Buchstabe. Bleibt die Maus etwa eine Sekunde darauf, fährt eine Karte mit Titel und Beschreibung ruhig von unten hoch – in der gewählten Sprache (Deutsch, Englisch, Französisch, Italienisch, Polnisch).
+- **„Tasten einrichten“ fragt, bevor etwas geschrieben wird:** Beim ersten Start und wenn ein Update neue Tasten bringt, wählt der Anwender, welche Tasten er übernimmt, und kann je Funktion eine eigene Taste eintragen (A–Z, 0–9). Schon belegte Tasten sind nicht vorgewählt; wer sie trotzdem nimmt, findet sein bisheriges Makro in `sys\MSTools-Tastensicherung` – gelöscht wird nichts. Ein inhaltsgleiches eigenes Makro bleibt unverändert. Der Dialog ist jederzeit über „…“ in der Tastenleiste erreichbar; Änderungen gelten nach dem Neustart von HiCAD.
+
 ## v1.74 — 2026-11-16
 
 - **Verwaltungsfenster startet im Vollbild und baut sofort auf:** Die HiCAD-Installationen werden einmal und im Hintergrund gelesen (bisher beim Öffnen viermal und im Fenster selbst), je Werkzeug nebeneinander. Das Fenster steht sofort, die Liste folgt nach wenigen Sekunden.

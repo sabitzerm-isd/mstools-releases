@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.82 — 2026-11-16
+
+- **Portal-Verbindung: klare Ursache statt Rohmeldung.** „Verbindung testen“ und der Upload sagen jetzt, woran es liegt: Benutzername unbekannt, Passwort falsch (Anwendungspasswort statt Anmeldekennwort), keine Berechtigung (Rolle), Endpunkt nicht gefunden, Anmeldung vom Server gefiltert oder keine Verbindung (mit der eigentlichen Ursache wie DNS, TLS oder Proxy). Dazu steht die geprüfte Adresse.
+- **Adresse wird bereinigt:** `https://` wird ergänzt; eingefügte Adressen mit `/wp-admin`, `/wp-login.php` oder `/wp-json` werden auf die Seite gekürzt.
+- **Vorbelegung aus dem HicadConsultingManager:** Adresse und Benutzer werden übernommen, wenn noch kein Zugang gespeichert ist (das Passwort nicht).
+- **Netz:** Der Proxy des Systems wird mit den Windows-Anmeldedaten genutzt; die TLS-Vorgabe von Windows bleibt erhalten (vorher nur TLS 1.2).
+
 ## v1.81 — 2026-11-16
 
 - **Direkt ins Consulting-Portal hochladen:** Im Portal-Export der Haken „Danach direkt ins Consulting-Portal hochladen“. Nach einer Rückfrage (welche Lösungen, welches Portal, welcher Benutzer) lädt MSTools im Hintergrund hoch: Verbindung und Anmeldung prüfen, Kartenbilder als WordPress-Medien hochladen und deren Adresse eintragen, dann die Lösungen an den Import des Portals schicken. Ein Fenster zeigt jeden Schritt und die vollständige Antwort des Portals; alles steht auch in `upload-protokoll.txt` im Exportordner, die gesendete Datei in `loesungen-upload.json`. Neue Lösungen entstehen als Entwurf.

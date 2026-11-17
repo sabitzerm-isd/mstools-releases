@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.79 — 2026-11-16
+
+- **Zahnrad und Hilfe als ein Knopf wie die Sichtbarkeit:** Symbol und kleiner Pfeil sind ein Knopf, ein Klick öffnet das Menü. Der erste Eintrag ist der Hauptbefehl und fett: beim Zahnrad „Einstellungen“, bei der Hilfe die Anleitung. „Toolbox öffnen“ und „Neu laden“ folgen darunter.
+
 ## v1.78 — 2026-11-16
 
 - **Tastenfenster bleibt offen, solange die Maus auf der Taste ist:** Es blitzte nur kurz auf, weil der Schatten des Fensters über der Taste lag und Windows die Maus dem Infofenster zuordnete. Das Infofenster lässt die Maus jetzt durch und schließt erst nach einer Viertelsekunde ohne Maus; kehrt die Maus beim Zugehen zurück, geht es ohne Neuaufbau wieder auf.

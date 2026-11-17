@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.81 — 2026-11-16
+
+- **Direkt ins Consulting-Portal hochladen:** Im Portal-Export der Haken „Danach direkt ins Consulting-Portal hochladen“. Nach einer Rückfrage (welche Lösungen, welches Portal, welcher Benutzer) lädt MSTools im Hintergrund hoch: Verbindung und Anmeldung prüfen, Kartenbilder als WordPress-Medien hochladen und deren Adresse eintragen, dann die Lösungen an den Import des Portals schicken. Ein Fenster zeigt jeden Schritt und die vollständige Antwort des Portals; alles steht auch in `upload-protokoll.txt` im Exportordner, die gesendete Datei in `loesungen-upload.json`. Neue Lösungen entstehen als Entwurf.
+- **Portal-Zugang** (Knopf „Portal-Zugang …“): Adresse (nur https), WordPress-Benutzer und Anwendungspasswort mit „Verbindung testen“. Das Passwort wird nie angezeigt und nur verschlüsselt für das eigene Windows-Konto gespeichert; „Zugang löschen“ entfernt es.
+
 ## v1.80 — 2026-11-16
 
 - **Portal-Export für das HiCAD-Consulting-Portal** (Zahnrad ▾ → „Portal-Export (Consulting-Portal) …“, nur Admin): Werkzeuge einzeln wählen (Suche, Kunden- und Demo-Gruppen stehen nicht zur Wahl), Zielordner wählen. Es entsteht ein Ordner `mstools-portal-<Datum>` mit

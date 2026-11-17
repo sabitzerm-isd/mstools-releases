@@ -487,6 +487,50 @@
       "version": "0.1.229",
       "kommentar": "Interne Korrektur: Bau der Stammdaten-Vorlage repariert",
       "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-17T19:29:16",
+      "datei": "MSTools_intern_Gartentor_bauen.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gartentor_bauen_20261117-192916.mstools",
+      "tools": 1,
+      "werkzeug": "gartentor-konfigurator",
+      "titel": "Gartentor bauen",
+      "version": "2026.08.05.1705",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-17T19:29:16",
+      "datei": "MSTools_intern_Gartentor_Konfigurator.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gartentor_Konfigurator_20261117-192916.mstools",
+      "tools": 1,
+      "werkzeug": "gartentor-konfigurator-2",
+      "titel": "Gartentor Konfigurator",
+      "version": "2026.08.05.1705",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-17T19:29:16",
+      "datei": "MSTools_intern_Schiebetor.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Schiebetor_20261117-192916.mstools",
+      "tools": 1,
+      "werkzeug": "schiebetor",
+      "titel": "Schiebetor",
+      "version": "2026.09.23.2200",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-17T19:29:16",
+      "datei": "MSTools_intern_Gittertuere_bauen.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gittertuere_bauen_20261117-192916.mstools",
+      "tools": 1,
+      "werkzeug": "gittertuere-konfigurator",
+      "titel": "Gittertüre bauen",
+      "version": "2026.10.19.1011",
+      "reife": "alpha"
     }
   ],
   "zurueckgezogen": [

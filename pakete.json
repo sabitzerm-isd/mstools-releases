@@ -463,6 +463,30 @@
       "version": "0.1.225",
       "kommentar": "Grundgeruest: leeres Fenster \"Materialbedarf und Optimierung\", Rechenkern optikern.exe im Paket",
       "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-17T09:09:38",
+      "datei": "MSTools_intern_STEP-Export.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_STEP-Export_20261117-090939.mstools",
+      "tools": 1,
+      "werkzeug": "msstepexport",
+      "titel": "STEP-Export",
+      "version": "0.1.1",
+      "kommentar": "Neu als MSTools-Werkzeug (Nachfolger der Seitenleiste HiCAD.Plugin.StepExport): Dialog mit Optionen und Positionsliste · Dateiname frei aus Bausteinen, Liste zeigt jeden Namen sofort, doppelte Namen orange · Echte HiCAD-Attribute ($BB, $01, $07 ...), Export im HiCAD-Hauptthread, vorhandene Dateien ueberschreiben\/nummerieren\/ueberspringen · Ausgabeordner mit Platzhaltern, CSV-Liste, Gesamt-STEP, Liste und HiCAD-Auswahl gekoppelt",
+      "reife": "beta"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-17T09:09:38",
+      "datei": "MSTools_intern_DWG-Export_Blaetter.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_DWG-Export_Blaetter_20261117-090939.mstools",
+      "tools": 1,
+      "werkzeug": "msdwgexport",
+      "titel": "DWG-Export Blätter",
+      "version": "0.1.3",
+      "kommentar": "Neu: alle Blaetter einer Konstruktion als DWG oder DXF ausgeben, Liste der Blaetter mit Haken und fertigem Dateinamen · Hinweise zu Massstab (Blattkoordinaten) und schattierten Ansichten vor dem Export; schattierte Ansichten wahlweise als Hidden-Line ausgeben · DWG\/DXF-Einstellungen (Version, Bemassung, Schraffur, Layer ...) ueber eine Kopie der Konfigurationsdatei · Blattvorschau zuschaltbar (beim Start aus) · PDF als drittes Format: je Blatt eine PDF ueber HiCADs Druckschnittstelle (Microsoft Print to PDF), Papierformat automatisch, 1:1 oder eingepasst · DWG, DXF und PDF zugleich waehlbar · HiCAD-Massstabsmeldung wird beim Export unterdrueckt, Hinweis steht in der Blattliste",
+      "reife": "beta"
     }
   ],
   "zurueckgezogen": [

@@ -478,14 +478,14 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-11-17T09:09:38",
+      "erstellt": "2026-11-17T09:38:48",
       "datei": "MSTools_intern_DWG-Export_Blaetter.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_DWG-Export_Blaetter_20261117-090939.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_DWG-Export_Blaetter_20261117-093848.mstools",
       "tools": 1,
       "werkzeug": "msdwgexport",
       "titel": "DWG-Export Blätter",
-      "version": "0.1.3",
-      "kommentar": "Neu: alle Blaetter einer Konstruktion als DWG oder DXF ausgeben, Liste der Blaetter mit Haken und fertigem Dateinamen · Hinweise zu Massstab (Blattkoordinaten) und schattierten Ansichten vor dem Export; schattierte Ansichten wahlweise als Hidden-Line ausgeben · DWG\/DXF-Einstellungen (Version, Bemassung, Schraffur, Layer ...) ueber eine Kopie der Konfigurationsdatei · Blattvorschau zuschaltbar (beim Start aus) · PDF als drittes Format: je Blatt eine PDF ueber HiCADs Druckschnittstelle (Microsoft Print to PDF), Papierformat automatisch, 1:1 oder eingepasst · DWG, DXF und PDF zugleich waehlbar · HiCAD-Massstabsmeldung wird beim Export unterdrueckt, Hinweis steht in der Blattliste",
+      "version": "0.1.9",
+      "kommentar": "Neu: alle Blaetter einer Konstruktion als DWG oder DXF ausgeben, Liste der Blaetter mit Haken und fertigem Dateinamen · Hinweise zu Massstab (Blattkoordinaten) und schattierten Ansichten vor dem Export; schattierte Ansichten wahlweise als Hidden-Line ausgeben · DWG\/DXF-Einstellungen (Version, Bemassung, Schraffur, Layer ...) ueber eine Kopie der Konfigurationsdatei · Blattvorschau zuschaltbar (beim Start aus) · PDF als drittes Format: je Blatt eine PDF ueber HiCADs Druckschnittstelle (Microsoft Print to PDF), Papierformat automatisch, 1:1 oder eingepasst · DWG, DXF und PDF zugleich waehlbar · HiCAD-Massstabsmeldung wird beim Export unterdrueckt, Hinweis steht in der Blattliste · DWG\/DXF-Einstellungen kommen jetzt aus den HiCAD-Favoriten (Export Einstellungen 2D-DXF\/DWG): Favorit waehlbar, einzelne Werte fuer den Lauf ueberschreibbar · Dialog in echter HiCAD-Optik (HiCADs eigene Knoepfe, Listen, Gruppen und Symbole), HiCAD-Symbol im Fenstertitel · Zielordner gross und markant ueber der Blattliste · Favoriten-Stern unten links wie in HiCAD: alle Einstellungen des Dialogs als Favorit speichern, laden und verwalten · Ordnerwahl: Windows-Ordnerdialog statt HiCAD-Dialog (blieb beim Kunden leer haengen)",
       "reife": "beta"
     }
   ],

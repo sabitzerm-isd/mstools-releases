@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.83 — 2026-11-16
+
+- **Portal-Upload nach dem echten Vertrag des Portals:** Die Endpunkte und das Format stammen jetzt aus der Hilfe des HicadConsultingManager 1.31 („Vertrag 2“). Vorher waren sie nur vermutet, deshalb kam „Endpunkt nicht gefunden“.
+  - **Anmeldung prüfen:** `GET hcs/v1/me` zeigt Name, Rollen, „darf importieren“, „darf veröffentlichen“ und die Upload-Grenze.
+  - **Übertragen:** je Lösung ein Aufruf `POST hcs/v1/solutions` mit `{"vertrag": 2, "loesungen": [ … ]}`.
+  - **„Plan im Portal“:** Trockenlauf mit `dry_run=1`. Das Portal prüft alles und legt nichts an; als Vorgabe eingeschaltet.
+  - **Lösungen veröffentlichen:** auf Wunsch, nur mit Veröffentlichungsrecht, sonst bleiben sie Entwurf.
+- **Exportformat wie der Manager:**
+  - **Hauptfelder** in der Projektsprache, weitere Sprachen in `titelSprachen`, `kurzbeschreibungSprachen`, `stichwoerterSprachen` und `projektbeschreibungSprachen`, dazu `sprachen` und `fallbackSprache`.
+  - **Bilder** als Base64 im Feld `medien`, das Kartenbild nennt deren `pfad`. Bilder, auf die die Projektbeschreibung verweist, gehen mit genau diesem Pfad mit.
+  - **Projektbeschreibung** aus den Dateien neben der Projektdatei (`Projektbeschreibung.de.md`, `ProjectDescription.en.md` …), der Leistungsumfang wird angehängt.
+  - **Anfragen:** `mailSales` und `mailTechnik` gehen als `anfrageSales` und `anfrageTechnik`.
+  - **Prüfbericht:** warnt, wenn die Bilder einer Lösung zusammen über 20 MB liegen.
+
 ## v1.82 — 2026-11-16
 
 - **Portal-Verbindung: klare Ursache statt Rohmeldung.** „Verbindung testen“ und der Upload sagen jetzt, woran es liegt: Benutzername unbekannt, Passwort falsch (Anwendungspasswort statt Anmeldekennwort), keine Berechtigung (Rolle), Endpunkt nicht gefunden, Anmeldung vom Server gefiltert oder keine Verbindung (mit der eigentlichen Ursache wie DNS, TLS oder Proxy). Dazu steht die geprüfte Adresse.

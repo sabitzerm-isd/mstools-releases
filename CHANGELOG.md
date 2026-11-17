@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.80 — 2026-11-16
+
+- **Portal-Export für das HiCAD-Consulting-Portal** (Zahnrad ▾ → „Portal-Export (Consulting-Portal) …“, nur Admin): Werkzeuge einzeln wählen (Suche, Kunden- und Demo-Gruppen stehen nicht zur Wahl), Zielordner wählen. Es entsteht ein Ordner `mstools-portal-<Datum>` mit
+  - `loesungen.json`: je Werkzeug feste Kennung, Titel und Kurzbeschreibung in allen Sprachen (`{"de":…,"en":…}`), Stichwörter, HiCAD-Versionen, Rolle, Version, `sprache`/`fallbackSprache`, `veroeffentlichung` und `kartenbild`,
+  - `medien\<werkzeug>\`: Kartenbild und weitere Vorschaubilder (nur png/jpg/jpeg/webp/gif bis 5 MB),
+  - `pruefbericht.txt`: was je Werkzeug fehlt (Übersetzung, Bild, Stichwörter, Versionen).
+- **Consulting-Projektdatei hat Vorrang:** Liegt im Werkzeugordner (oder unter `Info\`) eine `hicad-consulting-projekt.json` nach dem Consulting-Standard, übernimmt der Export deren Portal-Felder (Titel, Beschreibung, Stichwörter, Kartenbild, Leistungsumfang, Sichtbarkeit, Rolle, Preis …). Leere Werte (`""`) gehen als „bewusst geleert“ mit.
+- Das Format der Portal-Schnittstelle selbst ist noch nicht bestätigt; der Prüfbericht weist darauf hin.
+
 ## v1.79 — 2026-11-16
 
 - **Zahnrad und Hilfe als ein Knopf wie die Sichtbarkeit:** Symbol und kleiner Pfeil sind ein Knopf, ein Klick öffnet das Menü. Der erste Eintrag ist der Hauptbefehl und fett: beim Zahnrad „Einstellungen“, bei der Hilfe die Anleitung. „Toolbox öffnen“ und „Neu laden“ folgen darunter.

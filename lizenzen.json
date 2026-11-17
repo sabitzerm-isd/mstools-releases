@@ -1,6 +1,6 @@
 {
   "format": 3,
-  "ausgestellt": "2026-11-17T09:09:38",
+  "ausgestellt": "2026-11-17T19:28:41",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
@@ -28,6 +28,7 @@
     ],
     "6affad76796c6ecad6abd3f1701e173e9fb8a488f074bce682bd3ac84fae992a": [
       "ms-steckanschluss",
+      "msdwgexport",
       "msformrohrende",
       "msgl-balkongelaender",
       "msoptimierung",
@@ -41,6 +42,7 @@
       "mspunktwolke-treppe",
       "mspunktwolke-wand",
       "mspunktwolke-zylinder",
+      "msstepexport",
       "mstabslot",
       "pdfimport-start"
     ],

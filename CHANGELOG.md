@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.77 — 2026-11-16
+
+- **Tastenfenster wächst wie ein macOS-Fenster aus der Taste:** Das kleine Fenster mit den Tastenbefehlen skaliert von 20 % auf volle Größe, Ursprung ist die Taste rechts unten, dazu Einblenden und ein leichtes Hochschieben. Kurve wie `cubic-bezier(0.22, 1, 0.36, 1)`: schnell an, weich aus, nach rund 0,3 s steht es. Beim Verlassen schrumpft es kurz zurück in die Taste.
+
 ## v1.76 — 2026-11-16
 
 - **Plugin übersteht ein HiCAD-Update:** Ein HiCAD-Update leert den Ordner `exe` samt `exe\Plugins`. MSTools legt darum bei jedem Start eine Kopie seiner Dateien außerhalb von HiCAD ab (`%LOCALAPPDATA%\MSTools\Ablage`, je HiCAD-Installation) und trägt ein kleines Programm in den Autostart des Benutzers ein (ohne Adminrechte). Fehlt das Plugin bei der nächsten Windows-Anmeldung, setzt es genau die Fassung zurück, die vorher installiert war. Vorhandenes wird nie überschrieben, ein deinstalliertes HiCAD bleibt deinstalliert. Abschaltbar mit `"wiederherstellungAus": true` in der tools.json.

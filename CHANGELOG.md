@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.76 — 2026-11-16
+
+- **Plugin übersteht ein HiCAD-Update:** Ein HiCAD-Update leert den Ordner `exe` samt `exe\Plugins`. MSTools legt darum bei jedem Start eine Kopie seiner Dateien außerhalb von HiCAD ab (`%LOCALAPPDATA%\MSTools\Ablage`, je HiCAD-Installation) und trägt ein kleines Programm in den Autostart des Benutzers ein (ohne Adminrechte). Fehlt das Plugin bei der nächsten Windows-Anmeldung, setzt es genau die Fassung zurück, die vorher installiert war. Vorhandenes wird nie überschrieben, ein deinstalliertes HiCAD bleibt deinstalliert. Abschaltbar mit `"wiederherstellungAus": true` in der tools.json.
+- **Tasten überstehen ein HiCAD-Update:** Die gewählte Belegung wird gemerkt. Fehlen Tasten nach einem Update, setzt MSTools sie beim nächsten Start wieder ein – nur auf freie Tasten, nie über ein anderes Makro.
+- **Tastenbefehle als gezeichnete Taste rechts unten:** Statt der Tastenreihe steht rechts in der Statuszeile eine Taste. Fährt die Maus darauf, klappt ein kleines Fenster mit allen Tastenbefehlen, Symbol und Beschreibung hoch; Maus weg, und es verschwindet. Ein Klick öffnet „Tasten einrichten“.
+- **Tasten in der Toolbox verwalten:** Knopf „Tasten …“ neben „Neu laden“.
+- **Taste O gestrichen** (Leerteil im ICN). Ein vorhandenes `O.MAC` bleibt unangetastet.
+- **Behoben:** „Abbrechen“ in „Tasten einrichten“ schloss das Fenster nicht (auch Esc).
+
 ## v1.75 — 2026-11-16
 
 - **Tasten für HiCAD kommen mit MSTools mit:** Zwölf Tastenmakros (B Neue Baugruppe, E Bearbeitungsebene, J Zukaufteil, K Normteilkatalog, N Strukturbaugruppe, O Leerteil im ICN, Q Aktives Teil umschalten, S Neue Skizze, T Beschriftung, W Weltkoordinatensystem, X/Y Schnittansichten aktualisieren) sind im Plugin enthalten und kommen mit jedem Update mit. Dazu erkennt MSTools die Tasten von Werkzeugen mit `werkzeug.json` unter `custom\KI` (z. B. Struktur umhängen: 4 und 5).

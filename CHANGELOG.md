@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.85 — 2026-11-16
+
+- **Portal-Upload: Inhalt je Aufruf ist die Lösung selbst.** Das Portal antwortete auf die Hülle `{"vertrag": 2, "loesungen": [ … ]}` mit „Titel fehlt“ (`hcs_title`). Jetzt geht je Lösung das Lösungsobjekt mit `vertrag: 2` darin an `hcs/v1/solutions`. Die Exportdatei `loesungen.json` bleibt im Format des Katalog-Exports.
+
 ## v1.84 — 2026-11-16
 
 - **Portal-Upload liest den Export nicht mehr aus der Datei zurück:** Die Lösungen gehen direkt aus dem Speicher ans Portal. Befund: Der aus HiCAD auf den Desktop geschriebene Exportordner war beim Hochladen schon nicht mehr da („Ein Teil des Pfades … konnte nicht gefunden werden“). Fehlt der Ordner, landet das Upload-Protokoll unter `%LOCALAPPDATA%\MSTools\logs`.

@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.84 — 2026-11-16
+
+- **Portal-Upload liest den Export nicht mehr aus der Datei zurück:** Die Lösungen gehen direkt aus dem Speicher ans Portal. Befund: Der aus HiCAD auf den Desktop geschriebene Exportordner war beim Hochladen schon nicht mehr da („Ein Teil des Pfades … konnte nicht gefunden werden“). Fehlt der Ordner, landet das Upload-Protokoll unter `%LOCALAPPDATA%\MSTools\logs`.
+- **Export prüft, ob die Datei wirklich angelegt wurde,** und nennt sonst die Ursache. Vorgeschlagener Zielordner ist jetzt `Dokumente\MSTools-Portal-Export` statt des Desktops.
+
 ## v1.83 — 2026-11-16
 
 - **Portal-Upload nach dem echten Vertrag des Portals:** Die Endpunkte und das Format stammen jetzt aus der Hilfe des HicadConsultingManager 1.31 („Vertrag 2“). Vorher waren sie nur vermutet, deshalb kam „Endpunkt nicht gefunden“.

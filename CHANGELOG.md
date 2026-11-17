@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.86 — 2026-11-16
+
+- **Portal-Upload: Inhalt je Aufruf ist die Lösung selbst** (in 1.85.0 fehlte die Änderung versehentlich im Code). Das Portal antwortete auf die Hülle `{"vertrag": 2, "loesungen": [ … ]}` mit „Titel fehlt“ (`hcs_title`). Jetzt geht je Lösung das Lösungsobjekt mit `vertrag: 2` darin an `hcs/v1/solutions`.
+
 ## v1.85 — 2026-11-16
 
 - **Portal-Upload: Inhalt je Aufruf ist die Lösung selbst.** Das Portal antwortete auf die Hülle `{"vertrag": 2, "loesungen": [ … ]}` mit „Titel fehlt“ (`hcs_title`). Jetzt geht je Lösung das Lösungsobjekt mit `vertrag: 2` darin an `hcs/v1/solutions`. Die Exportdatei `loesungen.json` bleibt im Format des Katalog-Exports.

@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.78 — 2026-11-16
+
+- **Tastenfenster bleibt offen, solange die Maus auf der Taste ist:** Es blitzte nur kurz auf, weil der Schatten des Fensters über der Taste lag und Windows die Maus dem Infofenster zuordnete. Das Infofenster lässt die Maus jetzt durch und schließt erst nach einer Viertelsekunde ohne Maus; kehrt die Maus beim Zugehen zurück, geht es ohne Neuaufbau wieder auf.
+- **Ruhigeres Auf- und Zugehen:** weichere Kurve, aufgehen in rund 0,9 s (vorher 0,46 s), zugehen in 0,45 s.
+
 ## v1.77 — 2026-11-16
 
 - **Tastenfenster wächst wie ein macOS-Fenster aus der Taste:** Das kleine Fenster mit den Tastenbefehlen skaliert von 20 % auf volle Größe, Ursprung ist die Taste rechts unten, dazu Einblenden und ein leichtes Hochschieben. Kurve wie `cubic-bezier(0.22, 1, 0.36, 1)`: schnell an, weich aus, nach rund 0,3 s steht es. Beim Verlassen schrumpft es kurz zurück in die Taste.

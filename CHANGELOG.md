@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.87 — 2026-11-18
+
+- **Portal-Auswahl zeigt farbig, was hochgeladen werden kann:** Jedes Werkzeug hat einen Punkt. Grün = „bereit zum Hochladen“, orange = „Unterlagen unvollständig“ (der Tooltip nennt, was fehlt), grau = „keine Unterlagen“.
+- **Videos gehen mit:** Videos (mp4, webm) im Unterordner `Videos\` neben der Projektdatei werden nach dem Anlegen der Lösung einzeln hochgeladen (`POST hcs/v1/solutions/{id}/media`). Im Plan werden sie nur angekündigt. Ein Video über der Upload-Grenze des Portals wird übersprungen und gemeldet. Die Datei wird blockweise gesendet, nicht ganz in den Speicher geladen.
+- **Upload-Fenster:** Fortschrittsbalken; „Schließen“ ist während der Übertragung gesperrt, dafür gibt es „Abbrechen“. Nach einem Import ohne Hinweise schließt das Fenster von selbst; stehen Hinweise im Verlauf, bleibt es offen.
+- **Nach einem Plan:** Knopf „Jetzt ins Portal importieren“ – mit eigener Rückfrage, die das Veröffentlichen ausdrücklich nennt.
+- **Unterlagen je Werkzeug:** Liegen mehrere Werkzeuge im selben Ordner, hat jedes seine Unterlagen unter `Portal\<werkzeug-id>\`. Die allgemeine Projektdatei des Ordners gilt dann nur noch, wenn ihr Feld `mstoolsWerkzeug` das Werkzeug nennt. Vorher hätten mehrere Werkzeuge dieselben Unterlagen und dieselbe Kennung bekommen.
+- **Sicherungen aus der Prüfung:** Eine leere `projektId` in der Projektdatei überschreibt die Kennung nicht mehr. Dieselbe Kennung zweimal in einer Auswahl wird gemeldet und nicht übertragen. Kennung und Werkzeug-Id werden nie als Pfadanteil verwendet. Ein nicht lesbares Video bricht den Lauf nicht mehr ab.
+
 ## v1.86 — 2026-11-16
 
 - **Portal-Upload: Inhalt je Aufruf ist die Lösung selbst** (in 1.85.0 fehlte die Änderung versehentlich im Code). Das Portal antwortete auf die Hülle `{"vertrag": 2, "loesungen": [ … ]}` mit „Titel fehlt“ (`hcs_title`). Jetzt geht je Lösung das Lösungsobjekt mit `vertrag: 2` darin an `hcs/v1/solutions`.

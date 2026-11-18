@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.90 — 2026-11-18
+
+- **Werkzeuge und ganze Gruppen ausblenden:** Im Export-Dialog per Rechtsklick auf ein Werkzeug oder einen Gruppenkopf → „aus- oder einblenden“. Eine ausgeblendete Gruppe nimmt alles darunter mit.
+  - Gilt auf diesem Rechner für die Export-Liste, die Seitenleiste, das Menü und den Werkzeugkasten.
+  - Der Schalter „Ausgeblendete zeigen (n)“ oben rechts holt sie blass zurück; dort lassen sie sich wieder einblenden.
+  - Freigaben, Haken und Pakete bleiben unverändert – bei Kunden und Kollegen ändert sich nichts.
+
 ## v1.89 — 2026-11-18
 
 - **Portal-Angaben vor dem Export prüfen und ergänzen:** Nach der Werkzeugauswahl erscheint ein Fenster mit allen Werten, die ins Consulting-Portal gehen – je Werkzeug: Titel, Kurzbeschreibung, Stichwörter, HiCAD-Versionen, Lösungsart, Mindestrolle, Download-Link, Preis, Preishinweis, Preis ab Rolle, KI-Anteil, Anzahl Kunden, ISD-Info, Mail Sales und Mail Technik. Darunter steht, was außerdem mitgeht (Kennung, Sprachen, Bilder, Projektbeschreibung, Videos) und was noch fehlt.

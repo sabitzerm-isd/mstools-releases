@@ -1,6 +1,6 @@
 {
   "format": 3,
-  "ausgestellt": "2026-11-18T14:43:57",
+  "ausgestellt": "2026-11-18T14:45:55",
   "salz": "bfa7e5aa9d925eca60fdb20df2e68499",
   "iterationen": 100000,
   "freigaben": [
@@ -76,6 +76,11 @@
     "c022006496ef6c87b18cbae39e617f76bc117bf2fcd102ded908c23a593d477b": [
       "msdwgexport",
       "msgl-balkongelaender",
+      "mslg-estrichwinkel",
+      "mslg-fliesen",
+      "mslg-handlauf",
+      "mslg-laufgelaender",
+      "mslg-unterlauf",
       "msoptimierung",
       "mspunktwolke-aufmass",
       "mspunktwolke-ebene",

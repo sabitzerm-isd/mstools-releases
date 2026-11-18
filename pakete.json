@@ -532,6 +532,66 @@
       "titel": "Stahlprofil aus Punktwolke",
       "version": "0.2.199",
       "reife": "fertig"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-18T14:45:54",
+      "datei": "MSTools_intern_Laufgelaender.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Laufgelaender_20261118-144555.mstools",
+      "tools": 1,
+      "werkzeug": "mslg-laufgelaender",
+      "titel": "Laufgeländer",
+      "version": "0.1.0",
+      "kommentar": "Erste Fassung: Holzhandlauf mit Nut, Zukaufhalter mit Nebenteilen, Einklebekonsole mit Flachstahl",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-18T14:45:55",
+      "datei": "MSTools_intern_Gelaender_unter_dem_Lauf.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Gelaender_unter_dem_Lauf_20261118-144555.mstools",
+      "tools": 1,
+      "werkzeug": "mslg-unterlauf",
+      "titel": "Geländer unter dem Lauf",
+      "version": "0.1.0",
+      "kommentar": "Erste Fassung: Holzhandlauf mit Nut, Zukaufhalter mit Nebenteilen, Einklebekonsole mit Flachstahl",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-18T14:45:55",
+      "datei": "MSTools_intern_Handlauf.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Handlauf_20261118-144555.mstools",
+      "tools": 1,
+      "werkzeug": "mslg-handlauf",
+      "titel": "Handlauf",
+      "version": "0.1.0",
+      "kommentar": "Erste Fassung: Holzhandlauf mit Nut, Zukaufhalter mit Nebenteilen, Einklebekonsole mit Flachstahl",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-18T14:45:55",
+      "datei": "MSTools_intern_Fliesen_am_Stiegenlauf.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Fliesen_am_Stiegenlauf_20261118-144555.mstools",
+      "tools": 1,
+      "werkzeug": "mslg-fliesen",
+      "titel": "Fliesen am Stiegenlauf",
+      "version": "0.1.0",
+      "kommentar": "Erste Fassung: Holzhandlauf mit Nut, Zukaufhalter mit Nebenteilen, Einklebekonsole mit Flachstahl",
+      "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-18T14:45:55",
+      "datei": "MSTools_intern_Estrichwinkel.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Estrichwinkel_20261118-144555.mstools",
+      "tools": 1,
+      "werkzeug": "mslg-estrichwinkel",
+      "titel": "Estrichwinkel",
+      "version": "0.1.0",
+      "kommentar": "Erste Fassung: Holzhandlauf mit Nut, Zukaufhalter mit Nebenteilen, Einklebekonsole mit Flachstahl",
+      "reife": "alpha"
     }
   ],
   "zurueckgezogen": [

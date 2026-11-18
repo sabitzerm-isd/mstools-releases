@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.92 — 2026-11-18
+
+- **Katalogdaten reisen mit – eingepflegt wird von Hand:** Braucht ein Werkzeug eigene Bereiche oder Einträge im HiCAD-Katalog, legt man die Katalogdaten (z. B. `.CTL`/`.TBL` aus dem Katalogeditor) in den Ordner `Katalog\<werkzeug-id>\` neben das Skript. Der Export nimmt den Ordner ins Paket.
+  - Beim Kunden landen die Dateien im selben Ordner. MSTools schreibt **nie** in den HiCAD-Katalog.
+  - Nach dem Import erscheint ein Hinweis mit den Ordnern und „Ordner jetzt öffnen?“. Im Ordner liegt die Anleitung `LIESMICH-Katalog.txt` (deutsch und englisch): erst den Katalog sichern, dann im Katalogeditor importieren, dann HiCAD neu starten.
+  - Später findet man die Daten über Rechtsklick auf das Werkzeug → „Katalogdaten zum Einpflegen öffnen …“.
+  - Liegt nur ein Werkzeug im Ordner, reicht auch `Katalog\` ohne Unterordner.
+
 ## v1.91 — 2026-11-18
 
 - **Hilfe-Menü: „Werkzeug anfragen …“ und „Fehler oder Vorschlag zu MSTools melden …“** (in allen fünf Sprachen). Beides öffnet das bekannte Rückmelde-Fenster und schickt eine Mail mit Paket – die Anfrage als eigene Art „Werkzeug-Anfrage“, die Meldung zum Plugin ohne Bezug zu einem Werkzeug. Fehler zu einem einzelnen Werkzeug gehen weiter per Rechtsklick auf das Werkzeug.

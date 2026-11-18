@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.88 — 2026-11-18
+
+- **Interne Freigabe je Werkzeug – wie beim Kunden:** Unter „Intern“ sind die Haken jetzt die interne Freigabe. Sie werden gemerkt und beim Öffnen vorausgewählt. Solange noch nichts gespeichert ist, gilt als Ausgangsstand, was auf GitHub liegt.
+  - Nicht intern freigegebene Werkzeuge sehen die Kollegen nicht mehr. Das wirkt, sobald sie diese Plugin-Fassung haben und die Freigabeliste veröffentlicht ist (mit dem nächsten Hochladen oder über „Freigaben veröffentlichen“).
+  - Eigene Werkzeuge der Kollegen bleiben sichtbar: Veröffentlicht wird eine Sperrliste, keine Freigabeliste. Der Rechner mit dem Lizenzregister und der Entwicklermodus sehen immer alles.
+  - Ein neues Werkzeug, das nur ein Kunde bekommt, wird im selben Upload für die Kollegen gesperrt.
+  - Beim Wechsel von einem Kunden auf „Intern“ bleiben dessen Haken nicht mehr stehen.
+  - Unter „Intern“ wird nur noch hochgeladen, was neu oder geändert ist. Eine Vorauswahl (Start-Meldung, Verwaltung) ist dort nur die Exportmenge und ändert keine Freigabe.
+  - Vor dem Entziehen fragt der Export nach; ein gespeicherter, noch nicht veröffentlichter Stand wird angezeigt („noch nicht auf GitHub“).
+- **Portal: Ansprechpartner Sales und Technik gehen mit** (ISD-interne Angaben, Wunsch der Portal-Betreuung). Vorgabe unter „Portal-Zugang …“; nennt die Projektdatei eigene Adressen (`mailSales`, `mailTechnik`, auch als Liste), gelten diese. Fehlt beides, zeigt die Auswahl einen Hinweis. ISD-Info, KI-Anteil, Anzahl Kunden, Preis, Preishinweis und Download-Link gehen wie bisher aus der Projektdatei mit.
+- **Logo je HiCAD-Version:** Im Kopf der Seitenleiste und bei „Toolbox öffnen“ steht in HiCAD 2026 das alte HiCAD-Logo, ab HiCAD 2027 der Würfel.
+- **Tasten mit den echten HiCAD-Symbolen:** Die Befehle im Tastenfenster zeigen das Symbol aus der laufenden HiCAD-Installation (`pmu\image\png`); fehlt es, bleibt das gezeichnete Symbol. Abschaltbar mit `tastenEigeneSymbole` in den Einstellungen.
+
 ## v1.87 — 2026-11-18
 
 - **Portal-Auswahl zeigt farbig, was hochgeladen werden kann:** Jedes Werkzeug hat einen Punkt. Grün = „bereit zum Hochladen“, orange = „Unterlagen unvollständig“ (der Tooltip nennt, was fehlt), grau = „keine Unterlagen“.

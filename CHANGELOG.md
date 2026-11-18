@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.91 — 2026-11-18
+
+- **Hilfe-Menü: „Werkzeug anfragen …“ und „Fehler oder Vorschlag zu MSTools melden …“** (in allen fünf Sprachen). Beides öffnet das bekannte Rückmelde-Fenster und schickt eine Mail mit Paket – die Anfrage als eigene Art „Werkzeug-Anfrage“, die Meldung zum Plugin ohne Bezug zu einem Werkzeug. Fehler zu einem einzelnen Werkzeug gehen weiter per Rechtsklick auf das Werkzeug.
+- **Admin: Fenster „Meldungen“** (Hilfe-Menü → „Meldungen: Fehler, Vorschläge, Anfragen …“). Die ZIP-Pakete aus den Mails werden eingelesen und stehen als Liste da: offen oder erledigt, Fehler rot.
+  - „Als GitHub-Eintrag anlegen“ legt die Meldung im privaten Projekt an (mit der Git-Anmeldung dieses Rechners über `gh`; im Plugin liegt kein Zugang). Klappt das nicht, öffnet sich das vorbelegte Formular im Browser.
+  - Absender, Firma und Lizenznummer werden nicht in die Liste und nicht in den GitHub-Eintrag übernommen. Der Text lässt sich vor dem Anlegen bearbeiten.
+- **Interne Freigabe – Funde der zweiten Prüfung:**
+  - Während der Export im Hintergrund schreibt, gilt der Stand der Haken vom Start; ein Kundenwechsel ist so lange gesperrt. Vorher konnte ein Klick während des Schreibens die Freigabe eines anderen Kunden erwischen.
+  - Die Vorschau „Ansicht als ISD intern“ zeigt jetzt auch auf dem Rechner mit dem Lizenzregister, was die Kollegen sehen.
+  - „Noch nicht auf GitHub“ verschwindet nur, wenn wirklich der aktuelle Stand hochgeladen wurde; nach dem Hochladen geht die Liste nicht bei jedem weiteren Upload erneut mit.
+
 ## v1.90 — 2026-11-18
 
 - **Werkzeuge und ganze Gruppen ausblenden:** Im Export-Dialog per Rechtsklick auf ein Werkzeug oder einen Gruppenkopf → „aus- oder einblenden“. Eine ausgeblendete Gruppe nimmt alles darunter mit.

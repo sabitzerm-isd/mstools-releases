@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.89 — 2026-11-18
+
+- **Portal-Angaben vor dem Export prüfen und ergänzen:** Nach der Werkzeugauswahl erscheint ein Fenster mit allen Werten, die ins Consulting-Portal gehen – je Werkzeug: Titel, Kurzbeschreibung, Stichwörter, HiCAD-Versionen, Lösungsart, Mindestrolle, Download-Link, Preis, Preishinweis, Preis ab Rolle, KI-Anteil, Anzahl Kunden, ISD-Info, Mail Sales und Mail Technik. Darunter steht, was außerdem mitgeht (Kennung, Sprachen, Bilder, Projektbeschreibung, Videos) und was noch fehlt.
+  - Alle Werte lassen sich dort ändern; leere Felder werden nicht übertragen.
+  - Änderungen werden auf Wunsch in der Projektdatei des Werkzeugs gemerkt (`hicad-consulting-projekt.json`; gibt es noch keine, entsteht sie unter `Portal\<werkzeug-id>\`). Die bisherige Datei wird einmal als `.mstools-sicherung` daneben gelegt.
+  - Vorbelegt, wo nichts steht: Anzahl Kunden aus den Freigaben, KI-Anteil 100 %, Mindestrolle `isd`, Ansprechpartner aus dem Portal-Zugang.
+
 ## v1.88 — 2026-11-18
 
 - **Interne Freigabe je Werkzeug – wie beim Kunden:** Unter „Intern“ sind die Haken jetzt die interne Freigabe. Sie werden gemerkt und beim Öffnen vorausgewählt. Solange noch nichts gespeichert ist, gilt als Ausgangsstand, was auf GitHub liegt.

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.94 — 2026-11-19
+
+- **Portal: Release-Datum und Änderungen gehen mit.** Quelle ist die Versionsgeschichte `hicad-consulting-versionen.json` neben der Projektdatei (wie im HicadConsultingManager und Skill `hicad-consulting-project-versions`). Ans Portal geht die neueste Version nach Nummer (1.15 ist neuer als 1.2): `releaseDatum` und `aenderungen`, bei mehreren Sprachen zusätzlich `aenderungenSprachen`.
+  - Im Fenster „Portal-Angaben“ gibt es den Abschnitt „Version“ mit Version, Release-Datum (JJJJ-MM-TT) und Änderungen.
+  - Gemerkt wird in der Versionsdatei, nicht in der Projektdatei: Eine höhere Nummer legt eine neue Version vorne an (Release-Datum Pflicht); geändert wird höchstens der neueste Eintrag, ältere nie. Andere Sprachen und unbekannte Felder bleiben, vor der ersten Änderung entsteht eine Sicherung daneben.
+
 ## v1.93 — 2026-11-19
 
 - **Portal: neue Felder des Managers vom 19.11.** Im Fenster „Portal-Angaben“ gibt es drei weitere Felder:

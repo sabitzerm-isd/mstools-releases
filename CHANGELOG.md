@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.93 — 2026-11-19
+
+- **Portal: neue Felder des Managers vom 19.11.** Im Fenster „Portal-Angaben“ gibt es drei weitere Felder:
+  - **PDM-Versionen (HELiOS)** und **Unterstützte Sprachen** gehen ans Portal (`pdmVersionen`, `unterstuetzteSprachen`), so wie es der HicadConsultingManager jetzt tut.
+  - **Server-Repository** wird angezeigt und in der Projektdatei gemerkt, aber nicht ans Portal übertragen – auch der Manager sendet es nicht. Erlaubt ist nur eine https-Adresse ohne Leerzeichen.
+
 ## v1.92 — 2026-11-18
 
 - **Katalogdaten reisen mit – eingepflegt wird von Hand:** Braucht ein Werkzeug eigene Bereiche oder Einträge im HiCAD-Katalog, legt man die Katalogdaten (z. B. `.CTL`/`.TBL` aus dem Katalogeditor) in den Ordner `Katalog\<werkzeug-id>\` neben das Skript. Der Export nimmt den Ordner ins Paket.

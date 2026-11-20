@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.95 — 2026-11-20
+
+- **Export: Kunden aus der Kundenverwaltung übernehmen.** Neuer Knopf „Kunde aus Kundenverwaltung übernehmen …“ unter der Kundenliste. Er öffnet die Kundenverwaltung mit allen Kunden; dort den Kunden wählen und „Diesen Kunden in den Export übernehmen“ klicken. Der Kunde erscheint links in der Liste und ist gleich gewählt.
+  - Übernommen werden Nummer, Name und die erste HiCAD-Lizenznummer der Akte (Gerätekennungen zählen nicht). Gehört die Lizenznummer im Register schon einem anderen Kunden, wird sie nicht doppelt vergeben.
+  - Steht der Kunde schon in der Liste, wird er nur gewählt; eine fehlende Lizenznummer wird ergänzt.
+  - Derselbe Knopf erscheint auch, wenn die Kundenverwaltung über „Kundenakte öffnen …“ geöffnet wird.
+
 ## v1.94 — 2026-11-19
 
 - **Portal: Release-Datum und Änderungen gehen mit.** Quelle ist die Versionsgeschichte `hicad-consulting-versionen.json` neben der Projektdatei (wie im HicadConsultingManager und Skill `hicad-consulting-project-versions`). Ans Portal geht die neueste Version nach Nummer (1.15 ist neuer als 1.2): `releaseDatum` und `aenderungen`, bei mehreren Sprachen zusätzlich `aenderungenSprachen`.

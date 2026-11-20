@@ -288,18 +288,6 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-11-17T17:19:44",
-      "datei": "MSTools_intern_DWG-Export_Blaetter.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_DWG-Export_Blaetter_20261117-171945.mstools",
-      "tools": 1,
-      "werkzeug": "msdwgexport",
-      "titel": "DWG-Export Blätter",
-      "version": "0.1.19",
-      "kommentar": "Neu: alle Blaetter einer Konstruktion als DWG oder DXF ausgeben, Liste der Blaetter mit Haken und fertigem Dateinamen · Hinweise zu Massstab (Blattkoordinaten) und schattierten Ansichten vor dem Export; schattierte Ansichten wahlweise als Hidden-Line ausgeben · DWG\/DXF-Einstellungen (Version, Bemassung, Schraffur, Layer ...) ueber eine Kopie der Konfigurationsdatei · Blattvorschau zuschaltbar (beim Start aus) · PDF als drittes Format: je Blatt eine PDF ueber HiCADs Druckschnittstelle (Microsoft Print to PDF), Papierformat automatisch, 1:1 oder eingepasst · DWG, DXF und PDF zugleich waehlbar · HiCAD-Massstabsmeldung wird beim Export unterdrueckt, Hinweis steht in der Blattliste · DWG\/DXF-Einstellungen kommen jetzt aus den HiCAD-Favoriten (Export Einstellungen 2D-DXF\/DWG): Favorit waehlbar, einzelne Werte fuer den Lauf ueberschreibbar · Dialog in echter HiCAD-Optik (HiCADs eigene Knoepfe, Listen, Gruppen und Symbole), HiCAD-Symbol im Fenstertitel · Zielordner gross und markant ueber der Blattliste · Favoriten-Stern unten links wie in HiCAD: alle Einstellungen des Dialogs als Favorit speichern, laden und verwalten · Ordnerwahl: Windows-Ordnerdialog statt HiCAD-Dialog (blieb beim Kunden leer haengen) · Zielordner als Eingabefeld mit Ordnersymbol zum Auswaehlen (statt Knoepfen Aendern\/Oeffnen) · Nach dem Export je Blatt ein Schildchen DWG, DXF, PDF in der Zeile - Klick oeffnet die Datei · DWG\/DXF-Einstellungen bearbeiten: HiCADs eigener Dialog Export Einstellungen 2D-DXF\/DWG (alle Reiter, Favoriten-Stern) direkt aus dem Werkzeug · Zahnrad hinter der Favoritenliste wie in HiCAD: Einstellungen bearbeiten, Ausgangs-Favorit im Menue waehlbar · Zahnrad-Symbol scharf (HiCADs settings.png); Blattvorschau als Umschaltknopf und mit Schliessen-Kreuz, laesst sich wieder abschalten · Ansichtenliste der Vorschau: Texte werden gekuerzt statt vom Scrollbalken verdeckt · Favoriten-Stern unten links zeigt sein Menue (HiCADs Symbole waren an einen anderen Thread gebunden, Menue blieb leer) · Optik wie Materialbedarf: grosse Format-Umschalter DWG\/DXF\/PDF mit HiCAD-Symbol oben, daneben Neu einlesen und Blattvorschau · Links einklappbare Gruppen (Zustand gemerkt), rechts Karte mit Zielordner und Blattliste, Knoepfe mit HiCAD-Symbolen · Fuss: KI-Hinweis, blaues Exportieren (n), Protokoll, Statusleiste mit Version; Favoriten-Stern und Zahnrad bleiben · Fenstersymbol: neues HiCAD-Wuerfel-Logo in Titelleiste und Taskleiste (statt altem HiCAD.exe-Symbol)",
-      "reife": "beta"
-    },
-    {
-      "kunde": "intern",
       "erstellt": "2026-11-17T18:53:39",
       "datei": "MSTools_intern_Formrohrende_schliessen.mstools",
       "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Formrohrende_schliessen_20261117-185341.mstools",
@@ -353,18 +341,6 @@
       "titel": "PdfImport Start",
       "version": "0.3.158",
       "reife": "alpha"
-    },
-    {
-      "kunde": "intern",
-      "erstellt": "2026-11-17T18:53:40",
-      "datei": "MSTools_intern_STEP-Export.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_STEP-Export_20261117-185341.mstools",
-      "tools": 1,
-      "werkzeug": "msstepexport",
-      "titel": "STEP-Export",
-      "version": "0.1.6",
-      "kommentar": "Fenstersymbol = neues HiCAD-Wuerfel-Logo (Titelleiste, Taskleiste, alle Dialoge)",
-      "reife": "beta"
     },
     {
       "kunde": "intern",
@@ -592,6 +568,30 @@
       "version": "0.1.0",
       "kommentar": "Erste Fassung: Holzhandlauf mit Nut, Zukaufhalter mit Nebenteilen, Einklebekonsole mit Flachstahl",
       "reife": "alpha"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-20T08:10:48",
+      "datei": "MSTools_intern_STEP-Export.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_STEP-Export_20261120-081050.mstools",
+      "tools": 1,
+      "werkzeug": "msstepexport",
+      "titel": "STEP-Export",
+      "version": "0.1.8",
+      "kommentar": "Webshop-Unterlagen (Info) und Vorschaubild im Paket · Pruefung liest nie die Einstellungen des Anwenders",
+      "reife": "beta"
+    },
+    {
+      "kunde": "intern",
+      "erstellt": "2026-11-20T08:10:48",
+      "datei": "MSTools_intern_DWG-Export_Blaetter.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_DWG-Export_Blaetter_20261120-081050.mstools",
+      "tools": 1,
+      "werkzeug": "msdwgexport",
+      "titel": "DWG-Export Blätter",
+      "version": "0.1.21",
+      "kommentar": "Neu: alle Blaetter einer Konstruktion als DWG oder DXF ausgeben, Liste der Blaetter mit Haken und fertigem Dateinamen · Hinweise zu Massstab (Blattkoordinaten) und schattierten Ansichten vor dem Export; schattierte Ansichten wahlweise als Hidden-Line ausgeben · DWG\/DXF-Einstellungen (Version, Bemassung, Schraffur, Layer ...) ueber eine Kopie der Konfigurationsdatei · Blattvorschau zuschaltbar (beim Start aus) · PDF als drittes Format: je Blatt eine PDF ueber HiCADs Druckschnittstelle (Microsoft Print to PDF), Papierformat automatisch, 1:1 oder eingepasst · DWG, DXF und PDF zugleich waehlbar · HiCAD-Massstabsmeldung wird beim Export unterdrueckt, Hinweis steht in der Blattliste · DWG\/DXF-Einstellungen kommen jetzt aus den HiCAD-Favoriten (Export Einstellungen 2D-DXF\/DWG): Favorit waehlbar, einzelne Werte fuer den Lauf ueberschreibbar · Dialog in echter HiCAD-Optik (HiCADs eigene Knoepfe, Listen, Gruppen und Symbole), HiCAD-Symbol im Fenstertitel · Zielordner gross und markant ueber der Blattliste · Favoriten-Stern unten links wie in HiCAD: alle Einstellungen des Dialogs als Favorit speichern, laden und verwalten · Ordnerwahl: Windows-Ordnerdialog statt HiCAD-Dialog (blieb beim Kunden leer haengen) · Zielordner als Eingabefeld mit Ordnersymbol zum Auswaehlen (statt Knoepfen Aendern\/Oeffnen) · Nach dem Export je Blatt ein Schildchen DWG, DXF, PDF in der Zeile - Klick oeffnet die Datei · DWG\/DXF-Einstellungen bearbeiten: HiCADs eigener Dialog Export Einstellungen 2D-DXF\/DWG (alle Reiter, Favoriten-Stern) direkt aus dem Werkzeug · Zahnrad hinter der Favoritenliste wie in HiCAD: Einstellungen bearbeiten, Ausgangs-Favorit im Menue waehlbar · Zahnrad-Symbol scharf (HiCADs settings.png); Blattvorschau als Umschaltknopf und mit Schliessen-Kreuz, laesst sich wieder abschalten · Ansichtenliste der Vorschau: Texte werden gekuerzt statt vom Scrollbalken verdeckt · Favoriten-Stern unten links zeigt sein Menue (HiCADs Symbole waren an einen anderen Thread gebunden, Menue blieb leer) · Optik wie Materialbedarf: grosse Format-Umschalter DWG\/DXF\/PDF mit HiCAD-Symbol oben, daneben Neu einlesen und Blattvorschau · Links einklappbare Gruppen (Zustand gemerkt), rechts Karte mit Zielordner und Blattliste, Knoepfe mit HiCAD-Symbolen · Fuss: KI-Hinweis, blaues Exportieren (n), Protokoll, Statusleiste mit Version; Favoriten-Stern und Zahnrad bleiben · Fenstersymbol: neues HiCAD-Wuerfel-Logo in Titelleiste und Taskleiste (statt altem HiCAD.exe-Symbol) · Unterlagen fuer das HiCAD-Consulting-Portal (Webshop) im Ordner Info, in 5 Sprachen",
+      "reife": "beta"
     }
   ],
   "zurueckgezogen": [

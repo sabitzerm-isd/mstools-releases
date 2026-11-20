@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.96 — 2026-11-20
+
+- **Kundendatenbank ohne Kennwortabfrage:** Nach dem nächsten Öffnen mit Kennwort merkt MSTools den Schlüssel für dieses Windows-Konto (Windows-Datenschutz DPAPI, lokal unter `%LOCALAPPDATA%\MSTools`, nicht in der OneDrive-Sicherung). Danach öffnet sich die Kundenverwaltung ohne Kennwort.
+  - Die Datenbank selbst bleibt unverändert verschlüsselt. Kennwort und Wiederherstellungsschlüssel bleiben gültig – als Notweg nach einer Windows-Neuinstallation oder auf einem anderen Rechner.
+  - „Sperren“ entfernt den gemerkten Schlüssel; danach fragt MSTools wieder einmal nach dem Kennwort.
+- **Portal-Angaben: Knopf „Heute“** neben dem Release-Datum trägt das heutige Datum ein.
+
 ## v1.95 — 2026-11-20
 
 - **Export: Kunden aus der Kundenverwaltung übernehmen.** Neuer Knopf „Kunde aus Kundenverwaltung übernehmen …“ unter der Kundenliste. Er öffnet die Kundenverwaltung mit allen Kunden; dort den Kunden wählen und „Diesen Kunden in den Export übernehmen“ klicken. Der Kunde erscheint links in der Liste und ist gleich gewählt.

@@ -583,13 +583,13 @@
     },
     {
       "kunde": "intern",
-      "erstellt": "2026-11-23T08:48:54",
+      "erstellt": "2026-11-23T10:34:09",
       "datei": "MSTools_intern_Materialbedarf_und_Optimierung.mstools",
-      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Materialbedarf_und_Optimierung_20261123-084856.mstools",
+      "url": "https:\/\/github.com\/sabitzerm-isd\/mstools-releases\/releases\/download\/pakete-intern\/MSTools_intern_Materialbedarf_und_Optimierung_20261123-103410.mstools",
       "tools": 1,
       "werkzeug": "msoptimierung",
       "titel": "Materialbedarf und Optimierung",
-      "version": "0.1.235",
+      "version": "0.1.241",
       "kommentar": "Interne Korrektur: Bau der Stammdaten-Vorlage repariert",
       "reife": "alpha"
     }

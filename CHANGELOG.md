@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.98 — 2026-11-26
+
+- **Sprachprüfung vorübergehend abgeschaltet** (Anwenderwunsch): MSTools liest die HiCAD-Sprache nur noch beim Start. Wird die Sprache in HiCAD während der Sitzung umgestellt, folgt MSTools erst nach einem HiCAD-Neustart (oder über die Sprachwahl in den Einstellungen).
+
 ## v1.97 — 2026-11-26
 
 - **Weniger Arbeit im Hintergrund:** Die Sprachprüfung (folgt HiCAD, wenn dort die Sprache umgestellt wird) lief alle 2 Sekunden, las dabei jedes Mal `AppLanguage.txt` von der Platte und durchsuchte alle geladenen Bibliotheken von HiCAD. Jetzt läuft sie alle 5 Sekunden nur, wenn HiCAD nichts zu tun hat, liest die Datei nur bei geändertem Änderungsdatum und sucht die Bibliothek nur einmal.

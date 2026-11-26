@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.99 — 2026-11-26
+
+- **Sprache: beim Start einmal lesen, danach nur noch von Hand umstellen – die Werkzeug-Dialoge folgen.** MSTools übernimmt beim HiCAD-Start die Sprache (HiCAD bzw. die zuletzt gewählte) und prüft danach nicht mehr laufend. Umgestellt wird über die Fahne in der Seitenleiste.
+  - Die gewählte Sprache steht den Werkzeugen im selben HiCAD als Umgebungsvariable `MSTOOLS_SPRACHE` bereit. Werkzeuge, die sie lesen, stellen auch einen schon offenen Dialog innerhalb einer Sekunde um.
+  - Die Werkzeugvorlagen (MSBaukasten, MSGehrung) lesen sie ab jetzt zuerst. Vorhandene Werkzeuge folgen, sobald sie mit der neuen Vorlage gebaut werden; bis dahin bleiben sie bei der HiCAD-Sprache.
+
 ## v1.98 — 2026-11-26
 
 - **Sprachprüfung vorübergehend abgeschaltet** (Anwenderwunsch): MSTools liest die HiCAD-Sprache nur noch beim Start. Wird die Sprache in HiCAD während der Sitzung umgestellt, folgt MSTools erst nach einem HiCAD-Neustart (oder über die Sprachwahl in den Einstellungen).

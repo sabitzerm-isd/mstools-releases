@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.97 — 2026-11-26
+
+- **Weniger Arbeit im Hintergrund:** Die Sprachprüfung (folgt HiCAD, wenn dort die Sprache umgestellt wird) lief alle 2 Sekunden, las dabei jedes Mal `AppLanguage.txt` von der Platte und durchsuchte alle geladenen Bibliotheken von HiCAD. Jetzt läuft sie alle 5 Sekunden nur, wenn HiCAD nichts zu tun hat, liest die Datei nur bei geändertem Änderungsdatum und sucht die Bibliothek nur einmal.
+
 ## v1.96 — 2026-11-20
 
 - **Kundendatenbank ohne Kennwortabfrage:** Nach dem nächsten Öffnen mit Kennwort merkt MSTools den Schlüssel für dieses Windows-Konto (Windows-Datenschutz DPAPI, lokal unter `%LOCALAPPDATA%\MSTools`, nicht in der OneDrive-Sicherung). Danach öffnet sich die Kundenverwaltung ohne Kennwort.

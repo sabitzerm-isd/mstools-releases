@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.100 — 2026-11-26
+
+- **Ruhiger HiCAD-Start:** Fenster, die MSTools von sich aus öffnet – Lizenzhinweis, neue Plugin-Version, neue oder neuere Werkzeuge übernehmen, Werkzeuge reparieren, Tastenkürzel übernehmen –, erscheinen erst etwa **10 Sekunden nach dem Start**, wenn HiCAD nichts mehr zu tun hat, und **immer nur eines**: das nächste erst, wenn das vorige geschlossen ist. Vorher sprangen sie beim Start teils gleichzeitig auf und lagen übereinander.
+  - Die Nutzungsbedingungen bei der ersten Installation kommen weiterhin sofort.
+
 ## v1.99 — 2026-11-26
 
 - **Sprache: beim Start einmal lesen, danach nur noch von Hand umstellen – die Werkzeug-Dialoge folgen.** MSTools übernimmt beim HiCAD-Start die Sprache (HiCAD bzw. die zuletzt gewählte) und prüft danach nicht mehr laufend. Umgestellt wird über die Fahne in der Seitenleiste.
